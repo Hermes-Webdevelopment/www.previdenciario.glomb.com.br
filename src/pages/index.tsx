@@ -14,7 +14,7 @@ return (
       <meta name="description" content=""></meta>
     </Head>
     <div>
-        <h1>Home</h1>
+        <h1>Home Nova</h1>
     </div>
   </>
   )
