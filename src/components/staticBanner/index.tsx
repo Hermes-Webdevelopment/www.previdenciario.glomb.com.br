@@ -44,15 +44,19 @@ export default function StaticBanner(props: staticBannerInterface) {
                 </div>
                 <div className={styles.imageBox}>
                     
-                    <img
+                    <Image
                         className={'apearMobile'}
+                        height={1090}
+                        width={1000}
                         src={headerDesktop}
                         alt={headerDesktopDescription}
                         loading="lazy"
                     />
 
-                    <img
+                    <Image
                         className={'apearDesktop'}
+                        height={1910}
+                        width={995}
                         src={headerMobile}
                         alt={headerMobileDescription}
                         loading="lazy"

@@ -1,5 +1,13 @@
 @import '/src/styles/variables.scss';
 
+.insideContainer {
+    flex-direction: column;
+}
+
+.containerClean {
+    margin-bottom: 80px;
+}
+
 .insideTopicsMainBox {
     width: 100%;
     height: auto;
@@ -11,6 +19,14 @@
     >div {
         width: 45%;
         gap: 20px;
+
+        &.imageContainerClean {
+            width: 20%;
+        }
+
+        &.textBoxContainerClean {
+            width: 75%;
+        }
 
         h2 {
             font: $internal-title-36-bold;
@@ -57,6 +73,17 @@
             border-radius: 32px;
         }
     }
+}
+
+.cleanModeExtraText {
+    padding: 0 200px;
+        p {
+            font-family: 'Inter', sans-serif;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 32px;
+            text-align: center;
+        }
 }
 
 .invertImagePosition {

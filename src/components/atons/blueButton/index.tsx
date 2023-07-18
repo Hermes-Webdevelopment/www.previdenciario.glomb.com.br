@@ -4,17 +4,16 @@ import styles from './styles.module.scss';
 interface buttonProps {
     buttonLink: string; 
     buttonText: string; 
-    isFloating?: boolean
+    isFloating?: boolean;
+    cleanMode?: boolean
 }
 
 export default function BlueButton(props: buttonProps) {
 
-    const {isFloating = false} = props
-
-    const {buttonLink, buttonText} = props
+    const {buttonLink, buttonText, isFloating = false, cleanMode = false} = props
 
     return (
-        <div className={`${isFloating ? styles.floatingButton : ''}`}>
+        <div className={`${isFloating && styles.floatingButton} ${cleanMode && styles.btnClean}`}>
             <Link href={buttonLink} className={`${styles.buttonContainer}`}>
                 {buttonText}
             </Link>

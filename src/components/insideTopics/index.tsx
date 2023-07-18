@@ -1,6 +1,7 @@
 import styles from './styles.module.scss';
 
 import BlueButton from '../atons/blueButton';
+import Image from 'next/image';
 import { ReactNode } from 'react';
 
 interface insideTopicsInterface {
@@ -12,24 +13,28 @@ interface insideTopicsInterface {
     imageDescription: string,
     listText?: string[] | ReactNode[], 
     grayBoxText?: ReactNode | string, 
-    invertImagePosition?: boolean
+    invertImagePosition?: boolean,
+    cleanMode?: boolean,
+    cleanModeText?: string
 }
 
 export default function InsideTopics(props: insideTopicsInterface) {
 
-    const {title, text, buttonText, buttonLink, listText, grayBoxText, image, imageDescription, invertImagePosition = false} = props
+    const {title, text, buttonText, buttonLink, listText, grayBoxText, image, imageDescription, invertImagePosition = false, cleanMode = false, cleanModeText} = props
     
     return (
-        <section>
+        <section className={`${styles.insideContainer} ${cleanMode && styles.containerClean}`}>
             <div className={`container ${styles.insideTopicsMainBox} ${invertImagePosition ? styles.invertImagePosition : '' }`}>
-                <div className={styles.imageContainer}>
-                    <img 
+                <div className={`${styles.imageContainer} ${cleanMode && styles.imageContainerClean}`}>
+                    <Image 
                         loading="lazy"
+                        width={ cleanMode ? 324 : 540}
+                        height={ cleanMode ? 500 : 360}
                         src={image} 
                         alt={imageDescription} 
                     />
                 </div>
-                <div className={styles.textBoxContainer}>
+                <div className={`${styles.textBoxContainer} ${cleanMode && styles.textBoxContainerClean}`}>
                     <h2>{title}</h2>
                     <div>{text}</div>
                     {
@@ -48,9 +53,15 @@ export default function InsideTopics(props: insideTopicsInterface) {
                             <p>{grayBoxText}</p>
                         </div>
                     }
-                    <BlueButton buttonLink={buttonLink} buttonText={buttonText} />
+                    <BlueButton buttonLink={buttonLink} buttonText={buttonText} cleanMode={cleanMode}/>
                 </div>
             </div>
+                {
+                    cleanModeText &&
+                    <div className={`container ${styles.cleanModeExtraText}`}>
+                        <p>{cleanModeText}</p>
+                    </div>
+                }
         </section>
     )
 }
