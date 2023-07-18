@@ -40,6 +40,14 @@
     }
 }
 
+@media (max-width: 992px) {
+
+    .btnClean {
+        max-width: unset;
+    }
+
+}
+
 @media (max-width: 768px) {
     .buttonContainer {
         width: 100%;

@@ -75,7 +75,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
+      image={'/assets/images/aposentadoria/imageAposentadoMelhor.jpg'} 
+      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
       cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
@@ -96,7 +97,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.jpg'} 
+      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.jpg'} 
+      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.jpg'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
@@ -113,7 +115,8 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
+      image={'/assets/images/aposentadoria/quemTemDireito.jpg'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
@@ -123,6 +126,7 @@ return (
       title={'Transformar vidas por meio da justiça é nosso propósito'} 
       subTitle={['46+ anos de atuação', '25.000+ clientes atendidos']} 
       initialSlideNumber={5}
+      cleanCode={true}
       carrouselImages={[
         {
           imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.jpg',

@@ -88,6 +88,10 @@
     padding: 48px 0;
 }
 
+.addMarginOnClean {
+    margin-top: 80px;
+}
+
 @media (max-width: 1200px) {
     .sliderContainer {
         :global(.swiper-wrapper) {

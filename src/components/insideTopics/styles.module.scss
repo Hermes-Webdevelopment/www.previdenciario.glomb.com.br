@@ -4,10 +4,6 @@
     flex-direction: column;
 }
 
-.containerClean {
-    margin-bottom: 80px;
-}
-
 .insideTopicsMainBox {
     width: 100%;
     height: auto;
@@ -102,6 +98,15 @@
         }
 
         >div, .textBoxContainer{
+
+            &.imageContainerClean {
+                width: 100%;
+            }
+
+            &.textBoxContainerClean {
+                width: 100%;
+            }
+
             width: 100%;
 
             ul{
@@ -112,6 +117,14 @@
                 margin-bottom: 32px;
             }
         }
+    }
+
+    .cleanModeExtraText {
+        padding: 0 20px;
+            p {
+                font-size: 20px;
+                line-height: 28px;
+            }
     }
 }
 

@@ -14,6 +14,7 @@ interface imageGalerySliderInterface {
         imageDescription: string;
     }[];
     initialSlideNumber: number;
+    cleanCode?: boolean;
 }
 
 interface imageInterface {
@@ -23,7 +24,7 @@ interface imageInterface {
 
 export default function ImageGalerySlider(props: imageGalerySliderInterface) {
 
-    const {title, subTitle, carrouselImages, initialSlideNumber} = props
+    const {title, subTitle, carrouselImages, initialSlideNumber, cleanCode = false} = props
 
     const [screenSize, getDimension] = useState({
         dynamicWidth: 0,
@@ -53,7 +54,7 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
     }, [screenSize])
     
     return (
-        <section className={styles.imageGalerySliderSection}>
+        <section className={`${styles.imageGalerySliderSection} ${cleanCode && styles.addMarginOnClean}`}>
             <div className={`container ${styles.sliderContainer}`}>
                 <h2>{title}</h2>
                 <div className={styles.subText}>
