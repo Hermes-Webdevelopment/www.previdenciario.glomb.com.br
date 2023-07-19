@@ -269,6 +269,34 @@ return (
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
       ]}
     />
   </>

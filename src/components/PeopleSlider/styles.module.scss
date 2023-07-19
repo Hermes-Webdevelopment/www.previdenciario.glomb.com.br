@@ -2,18 +2,18 @@
 
 .peopleSliderSection {
     background-color: $light-gray-red;
-    padding: 80px;
-}
-
-.peopleContainer {
-    >div {
-        width: 100vw;
-        background-color: transparent;
-    }
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     :global(.swiper-slide)  { 
         background-color: unset;
     }
+}
+
+.peopleContainer {
 
     >h1 {
         font: $internal-title-40;
@@ -35,8 +35,16 @@
     background-color: transparent;
 
     img {
-        max-height: 420px;
+        max-height: 100%;
+        max-width: 100%;
         width: auto;
+    }
+
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     .descriptionDiv {
@@ -67,8 +75,30 @@
 
 @media (max-width: 768px) {
 
+    .peopleContainer {
+
+        >h1 {
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .sliderContainer {
+    
+        .descriptionDiv {
+            left: 32%;
+        }
+    }
 }
 
 @media (max-width: 576px) {
+    .sliderContainer {
     
+        .descriptionDiv {
+            left: 36%;
+        }
+    }
 }
