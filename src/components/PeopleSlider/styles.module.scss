@@ -1,0 +1,74 @@
+@import '/src/styles/variables.scss';
+
+.peopleSliderSection {
+    background-color: $light-gray-red;
+    padding: 80px;
+}
+
+.peopleContainer {
+    >div {
+        width: 100vw;
+        background-color: transparent;
+    }
+
+    :global(.swiper-slide)  { 
+        background-color: unset;
+    }
+
+    >h1 {
+        font: $internal-title-40;
+        color: black;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    >h2 {
+        font: $main-text-26;
+        color: black;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+}
+
+.sliderContainer {
+    position: relative;
+    background-color: transparent;
+
+    img {
+        max-height: 420px;
+        width: auto;
+    }
+
+    .descriptionDiv {
+        position: absolute;
+        bottom: 5%;
+        left: 25%;
+
+        h2 {
+            font: $internal-title-20-semibold;
+            color: white;
+        }
+
+        p {
+            font: $main-text-14;
+            color: white;
+        }
+    }
+}
+
+
+@media (max-width:1200px) {
+      
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    
+}

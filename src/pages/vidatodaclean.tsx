@@ -6,6 +6,8 @@ import InsideTopics from '../components/insideTopics';
 import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
+import SingleText from '../components/singleTextSection';
+import PeopleSlider from '../components/PeopleSlider';
 
 const VidaTodaClean: NextPage = () => {
   
@@ -216,6 +218,56 @@ return (
           text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
           starNumber:5,
           clientName:'Matilde Rodrigues'
+        },
+      ]}
+    />
+    <SingleText 
+      text='Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'
+    />
+    <PeopleSlider 
+      title='Nossos profissionais'
+      subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
+      carrouselImages={[
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
         },
       ]}
     />
