@@ -8,6 +8,7 @@ import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import SingleText from '../components/singleTextSection';
 import PeopleSlider from '../components/PeopleSlider';
+import Faq from '../components/faq';
 
 const VidaTodaClean: NextPage = () => {
   
@@ -299,6 +300,41 @@ return (
         },
       ]}
     />
+
+    <Faq 
+      title={'Dúvidas frequentes'}
+      questionWithAnswer={[
+        {
+          question: 'Quais são os direitos legais dos idosos e como protegê-los?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'Como posso garantir a segurança financeira e o planejamento patrimonial para a terceira idade?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'Quais são as opções legais para cuidados de saúde e tomada de decisões médicas para idosos?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'O que fazer em casos de abuso ou negligência de idosos e como buscar justiça?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'Como posso planejar uma sucessão familiar e transmitir meu patrimônio para meus entes queridos?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'Quais são os tipos de contratos ou acordos legais recomendados para idosos em diferentes situações?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+        {
+          question: 'Quais são os benefícios e recursos disponíveis para os idosos e como acessá-los legalmente?',
+          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
+        },
+      ]}
+    />
+      
   </>
   )
 }

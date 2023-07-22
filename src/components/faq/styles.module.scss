@@ -1,0 +1,131 @@
+@import '/src/styles/variables.scss';
+
+.sectionFaq {
+    width: 100vw;
+    padding-bottom: 80px;
+
+    .containerFaq {
+        width: 100%;
+        padding: 0 254px;
+        
+        h3 {
+            width: 100%;
+            text-align: center;
+            font: $internal-title-32-bold;
+            padding: 120px 0 64px;
+        }
+
+        summary {
+            position: relative;
+            border-bottom: 1px solid $branding-tertiary;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            p {
+                font: $internal-title-20-semibold;
+                color: $branding-secondary;
+                padding-right: 10px;
+            }
+        }
+
+        details:last-child {
+            summary {
+                border-bottom: unset;
+            }
+        }
+
+        summary::marker {
+            content: none;
+        }
+
+        summary::before,
+        summary::after {
+            content: none;
+        }
+
+        [open] summary {
+            border-bottom: unset;
+            margin-bottom: 0px;
+        }
+
+        details {
+            div {
+                p {
+                    font: $main-text-18;
+                    color: $title-text-color;
+                }
+            }
+            svg {
+                min-width: 20px;
+                -webkit-transition: -webkit-transform .8s ease-in-out;
+                -ms-transition: -ms-transform .8s ease-in-out;
+                transition: transform .8s ease-in-out;  
+            }
+        }
+        
+        details[open] {
+            padding-bottom: 24px;
+            border-bottom: 1px solid $branding-tertiary;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+
+            svg {
+                transform:rotate(180deg);
+                -ms-transform:rotate(180deg);
+                -webkit-transform:rotate(180deg);
+            }
+        } 
+        
+        details[open] {
+            border-bottom: unset;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+
+    .sectionFaq {
+    
+        .containerFaq {
+            padding: 0 100px;
+
+            summary {
+                p {
+                    font: $internal-title-18-semibold;
+                }
+            }
+
+            details {
+                div {
+                    p {
+                        font: $main-text-18;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+
+    .sectionFaq {
+    
+        .containerFaq {
+            padding: 0 27px;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    
+}

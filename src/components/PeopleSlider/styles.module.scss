@@ -49,8 +49,19 @@
 
     .descriptionDiv {
         position: absolute;
-        bottom: 5%;
-        left: 25%;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: column;
+        }
 
         h2 {
             font: $internal-title-20-semibold;
@@ -85,20 +96,7 @@
             font-size: 20px;
         }
     }
-
-    .sliderContainer {
-    
-        .descriptionDiv {
-            left: 32%;
-        }
-    }
 }
 
 @media (max-width: 576px) {
-    .sliderContainer {
-    
-        .descriptionDiv {
-            left: 36%;
-        }
-    }
 }

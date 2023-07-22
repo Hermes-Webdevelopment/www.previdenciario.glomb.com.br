@@ -6,12 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 interface peopleSlider {
     title: ReactNode | string;
     subTitle: ReactNode | string ;
-    carrouselImages: {
-        imageUrl: string;
-        imageTitle: string;
-        imageSubTitle: string;
-        text: string;
-    }[];
+    carrouselImages: carrouselImages[];
 }
 
 interface carrouselImages {
@@ -83,7 +78,6 @@ export default function PeopleSlider(props: peopleSlider) {
                 slidesPerView={getSliderNumber()}
                 spaceBetween={screenSize.dynamicWidth >= 769 ? 56 : 10}
                 loop={true}
-                centeredSlides={true}
             >
                 {
                     carrouselImages.map((image: carrouselImages) => {
@@ -100,9 +94,11 @@ export default function PeopleSlider(props: peopleSlider) {
                                         />
                                     </div>
                                     <div className={styles.descriptionDiv}>
-                                        <h2>{image.imageTitle}</h2>
-                                        <p>{image.imageSubTitle}</p>
-                                        <p>{image.text}</p>
+                                        <div>
+                                            <h2>{image.imageTitle}</h2>
+                                            <p>{image.imageSubTitle}</p>
+                                            <p>{image.text}</p>=
+                                        </div>
                                     </div>
                                 </div>
                             </SwiperSlide>
