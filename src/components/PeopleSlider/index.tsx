@@ -77,7 +77,7 @@ export default function PeopleSlider(props: peopleSlider) {
         <Swiper
                 slidesPerView={getSliderNumber()}
                 spaceBetween={screenSize.dynamicWidth >= 769 ? 56 : 10}
-                loop={true}
+                loop={false}
             >
                 {
                     carrouselImages.map((image: carrouselImages) => {
