@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "analize": "cross-env ANALYZE=true next build",
     "export": "next build && next export"
   },
   "dependencies": {
@@ -22,7 +21,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.63.4",
-    "swiper": "^9.4.1",
+    "swiper": "^10.0.4",
     "typescript": "5.1.3"
   }
 }
