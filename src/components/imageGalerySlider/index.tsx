@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { ReactNode } from 'react';
 import SwiperButtons from './swiperButtons';
-import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper';
+import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 
 interface imageGalerySliderInterface {
