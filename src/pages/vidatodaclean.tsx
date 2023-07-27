@@ -48,7 +48,7 @@ return (
       buttonText="Quero ser atendido"
       buttonLink="/"
       advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
-      headerDesktop='/assets/images/aposentadoria/headerPersonNewModel.jpg'
+      headerDesktop='/assets/images/aposentadoria/headerPerson.jpg'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
