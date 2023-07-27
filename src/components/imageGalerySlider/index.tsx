@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { ReactNode } from 'react';
 import SwiperButtons from './swiperButtons';
 import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper';
+import Image from 'next/image';
 
 interface imageGalerySliderInterface {
     title: ReactNode | string;
@@ -86,10 +87,12 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
                             carrouselImages.map((image: imageInterface) => {
                                 return (
                                 <SwiperSlide key={image.imageUrl} className={`${styles.changeActiveSlider} ${styles.nextOrPrevSlider}`}>
-                                    <img 
+                                    <Image 
                                          loading="lazy"
                                         src={image.imageUrl}
                                         alt={image.imageDescription}
+                                        width={478}
+                                        height={503}
                                     />
                                 </SwiperSlide>
                                 )
