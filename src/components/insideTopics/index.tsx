@@ -43,7 +43,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
     }, [])
 
     useEffect(() => {
-        window.addEventListener('resize', setDimension);
+        window.addEventListener('resize', setDimension, {passive: true});
     
         return(() => {
             window.removeEventListener('resize', setDimension);

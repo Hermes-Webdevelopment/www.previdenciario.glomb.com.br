@@ -40,7 +40,7 @@ export default function PeopleSlider(props: peopleSlider) {
     }, [])
 
     useEffect(() => {
-        window.addEventListener('resize', setDimension);
+        window.addEventListener('resize', setDimension, {passive: true});
     
         return(() => {
             window.removeEventListener('resize', setDimension);

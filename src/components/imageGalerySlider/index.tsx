@@ -46,7 +46,7 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
     }, [])
 
     useEffect(() => {
-        window.addEventListener('resize', setDimension);
+        window.addEventListener('resize', setDimension, {passive: true});
     
         return(() => {
             window.removeEventListener('resize', setDimension);
