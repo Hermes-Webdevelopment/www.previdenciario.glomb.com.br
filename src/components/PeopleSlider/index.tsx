@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './styles.module.scss';
 
 import { ReactNode, useEffect, useState } from 'react';
@@ -85,7 +86,7 @@ export default function PeopleSlider(props: peopleSlider) {
                             <SwiperSlide key={Math.random()}>
                                 <div className={styles.sliderContainer}>
                                     <div className={styles.imgDiv}>
-                                        <img 
+                                        <Image 
                                             loading="lazy"
                                             height={413}
                                             width={254}
