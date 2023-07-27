@@ -225,7 +225,7 @@ return (
     <SingleText 
       text='Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'
     />
-    {/* <PeopleSlider 
+    <PeopleSlider 
       title='Nossos profissionais'
       subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
@@ -299,7 +299,7 @@ return (
           text: 'OAB/PR 103.642'
         },
       ]}
-    /> */}
+    />
 
     <Faq 
       title={'Dúvidas frequentes'}
