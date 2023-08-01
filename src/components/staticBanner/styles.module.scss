@@ -2,7 +2,10 @@
 
 .width100 {
     width: 100%;
-    margin-left: -20px;
+}
+
+.staticbannerSection {
+    padding: 0 20px 0 20px;
 }
 
 .bannerContainer {
@@ -18,15 +21,31 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        margin-right: 168px;
 
         h1 {
-            font: $banner-title;
-            line-height: 64px;
+            font-size: $typography-display-dsdisplay-lg-bold-font-size;
+            text-decoration: $typography-display-dsdisplay-lg-bold-text-decoration;
+            font-family: $typography-display-dsdisplay-lg-bold-font-family;
+            font-weight: $typography-display-dsdisplay-lg-bold-font-weight;
+            font-style: $typography-display-dsdisplay-lg-bold-font-style;
+            font-stretch: $typography-display-dsdisplay-lg-bold-font-stretch;
+            letter-spacing: $typography-display-dsdisplay-lg-bold-letter-spacing;
+            line-height: $typography-display-dsdisplay-lg-bold-line-height;
+            color: $color-neutral-neutrallow;
             margin-bottom: 16px;
         }
 
         p {
-            font: $main-text-18;
+            font-size: $typography-paragraph-dstext-md-font-size;
+            text-decoration: $typography-paragraph-dstext-md-text-decoration;
+            font-family: $typography-paragraph-dstext-md-font-family;
+            font-weight: $typography-paragraph-dstext-md-font-weight;
+            font-style: $typography-paragraph-dstext-md-font-style;
+            font-stretch: $typography-paragraph-dstext-md-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-md-letter-spacing;
+            line-height: $typography-paragraph-dstext-md-line-height;
+            color: $color-neutral-neutrallow;
             margin-bottom: 40px;
         }
 
@@ -44,13 +63,21 @@
                 align-items: center;
                 padding: 7px 20px 7px 0;
                 margin-bottom: 0;
-                font: $main-text-18-semibold;
+                color: $color-neutral-neutrallow;
+                font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+                text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+                font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+                font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+                font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+                font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+                line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
             }
         }
     }
     
     .imageBox {
-        max-width: 50%;
+        width: 50%;
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
@@ -69,14 +96,30 @@
         padding: 70px 20px;
 
         .textBox {
-            h1 {
-                font-size: 38px;
-                line-height: 46px;
-                margin-bottom: 14px;
-            }
+            margin-right: 50px;
 
+            h1 {
+                font-size: $typography-display-dsdisplay-md-semi-bold-font-size;
+                text-decoration: $typography-display-dsdisplay-md-semi-bold-text-decoration;
+                font-family: $typography-display-dsdisplay-md-semi-bold-font-family;
+                font-weight: $typography-display-dsdisplay-md-semi-bold-font-weight;
+                font-style: $typography-display-dsdisplay-md-semi-bold-font-style;
+                font-stretch: $typography-display-dsdisplay-md-semi-bold-font-stretch;
+                letter-spacing: $typography-display-dsdisplay-md-semi-bold-letter-spacing;
+                line-height: $typography-display-dsdisplay-md-semi-bold-line-height;
+                margin-bottom: 16px;
+            }
+    
             p {
-                margin-bottom: 25px;
+                font-size: $typography-paragraph-dstext-md-font-size;
+                text-decoration: $typography-paragraph-dstext-md-text-decoration;
+                font-family: $typography-paragraph-dstext-md-font-family;
+                font-weight: $typography-paragraph-dstext-md-font-weight;
+                font-style: $typography-paragraph-dstext-md-font-style;
+                font-stretch: $typography-paragraph-dstext-md-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-md-letter-spacing;
+                line-height: $typography-paragraph-dstext-md-line-height;
+                margin-bottom: 40px;
             }
 
             .checkedContainer {
@@ -87,7 +130,7 @@
 
         .imageBox {
             img{
-                max-width: 100%;
+                width: 100%;
             }
                 
         }
@@ -99,6 +142,34 @@
 
     .bannerContainer {
         padding: 70px 10px;
+
+        .textBox {
+            margin-right: 20px;
+
+            h1 {
+                font-size: $typography-display-dsdisplay-sm-semi-bold-font-size;
+                text-decoration: $typography-display-dsdisplay-sm-semi-bold-text-decoration;
+                font-family: $typography-display-dsdisplay-sm-semi-bold-font-family;
+                font-weight: $typography-display-dsdisplay-sm-semi-bold-font-weight;
+                font-style: $typography-display-dsdisplay-sm-semi-bold-font-style;
+                font-stretch: $typography-display-dsdisplay-sm-semi-bold-font-stretch;
+                letter-spacing: $typography-display-dsdisplay-sm-semi-bold-letter-spacing;
+                line-height: $typography-display-dsdisplay-sm-semi-bold-line-height;
+                margin-bottom: 16px;
+            }
+    
+            p {
+                font-size: $typography-paragraph-dstext-sm-font-size;
+                text-decoration: $typography-paragraph-dstext-sm-text-decoration;
+                font-family: $typography-paragraph-dstext-sm-font-family;
+                font-weight: $typography-paragraph-dstext-sm-font-weight;
+                font-style: $typography-paragraph-dstext-sm-font-style;
+                font-stretch: $typography-paragraph-dstext-sm-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
+                line-height: $typography-paragraph-dstext-sm-line-height;
+                margin-bottom: 32px;
+            }
+        }
 
         .textBox {
             max-width: 50%;
@@ -113,6 +184,31 @@
 
         .textBox {
             max-width: 50%;
+
+            h1 {
+                font-size: $typography-title-dstitle-xxl-font-size;
+                text-decoration: $typography-title-dstitle-xxl-text-decoration;
+                font-family: $typography-title-dstitle-xxl-font-family;
+                font-weight: $typography-title-dstitle-xxl-font-weight;
+                font-style: $typography-title-dstitle-xxl-font-style;
+                font-stretch: $typography-title-dstitle-xxl-font-stretch;
+                letter-spacing: $typography-title-dstitle-xxl-letter-spacing;
+                line-height: $typography-title-dstitle-xxl-line-height;
+            }
+
+            .checkedContainer {
+    
+                p {
+                    font-size: $typography-paragraph-dstext-xs-semi-bold-font-size;
+                    text-decoration: $typography-paragraph-dstext-xs-semi-bold-text-decoration;
+                    font-family: $typography-paragraph-dstext-xs-semi-bold-font-family;
+                    font-weight: $typography-paragraph-dstext-xs-semi-bold-font-weight;
+                    font-style: $typography-paragraph-dstext-xs-semi-bold-font-style;
+                    font-stretch: $typography-paragraph-dstext-xs-semi-bold-font-stretch;
+                    letter-spacing: $typography-paragraph-dstext-xs-semi-bold-letter-spacing;
+                    line-height: $typography-paragraph-dstext-xs-semi-bold-line-height;
+                }
+            }
         }
 
         p {
@@ -134,6 +230,10 @@
 
             h1 {
                 color: white;
+            }
+
+            p {
+                
             }
 
             .checkedContainer {

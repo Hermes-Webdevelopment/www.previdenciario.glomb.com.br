@@ -1,0 +1,50 @@
+@import '/src/styles/variables.scss';
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $typography-paragraph-dstext-md-semi-bold-font-size;
+    text-decoration: $typography-paragraph-dstext-md-semi-bold-text-decoration;
+    font-family: $typography-paragraph-dstext-md-semi-bold-font-family;
+    font-weight: $typography-paragraph-dstext-md-semi-bold-font-weight;
+    font-style: $typography-paragraph-dstext-md-semi-bold-font-style;
+    font-stretch: $typography-paragraph-dstext-md-semi-bold-font-stretch;
+    letter-spacing: $typography-paragraph-dstext-md-semi-bold-letter-spacing;
+    line-height: $typography-paragraph-dstext-md-semi-bold-line-height;
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+    .btnClean {
+        max-width: unset;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .buttonContainer {
+        margin-bottom: 16px;
+        font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+        text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+        font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+        font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+        font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+        font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+        line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
+
+        u {
+            margin-right: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+}

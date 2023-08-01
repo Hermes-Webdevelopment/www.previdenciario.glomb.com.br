@@ -44,11 +44,11 @@ return (
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
       title="O VALOR DA SUA APOSENTADORIA PODE DOBRAR"
-      subTitle={<>A Revisão da Vida Toda pode aumentar o valor da sua aposentadoria ou pensão e pagar uma indenização pelas diferenças dos últimos 5 anos.</>}
+      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos. Clique no botão abaixo para descobrir se você tem direito.</>}
       buttonText="Quero ser atendido"
       buttonLink="/"
       advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
-      headerDesktop='/assets/images/aposentadoria/headerPerson.jpg'
+      headerDesktop='/assets/images/aposentadoria/headerPersonClean.jpg'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
@@ -56,11 +56,11 @@ return (
 
     <FormsTopics 
       firstTitle="Poupe seu tempo" 
-      firstSubTitle="Avaliamos seu caso sem compromisso e indicamos como conquistar seus direitos."
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> e indicamos como conquistar seus direitos.</>}
       secondTitle="Resolva sua necessidade"
-      secondSubTitle="Nossos advogados especialistas entrarão em contato para atendê-lo e indicar a melhor solução."
+      secondSubTitle={<>Nossos <strong>advogados especialistas</strong> entrarão em contato para atendê-lo e indicar a melhor solução.</>}
       thirdTitle="Conquiste seus direitos"
-      thirdSubTitle="Conte com nossa experiência de 45 anos e descubra se você tem direito à revisão da vida toda."
+      thirdSubTitle={<>Conte com nossa <strong>experiência</strong> de <strong>45 anos</strong> e descubra se você tem direito à revisão da vida toda.</>}
       cleanModel={true}
     />
 

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import BlueCheck from '@/public/assets/svgs/blueCheck.svg';
 import BlueButton from '../atons/blueButton';
 import { ReactNode } from 'react';
+import WhiteButton from '../atons/whiteButton';
 
 interface staticBannerInterface {
     title: ReactNode | string; 
@@ -29,7 +30,12 @@ export default function StaticBanner(props: staticBannerInterface) {
                     <p>{subTitle}</p>
                     <div className={`apearMobile ${styles.width100}`}>
                         <BlueButton 
-
+                            buttonLink={buttonLink}
+                            buttonText={buttonText}
+                        />
+                    </div>
+                    <div className={`apearDesktop`}>
+                        <WhiteButton 
                             buttonLink={buttonLink}
                             buttonText={buttonText}
                         />

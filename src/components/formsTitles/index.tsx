@@ -7,14 +7,15 @@ import BlueForm from '@/public/assets/svgs/thirdForm.svg';
 import AbstractFormSemiRound from '@/public/assets/svgs/abstractFormOne.svg';
 import AbstractFormline from '@/public/assets/svgs/abstractFormTwo.svg';
 import AbstractFormSemiBottonLine from '@/public/assets/svgs/abstractFormThree.svg';
+import { ReactNode } from 'react';
 
 interface formsTitleInterface {
     firstTitle: string, 
-    firstSubTitle: string, 
+    firstSubTitle: ReactNode | string, 
     secondTitle: string, 
-    secondSubTitle: string, 
+    secondSubTitle: ReactNode | string, 
     thirdTitle: string, 
-    thirdSubTitle: string,
+    thirdSubTitle: ReactNode | string,
     cleanModel?: boolean
 }
 
