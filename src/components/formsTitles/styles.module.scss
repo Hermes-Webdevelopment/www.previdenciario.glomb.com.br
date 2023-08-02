@@ -2,7 +2,7 @@
 
 .formsTopicsSection {
     background-color: #f8f8f8;
-    padding: 90px 0;
+    padding: 100px 0;
     position: relative;
     overflow: visible;
 }
@@ -16,6 +16,31 @@
     height: 100%;
     z-index: 0;
     transform: skewY(-2deg);
+}
+
+.changeBG {
+    .backgroundPlay {
+        display: none;
+    }
+
+    .formsTopics {
+    
+        >div {
+    
+            &.flexStart {
+    
+                &:after {
+                    height: 180%;
+                }
+            }
+    
+            &.center {
+                &:after {
+                    height: 180%;
+                }
+            }
+        }
+    }
 }
 
 .singleFormBox {
@@ -66,9 +91,9 @@
                 content: "";
                 position: absolute;
                 bottom: -40%;
-                right: 6%;
+                right: 4%;
                 height: 200%;
-                border-right: 1px solid $light-gray;
+                border-right: 1px solid $color-brand-brandingquartiary;
                 z-index: 1;
             }
         }
@@ -84,9 +109,9 @@
                 content: "";
                 position: absolute;
                 bottom: -40%;
-                right: -4%;
+                right: -2%;
                 height: 200%;
-                border-right: 1px solid $light-gray;
+                border-right: 1px solid $color-brand-brandingquartiary;
                 z-index: 1;
             }
         }
@@ -113,28 +138,28 @@
             color: $color-neutral-neutrallow;
         }
     }
-}
 
-.formsTopics {
-
-    >div {
-
-        &.flexStart {
-
-            &:after {
-                right: 0%;
+    .formsTopics {
+    
+        >div {
+    
+            &.flexStart {
+    
+                &:after {
+                    right: 0%;
+                }
             }
-        }
-
-        &.center {
-
-            &:after {
-                right: -3%;
+    
+            &.center {
+    
+                &:after {
+                    right: -3%;
+                }
             }
-        }
-
-        div {
-            max-width: 65%;
+    
+            div {
+                max-width: 65%;
+            }
         }
     }
 }
@@ -144,28 +169,15 @@
     .singleFormBox {
         position: relative;
 
-        h1 {
-            font-size: $typography-title-dstitle-xl-font-size;
-            text-decoration: $typography-title-dstitle-xl-text-decoration;
-            font-family: $typography-title-dstitle-xl-font-family;
-            font-weight: $typography-title-dstitle-xl-font-weight;
-            font-style: $typography-title-dstitle-xl-font-style;
-            font-stretch: $typography-title-dstitle-xl-font-stretch;
-            letter-spacing: $typography-title-dstitle-xl-letter-spacing;
-            line-height: $typography-title-dstitle-xl-line-height;
-            color: $color-neutral-neutrallow;
-            margin-bottom: 8px;
-        }
-
         p {
-            font-size: $typography-paragraph-dstext-sm-font-size;
-            text-decoration: $typography-paragraph-dstext-sm-text-decoration;
-            font-family: $typography-paragraph-dstext-sm-font-family;
-            font-weight: $typography-paragraph-dstext-sm-font-weight;
-            font-style: $typography-paragraph-dstext-sm-font-style;
-            font-stretch: $typography-paragraph-dstext-sm-font-stretch;
-            letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
-            line-height: $typography-paragraph-dstext-sm-line-height;
+            font-size: $typography-paragraph-dstext-xs-font-size;
+            text-decoration: $typography-paragraph-dstext-xs-text-decoration;
+            font-family: $typography-paragraph-dstext-xs-font-family;
+            font-weight: $typography-paragraph-dstext-xs-font-weight;
+            font-style: $typography-paragraph-dstext-xs-font-style;
+            font-stretch: $typography-paragraph-dstext-xs-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-xs-letter-spacing;
+            line-height: $typography-paragraph-dstext-xs-line-height;
             color: $color-neutral-neutrallow;
         }
     }
@@ -186,7 +198,7 @@
     }
 
     .singleFormBox {
-        gap: 10px !important;
+        gap: 10px;
     }
 }
 

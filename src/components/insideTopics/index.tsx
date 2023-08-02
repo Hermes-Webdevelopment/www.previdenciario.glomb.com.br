@@ -3,6 +3,7 @@ import styles from './styles.module.scss';
 import BlueButton from '../atons/blueButton';
 import Image from 'next/image';
 import { ReactNode, useEffect, useState } from 'react';
+import WhiteButton from '../atons/whiteButton';
 
 interface insideTopicsInterface {
     title: ReactNode | string, 
@@ -57,15 +58,15 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     {
                         screenSize.dynamicWidth >= 992 && cleanMode && imageClean ?
                             <Image 
-                                loading="lazy"
                                 width={ cleanMode ? 324 : 540}
                                 height={ cleanMode ? 500 : 360}
                                 src={imageClean} 
                                 alt={imageDescription} 
+                                priority
                             />
                             :
                             <Image 
-                                loading="lazy"
+                                priority
                                 width={ cleanMode ? 324 : 540}
                                 height={ cleanMode ? 500 : 360}
                                 src={image} 
@@ -92,7 +93,13 @@ export default function InsideTopics(props: insideTopicsInterface) {
                             <p>{grayBoxText}</p>
                         </div>
                     }
-                    <BlueButton buttonLink={buttonLink} buttonText={buttonText} cleanMode={cleanMode}/>
+
+                    {
+                        cleanMode ?
+                            <WhiteButton buttonLink={buttonLink} buttonText={buttonText} blueVariable={true}/>
+                        :
+                            <BlueButton buttonLink={buttonLink} buttonText={buttonText} cleanMode={cleanMode}/>
+                    }
                 </div>
             </div>
                 {

@@ -48,7 +48,7 @@ return (
       buttonText="Quero ser atendido"
       buttonLink="/"
       advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.jpg'
+      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
@@ -124,6 +124,51 @@ return (
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
+
+    <PeopleComents 
+      sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
+      clientCardsTitle='O que nossos clientes dizem'
+      imageUrl={'/assets/images/aposentadoria/grupoPessoas.jpg'} 
+      imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
+      clientsComentCard={[
+        {
+          title: 'Muito bem atendida',
+          text:'Muito bem atendida pela excelente advogada, Dra. Bruna Stephano, "expert" em direito previdenciário. Super Recomendo!',
+          starNumber:5,
+          clientName:'Doroti Valeixo'
+        },
+        {
+          title: 'Confiança e profissionalismo',
+          text:'Sou cliente deste conceituado escritório de advocacia há mais de 20 anos, e sempre fui atendido com muito profissionalismo. Recomendo!',
+          starNumber:5,
+          clientName:'Tadeu Timowicz'
+        },
+        {
+          title: 'Há mais de 25 anos',
+          text:'Atendimento impecável, tratei com os advogados mais experientes da área. Sou cliente do escritório a mais de 25 anos.',
+          starNumber:5,
+          clientName:'Nilva Carvalho'
+        },
+        {
+          title: 'Rápido e excelente trabalho',
+          text:'Gostaria de agradecer o excelente trabalho realizado pela Dra Bruna Stefano. O processo foi concluído com sucesso em um tempo muito bom.',
+          starNumber:5,
+          clientName:'Daiane Lima'
+        },
+        {
+          title: 'Atendimento excelente',
+          text:'Ótimo atendimento, excelente. Super indico para quem está procurando um serviço de qualidade.',
+          starNumber:5,
+          clientName:'Gabriela Fialho'
+        },
+        {
+          title: 'Profissionais focados e respeitosos',
+          text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
+          starNumber:5,
+          clientName:'Matilde Rodrigues'
+        },
+      ]}
+    />
     
     <ImageGalerySlider 
       title={'Transformar vidas por meio da justiça é nosso propósito'} 
@@ -177,51 +222,7 @@ return (
         }
       ]}
     />
-
-    <PeopleComents 
-      sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
-      clientCardsTitle='O que nossos clientes dizem'
-      imageUrl={'/assets/images/aposentadoria/grupoPessoas.jpg'} 
-      imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
-      clientsComentCard={[
-        {
-          title: 'Muito bem atendida',
-          text:'Muito bem atendida pela excelente advogada, Dra. Bruna Stephano, "expert" em direito previdenciário. Super Recomendo!',
-          starNumber:5,
-          clientName:'Doroti Valeixo'
-        },
-        {
-          title: 'Confiança e profissionalismo',
-          text:'Sou cliente deste conceituado escritório de advocacia há mais de 20 anos, e sempre fui atendido com muito profissionalismo. Recomendo!',
-          starNumber:5,
-          clientName:'Tadeu Timowicz'
-        },
-        {
-          title: 'Há mais de 25 anos',
-          text:'Atendimento impecável, tratei com os advogados mais experientes da área. Sou cliente do escritório a mais de 25 anos.',
-          starNumber:5,
-          clientName:'Nilva Carvalho'
-        },
-        {
-          title: 'Rápido e excelente trabalho',
-          text:'Gostaria de agradecer o excelente trabalho realizado pela Dra Bruna Stefano. O processo foi concluído com sucesso em um tempo muito bom.',
-          starNumber:5,
-          clientName:'Daiane Lima'
-        },
-        {
-          title: 'Atendimento excelente',
-          text:'Ótimo atendimento, excelente. Super indico para quem está procurando um serviço de qualidade.',
-          starNumber:5,
-          clientName:'Gabriela Fialho'
-        },
-        {
-          title: 'Profissionais focados e respeitosos',
-          text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
-          starNumber:5,
-          clientName:'Matilde Rodrigues'
-        },
-      ]}
-    />
+    
     <SingleText 
       text='Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'
     />

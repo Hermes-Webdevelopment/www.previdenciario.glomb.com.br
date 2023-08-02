@@ -13,6 +13,10 @@
     letter-spacing: $typography-paragraph-dstext-md-semi-bold-letter-spacing;
     line-height: $typography-paragraph-dstext-md-semi-bold-line-height;
 
+    &.changeToBlue {
+        color: $color-brand-brandingprimary;
+    }
+
 }
 
 @media (max-width: 1200px) {

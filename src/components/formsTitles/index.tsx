@@ -7,6 +7,11 @@ import BlueForm from '@/public/assets/svgs/thirdForm.svg';
 import AbstractFormSemiRound from '@/public/assets/svgs/abstractFormOne.svg';
 import AbstractFormline from '@/public/assets/svgs/abstractFormTwo.svg';
 import AbstractFormSemiBottonLine from '@/public/assets/svgs/abstractFormThree.svg';
+
+import AbstractFormSemiRoundMobile from '@/public/assets/svgs/abstractFormOneMobile.svg';
+import AbstractFormlineMobile from '@/public/assets/svgs/abstractFormTwoMobile.svg';
+import AbstractFormSemiBottonLineMobile from '@/public/assets/svgs/abstractFormThreeMobile.svg';
+
 import { ReactNode } from 'react';
 
 interface formsTitleInterface {
@@ -24,12 +29,15 @@ export default function FormsTopics(props: formsTitleInterface) {
     const {firstTitle, firstSubTitle, secondTitle, secondSubTitle, thirdTitle, thirdSubTitle, cleanModel = false} = props
 
     return (
-        <section className={styles.formsTopicsSection}>
+        <section className={`${styles.formsTopicsSection} ${cleanModel ? styles.changeBG : ''}`}>
             <div className={`container ${styles.formsTopics}`}>
                 <div className={`${styles.singleFormBox} ${styles.flexStart}`}>
                     {
                         cleanModel ?
-                            <AbstractFormSemiRound />
+                            <>
+                                <AbstractFormSemiRound className={`apearMobile`} />
+                                <AbstractFormSemiRoundMobile className={`apearDesktop`}/>
+                            </>
                         :
                             <OrangeForm />
                     }
@@ -41,7 +49,10 @@ export default function FormsTopics(props: formsTitleInterface) {
                 <div className={`${styles.singleFormBox} ${styles.center}`}>
                     {
                         cleanModel ?
-                            <AbstractFormline />
+                            <>
+                                <AbstractFormline className={`apearMobile`} />
+                                <AbstractFormlineMobile className={`apearDesktop`}/>
+                            </>
                         :
                             <GreenForm />
                     }
@@ -53,7 +64,10 @@ export default function FormsTopics(props: formsTitleInterface) {
                 <div className={`${styles.singleFormBox} ${styles.flexEnd}`}>
                     {
                         cleanModel ?
-                            <AbstractFormSemiBottonLine />
+                            <>
+                                <AbstractFormSemiBottonLine className={`apearMobile`} />
+                                <AbstractFormSemiBottonLineMobile className={`apearDesktop`}/>
+                            </>
                         :
                             <BlueForm />
                     }

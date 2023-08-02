@@ -10,27 +10,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 102px 0;
+    padding: 102px 20px;
 
     >div {
-        width: 45%;
         gap: 20px;
 
-        &.imageContainerClean {
-            width: 20%;
-        }
-
-        &.textBoxContainerClean {
-            width: 75%;
-        }
-
         h2 {
-            font: $internal-title-36-bold;
+            font-size: $typography-title-dstitle-xxl-font-size;
+            text-decoration: $typography-title-dstitle-xxl-text-decoration;
+            font-family: $typography-title-dstitle-xxl-font-family;
+            font-weight: $typography-title-dstitle-xxl-font-weight;
+            font-style: $typography-title-dstitle-xxl-font-style;
+            font-stretch: $typography-title-dstitle-xxl-font-stretch;
+            letter-spacing: $typography-title-dstitle-xxl-letter-spacing;
+            line-height: $typography-title-dstitle-xxl-line-height;
             margin-bottom: 24px;
         }
 
         p {
-            font: $main-text-18;
+            font-size: $typography-paragraph-dstext-md-font-size;
+            text-decoration: $typography-paragraph-dstext-md-text-decoration;
+            font-family: $typography-paragraph-dstext-md-font-family;
+            font-weight: $typography-paragraph-dstext-md-font-weight;
+            font-style: $typography-paragraph-dstext-md-font-style;
+            font-stretch: $typography-paragraph-dstext-md-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-md-letter-spacing;
+            line-height: $typography-paragraph-dstext-md-line-height;
             margin-bottom: 24px;
         }
 
@@ -43,7 +48,7 @@
         }
 
         .grayBox {
-            background-color: $light-gray-blue;
+            background-color: #F2F6FA;
             width: 100%;
             padding: 19px 15px;
             border-radius: 4px;
@@ -52,49 +57,66 @@
             p {
                 margin: 0;
                 text-align: center;
-                color: $light-text-color;
+                color: #6D6E76;
             }
         }
     }
 
     .imageContainer {
         position: relative;
-        height: 100%;
-        width: 50%;
+        height: 500px;
+        margin-right: 110px;
 
         img {
             object-fit: contain;
-            width: 100%;
-            height: auto;
+            height: 500px;
             border-radius: 32px;
+        }
+    }
+
+    &.invertImagePosition {
+        flex-direction: row-reverse;
+
+        .imageContainer {
+            position: relative;
+            height: 500px;
+            margin-right: 0px;
+            margin-left: 110px;
         }
     }
 }
 
 .cleanModeExtraText {
-    padding: 0 200px;
+    max-width: 700px;
         p {
-            font-family: 'Inter', sans-serif;
-            font-size: 26px;
-            font-weight: 500;
-            line-height: 32px;
+            font-size: $typography-emphasis-dsemphasis-lg-font-size;
+            text-decoration: $typography-emphasis-dsemphasis-lg-text-decoration;
+            font-family: $typography-emphasis-dsemphasis-lg-font-family;
+            font-weight: $typography-emphasis-dsemphasis-lg-font-weight;
+            font-style: $typography-emphasis-dsemphasis-lg-font-style;
+            font-stretch: $typography-emphasis-dsemphasis-lg-font-stretch;
+            letter-spacing: $typography-emphasis-dsemphasis-lg-letter-spacing;
+            line-height: $typography-emphasis-dsemphasis-lg-line-height;
             text-align: center;
         }
-}
-
-.invertImagePosition {
-    flex-direction: row-reverse;
 }
 
 @media (max-width: 992px) {
     .insideTopicsMainBox {
         flex-direction: column;
-        padding: 30px 15px;
+        padding: 40px 24px 8px;
         width: 100%;
         
         .imageContainer {
-            margin-bottom: 24px;
+            margin-bottom: 40px;
             width: 100%;
+            height: auto;
+            margin-right: 0px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
         }
 
         >div, .textBoxContainer{
@@ -117,6 +139,15 @@
                 margin-bottom: 32px;
             }
         }
+
+        &.invertImagePosition {
+            flex-direction: column;
+    
+            .imageContainer {
+                height: auto;
+                margin-left: 0px;
+            }
+        }
     }
 
     .cleanModeExtraText {
@@ -129,7 +160,50 @@
 }
 
 @media (max-width: 768px) {
+
+    .insideTopicsMainBox {
+        >div {
+            h2 {
+                font-size: $typography-title-dstitle-xl-font-size;
+                text-decoration: $typography-title-dstitle-xl-text-decoration;
+                font-family: $typography-title-dstitle-xl-font-family;
+                font-weight: $typography-title-dstitle-xl-font-weight;
+                font-style: $typography-title-dstitle-xl-font-style;
+                font-stretch: $typography-title-dstitle-xl-font-stretch;
+                letter-spacing: $typography-title-dstitle-xl-letter-spacing;
+                line-height: $typography-title-dstitle-xl-line-height;
+                margin-bottom: 16px;
+            }
     
+            p {
+                font-size: $typography-paragraph-dstext-sm-font-size;
+                text-decoration: $typography-paragraph-dstext-sm-text-decoration;
+                font-family: $typography-paragraph-dstext-sm-font-family;
+                font-weight: $typography-paragraph-dstext-sm-font-weight;
+                font-style: $typography-paragraph-dstext-sm-font-style;
+                font-stretch: $typography-paragraph-dstext-sm-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
+                line-height: $typography-paragraph-dstext-sm-line-height;
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .cleanModeExtraText {
+        max-width: 100%;
+        padding: 0 38px;
+            p {
+                font-size: $typography-emphasis-dsemphasis-sm-font-size;
+                text-decoration: $typography-emphasis-dsemphasis-sm-text-decoration;
+                font-family: $typography-emphasis-dsemphasis-sm-font-family;
+                font-weight: $typography-emphasis-dsemphasis-sm-font-weight;
+                font-style: $typography-emphasis-dsemphasis-sm-font-style;
+                font-stretch: $typography-emphasis-dsemphasis-sm-font-stretch;
+                letter-spacing: $typography-emphasis-dsemphasis-sm-letter-spacing;
+                line-height: $typography-emphasis-dsemphasis-sm-line-height;
+                text-align: center;
+            }
+    }
 }
 
 @media (max-width: 351px) {

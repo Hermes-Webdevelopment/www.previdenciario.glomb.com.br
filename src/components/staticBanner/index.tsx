@@ -56,7 +56,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={1000}
                         src={headerDesktop}
                         alt={headerDesktopDescription}
-                        loading="lazy"
+                        priority
                     />
 
                     <Image
@@ -65,7 +65,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={503}
                         src={headerMobile}
                         alt={headerMobileDescription}
-                        loading="lazy"
+                        priority
                     />
 
                 </div>
