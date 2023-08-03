@@ -95,7 +95,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     }
 
                     {
-                        cleanMode ?
+                        cleanMode && screenSize.dynamicWidth <= 992?
                             <WhiteButton buttonLink={buttonLink} buttonText={buttonText} blueVariable={true}/>
                         :
                             <BlueButton buttonLink={buttonLink} buttonText={buttonText} cleanMode={cleanMode}/>

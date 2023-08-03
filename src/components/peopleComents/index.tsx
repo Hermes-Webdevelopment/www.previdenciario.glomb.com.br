@@ -11,6 +11,7 @@ interface imageGalerySliderInterface {
     clientCardsTitle: string,
     imageUrl: string,
     imageDescription: string,
+    cleanLayout: boolean,
     clientsComentCard: {
         title: string;
         text: string;
@@ -21,7 +22,7 @@ interface imageGalerySliderInterface {
 
 export default function PeopleComents(props: imageGalerySliderInterface) {
 
-    const {sectionTitle, clientsComentCard, imageUrl, imageDescription, clientCardsTitle} = props
+    const {sectionTitle, clientsComentCard, imageUrl, imageDescription, clientCardsTitle, cleanLayout = false} = props
 
     const starscounter = (stars: number) => {
 
@@ -34,7 +35,7 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
     }
     
     return (
-        <section className={styles.peopleComentsSection}>
+        <section className={`${styles.peopleComentsSection} ${cleanLayout ? styles.cleanPeopleComents : ''}`}>
             <div className={`container ${styles.PeopleComentsContainer}`}>
                 <h2>{sectionTitle}</h2>
                 <div>
@@ -62,7 +63,10 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
                                     return (
                                         <SwiperSlide key={coment.title}>
                                             <div className={styles.comentBox}>
-                                                <h3>{coment.title}</h3>
+                                                {
+                                                    !cleanLayout &&
+                                                    <h3>{coment.title}</h3>
+                                                }
                                                 <div>
                                                     {
                                                         starscounter(coment.starNumber).map((star) => {

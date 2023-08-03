@@ -130,6 +130,7 @@ return (
       clientCardsTitle='O que nossos clientes dizem'
       imageUrl={'/assets/images/aposentadoria/grupoPessoas.jpg'} 
       imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
+      cleanLayout={true}
       clientsComentCard={[
         {
           title: 'Muito bem atendida',
