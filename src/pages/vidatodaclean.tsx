@@ -78,7 +78,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.jpg'} 
+      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
@@ -100,7 +100,7 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.jpg'} 
+      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.jpg'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
@@ -118,7 +118,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/quemTemDireito.jpg'}
+      image={'/assets/images/aposentadoria/quemTemDireito.webp'}
       imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}

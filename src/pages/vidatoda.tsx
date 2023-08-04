@@ -77,7 +77,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.jpg'} 
+      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
     />
 
@@ -99,7 +99,7 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.jpg'} 
+      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
     />
@@ -115,7 +115,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
       grayBoxText={<>Se você se encaixa nesses requisitos, <strong>clique no botão abaixo</strong> e descubra se você tem direito à revisão da vida toda.</>}
-      image={'/assets/images/aposentadoria/quemTemDireito.jpg'} 
+      image={'/assets/images/aposentadoria/quemTemDireito.webp'} 
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
     />
     

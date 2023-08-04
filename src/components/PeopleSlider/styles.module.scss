@@ -1,29 +1,39 @@
 @import '/src/styles/variables.scss';
 
 .peopleSliderSection {
-    background-color: $light-gray-red;
+    background-color: $color-brand-brandingquartiary;
     padding: 80px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    :global(.swiper-slide)  { 
-        background-color: unset;
-    }
 }
 
 .peopleContainer {
 
     >h1 {
-        font: $internal-title-40;
+        font-size: $typography-display-dsdisplay-sm-bold-font-size;
+        text-decoration: $typography-display-dsdisplay-sm-bold-text-decoration;
+        font-family: $typography-display-dsdisplay-sm-bold-font-family;
+        font-weight: $typography-display-dsdisplay-sm-bold-font-weight;
+        font-style: $typography-display-dsdisplay-sm-bold-font-style;
+        font-stretch: $typography-display-dsdisplay-sm-bold-font-stretch;
+        letter-spacing: $typography-display-dsdisplay-sm-bold-letter-spacing;
+        line-height: $typography-display-dsdisplay-sm-bold-line-height;
         color: black;
         text-align: center;
         margin-bottom: 24px;
     }
 
     >h2 {
-        font: $main-text-26;
+        font-size: $typography-paragraph-dstext-xl-font-size;
+        text-decoration: $typography-paragraph-dstext-xl-text-decoration;
+        font-family: $typography-paragraph-dstext-xl-font-family;
+        font-weight: $typography-paragraph-dstext-xl-font-weight;
+        font-style: $typography-paragraph-dstext-xl-font-style;
+        font-stretch: $typography-paragraph-dstext-xl-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-xl-letter-spacing;
+        line-height: $typography-paragraph-dstext-xl-line-height;
         color: black;
         text-align: center;
         margin-bottom: 80px;
@@ -33,6 +43,9 @@
 .sliderContainer {
     position: relative;
     background-color: transparent;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-left: 88px;
 
     img {
         max-height: 100%;
@@ -45,6 +58,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        position: relative;
+        display: inline-block;
+        margin-right: 26px;
     }
 
     .descriptionDiv {
@@ -64,17 +80,33 @@
         }
 
         h2 {
-            font: $internal-title-20-semibold;
+            font-size: $typography-title-dstitle-lg-bold-font-size;
+            text-decoration: $typography-title-dstitle-lg-bold-text-decoration;
+            font-family: $typography-title-dstitle-lg-bold-font-family;
+            font-weight: $typography-title-dstitle-lg-bold-font-weight;
+            font-style: $typography-title-dstitle-lg-bold-font-style;
+            font-stretch: $typography-title-dstitle-lg-bold-font-stretch;
+            letter-spacing: $typography-title-dstitle-lg-bold-letter-spacing;
             color: white;
         }
 
         p {
-            font: $main-text-14;
+            font-size: $typography-paragraph-dstext-xs-font-size;
+            text-decoration: $typography-paragraph-dstext-xs-text-decoration;
+            font-family: $typography-paragraph-dstext-xs-font-family;
+            font-weight: $typography-paragraph-dstext-xs-font-weight;
+            font-style: $typography-paragraph-dstext-xs-font-style;
+            font-stretch: $typography-paragraph-dstext-xs-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-xs-letter-spacing;
+            line-height: $typography-paragraph-dstext-xs-line-height;
             color: white;
         }
     }
 }
 
+.sliderContainer::-webkit-scrollbar {
+    display: none;
+  }
 
 @media (max-width:1200px) {
       
@@ -85,15 +117,36 @@
 }
 
 @media (max-width: 768px) {
+    
+    .sliderContainer {
+        padding-left: 20px;
+    }
+    .peopleSliderSection {
+        padding: 24px 0;
+    }
 
     .peopleContainer {
 
         >h1 {
-            font-size: 30px;
+            font-size: $typography-title-dstitle-xl-font-size;
+            text-decoration: $typography-title-dstitle-xl-text-decoration;
+            font-family: $typography-title-dstitle-xl-font-family;
+            font-weight: $typography-title-dstitle-xl-font-weight;
+            font-style: $typography-title-dstitle-xl-font-style;
+            font-stretch: $typography-title-dstitle-xl-font-stretch;
+            letter-spacing: $typography-title-dstitle-xl-letter-spacing;
+            line-height: $typography-title-dstitle-xl-line-height;
         }
 
-        p{
-            font-size: 20px;
+        p {
+            font-size: $typography-paragraph-dstext-xs-font-size;
+            text-decoration: $typography-paragraph-dstext-xs-text-decoration;
+            font-family: $typography-paragraph-dstext-xs-font-family;
+            font-weight: $typography-paragraph-dstext-xs-font-weight;
+            font-style: $typography-paragraph-dstext-xs-font-style;
+            font-stretch: $typography-paragraph-dstext-xs-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-xs-letter-spacing;
+            line-height: $typography-paragraph-dstext-xs-line-height;
         }
     }
 }

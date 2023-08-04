@@ -5,7 +5,7 @@
     height: auto;
     position: absolute;
     top: -12%;
-    right: 0;
+    right: 40px;
     gap: 32px;
     display: flex;
     justify-content: center;
@@ -26,10 +26,17 @@
     overflow: hidden;
 
     h2 {
-        font: $internal-title-40-bold;
+        font-size: $typography-display-dsdisplay-sm-bold-font-size;
+        text-decoration: $typography-display-dsdisplay-sm-bold-text-decoration;
+        font-family: $typography-display-dsdisplay-sm-bold-font-family;
+        font-weight: $typography-display-dsdisplay-sm-bold-font-weight;
+        font-style: $typography-display-dsdisplay-sm-bold-font-style;
+        font-stretch: $typography-display-dsdisplay-sm-bold-font-stretch;
+        letter-spacing: $typography-display-dsdisplay-sm-bold-letter-spacing;
+        line-height: $typography-display-dsdisplay-sm-bold-line-height;
         max-width: 70%;
         text-align: center;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
     }
 
     .subText {
@@ -40,8 +47,15 @@
         gap: 40px;
         margin-bottom: 104px;
         h3 {
-            color: $branding-primary;
-            font: $internal-title-24-lh45;
+            color: $color-brand-brandingprimary;
+            font-size: $typography-title-dstitle-xl-font-size;
+            text-decoration: $typography-title-dstitle-xl-text-decoration;
+            font-family: $typography-title-dstitle-xl-font-family;
+            font-weight: $typography-title-dstitle-xl-font-weight;
+            font-style: $typography-title-dstitle-xl-font-style;
+            font-stretch: $typography-title-dstitle-xl-font-stretch;
+            letter-spacing: $typography-title-dstitle-xl-letter-spacing;
+            line-height: $typography-title-dstitle-xl-line-height;
         }
     }
 
@@ -84,7 +98,7 @@
 }
 
 .imageGalerySliderSection {
-    background-color: $light-gray-red;
+    background-color: $color-brand-brandingquartiary;
     padding: 48px 0;
 }
 
@@ -119,6 +133,16 @@
         }
     }
     
+
+    .addMarginOnClean {
+        margin-top: 32px;
+    }
+
+    .imageGalerySliderSection {
+        background-color: $color-brand-brandingquartiary;
+        padding: 40px 0;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -127,8 +151,6 @@
     }
 
     .swiperContainerMobile {
-        margin: 24px;
-        border-radius: 16px;
         position: relative;
     }
     
@@ -146,16 +168,27 @@
         h2 {
             max-width: 540px;
             padding: 0 15px;
-            line-height: 35px;
+            font-size: $typography-title-dstitle-lg-bold-font-size;
+            text-decoration: $typography-title-dstitle-lg-bold-text-decoration;
+            font-family: $typography-title-dstitle-lg-bold-font-family;
+            font-weight: $typography-title-dstitle-lg-bold-font-weight;
+            font-style: $typography-title-dstitle-lg-bold-font-style;
+            font-stretch: $typography-title-dstitle-lg-bold-font-stretch;
+            letter-spacing: $typography-title-dstitle-lg-bold-letter-spacing;
         }
 
         h3 {
-            line-height: 19px;
+            font-size: $typography-title-dstitle-lg-font-size;
+            text-decoration: $typography-title-dstitle-lg-text-decoration;
+            font-family: $typography-title-dstitle-lg-font-family;
+            font-weight: $typography-title-dstitle-lg-font-weight;
+            font-style: $typography-title-dstitle-lg-font-style;
+            font-stretch: $typography-title-dstitle-lg-font-stretch;
+            letter-spacing: $typography-title-dstitle-lg-letter-spacing;
             max-width: 540px;
         }
 
         :global(.swiper) {
-            overflow: hidden;
             border-radius: 16px;
         }
 
@@ -216,13 +249,6 @@
 
 @media (max-width: 576px) {
     .sliderContainer {
-        h2 {
-            font: $internal-title-28;
-        }
-
-        h3 {
-            font: $internal-title-14;
-        }
 
         :global(.swiper-wrapper) {
             width: 100%;

@@ -11,7 +11,7 @@ interface imageGalerySliderInterface {
     clientCardsTitle: string,
     imageUrl: string,
     imageDescription: string,
-    cleanLayout: boolean,
+    cleanLayout?: boolean,
     clientsComentCard: {
         title: string;
         text: string;

@@ -11,7 +11,7 @@ export default function SingleText(props: singleText) {
 
     return (
         <section className={styles.textSection}>
-            <div className={`container`}>
+            <div >
                 {text}
             </div>
         </section>
