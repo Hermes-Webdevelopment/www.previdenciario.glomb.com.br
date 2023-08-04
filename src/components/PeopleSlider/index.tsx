@@ -51,7 +51,7 @@ export default function PeopleSlider(props: peopleSlider) {
                                 <div>
                                     <h2>{image.imageTitle}</h2>
                                     <p>{image.imageSubTitle}</p>
-                                    <p>{image.text}</p>=
+                                    <p>{image.text}</p>
                                 </div>
                             </div>
                         </div>
