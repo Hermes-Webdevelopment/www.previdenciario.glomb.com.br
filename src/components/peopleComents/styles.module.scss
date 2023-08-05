@@ -26,6 +26,10 @@
 
         >h2 {
             padding-bottom: 80px;
+
+            strong {
+                color: $color-brand-brandingprimary;
+            }
         }
 
         .imageContainer {
@@ -93,14 +97,15 @@
             position: relative;
 
             h2 {
-                font-size: $typography-title-dstitle-xxl-semi-bold-font-size;
-                text-decoration: $typography-title-dstitle-xxl-semi-bold-text-decoration;
-                font-family: $typography-title-dstitle-xxl-semi-bold-font-family;
-                font-weight: $typography-title-dstitle-xxl-semi-bold-font-weight;
-                font-style: $typography-title-dstitle-xxl-semi-bold-font-style;
-                font-stretch: $typography-title-dstitle-xxl-semi-bold-font-stretch;
-                letter-spacing: $typography-title-dstitle-xxl-semi-bold-letter-spacing;
-                line-height: $typography-title-dstitle-xxl-semi-bold-line-height;
+                
+                font-size: $typography-display-dsdisplay-sm-bold-font-size;
+                text-decoration: $typography-display-dsdisplay-sm-bold-text-decoration;
+                font-family: $typography-display-dsdisplay-sm-bold-font-family;
+                font-weight: $typography-display-dsdisplay-sm-bold-font-weight;
+                font-style: $typography-display-dsdisplay-sm-bold-font-style;
+                font-stretch: $typography-display-dsdisplay-sm-bold-font-stretch;
+                letter-spacing: $typography-display-dsdisplay-sm-bold-letter-spacing;
+                line-height: $typography-display-dsdisplay-sm-bold-line-height;
                 margin-bottom: 10px;
             }
 
@@ -155,17 +160,7 @@
             .sliderComentsContainer {
     
                 h2 {
-                    font-size: 30px;
                     margin-bottom: 5px;
-                }
-
-                h3 {
-                    font-size: 22px;
-                }
-
-                p {
-                    font-size: 14px;
-                    line-height: 19px;
                 }
             }
         }
@@ -177,64 +172,14 @@
 
     .PeopleComentsContainer {
         >h2 {
-            padding-bottom: 80px;
-            font-size: $typography-title-dstitle-md-font-size;
-            text-decoration: $typography-title-dstitle-md-text-decoration;
-            font-family: $typography-title-dstitle-md-font-family;
-            font-weight: $typography-title-dstitle-md-font-weight;
-            font-style: $typography-title-dstitle-md-font-style;
-            font-stretch: $typography-title-dstitle-md-font-stretch;
-            letter-spacing: $typography-title-dstitle-md-letter-spacing;
-            line-height: $typography-title-dstitle-md-line-height;
-        }
-
-        .sliderComentsContainer {
-    
-            h2 {
-                font-size: $typography-title-dstitle-xl-font-size;
-                text-decoration: $typography-title-dstitle-xl-text-decoration;
-                font-family: $typography-title-dstitle-xl-font-family;
-                font-weight: $typography-title-dstitle-xl-font-weight;
-                font-style: $typography-title-dstitle-xl-font-style;
-                font-stretch: $typography-title-dstitle-xl-font-stretch;
-                letter-spacing: $typography-title-dstitle-xl-letter-spacing;
-                line-height: $typography-title-dstitle-xl-line-height;
-                margin-bottom: 5px;
-            }
-
-            h3 {
-                font-size: $typography-title-dstitle-sm-font-size;
-                text-decoration: $typography-title-dstitle-sm-text-decoration;
-                font-family: $typography-title-dstitle-sm-font-family;
-                font-weight: $typography-title-dstitle-sm-font-weight;
-                font-style: $typography-title-dstitle-sm-font-style;
-                font-stretch: $typography-title-dstitle-sm-font-stretch;
-                letter-spacing: $typography-title-dstitle-sm-letter-spacing;
-                line-height: $typography-title-dstitle-sm-line-height;
-            }
-
-            p {
-                font-size: $typography-paragraph-dstext-sm-font-size;
-                text-decoration: $typography-paragraph-dstext-sm-text-decoration;
-                font-family: $typography-paragraph-dstext-sm-font-family;
-                font-weight: $typography-paragraph-dstext-sm-font-weight;
-                font-style: $typography-paragraph-dstext-sm-font-style;
-                font-stretch: $typography-paragraph-dstext-sm-font-stretch;
-                letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
-                line-height: $typography-paragraph-dstext-sm-line-height;
-                line-height: 19px;
-            }
-
-            h4 {
-                font-size: $typography-title-dstitle-md-font-size;
-                text-decoration: $typography-title-dstitle-md-text-decoration;
-                font-family: $typography-title-dstitle-md-font-family;
-                font-weight: $typography-title-dstitle-md-font-weight;
-                font-style: $typography-title-dstitle-md-font-style;
-                font-stretch: $typography-title-dstitle-md-font-stretch;
-                letter-spacing: $typography-title-dstitle-md-letter-spacing;
-                line-height: $typography-title-dstitle-md-line-height;
-            }
+            font-size: $typography-title-dstitle-lg-font-size;
+            text-decoration: $typography-title-dstitle-lg-text-decoration;
+            font-family: $typography-title-dstitle-lg-font-family;
+            font-weight: 400;
+            font-style: $typography-title-dstitle-lg-font-style;
+            font-stretch: $typography-title-dstitle-lg-font-stretch;
+            letter-spacing: $typography-title-dstitle-lg-letter-spacing;
+            line-height: $typography-title-dstitle-lg-line-height;
         }
     
         >div {
@@ -253,18 +198,48 @@
             .sliderComentsContainer {
     
                 h2 {
-                    font-size: 22px;
-                    line-height: 28px;
-                    margin: 0;
+                    font-size: $typography-title-dstitle-xl-font-size;
+                    text-decoration: $typography-title-dstitle-xl-text-decoration;
+                    font-family: $typography-title-dstitle-xl-font-family;
+                    font-weight: $typography-title-dstitle-xl-font-weight;
+                    font-style: $typography-title-dstitle-xl-font-style;
+                    font-stretch: $typography-title-dstitle-xl-font-stretch;
+                    letter-spacing: $typography-title-dstitle-xl-letter-spacing;
+                    line-height: $typography-title-dstitle-xl-line-height;
+                    margin-bottom: 0px;
                 }
-
+    
                 h3 {
-                    font-size: 18px;
+                    font-size: $typography-title-dstitle-sm-font-size;
+                    text-decoration: $typography-title-dstitle-sm-text-decoration;
+                    font-family: $typography-title-dstitle-sm-font-family;
+                    font-weight: $typography-title-dstitle-sm-font-weight;
+                    font-style: $typography-title-dstitle-sm-font-style;
+                    font-stretch: $typography-title-dstitle-sm-font-stretch;
+                    letter-spacing: $typography-title-dstitle-sm-letter-spacing;
+                    line-height: $typography-title-dstitle-sm-line-height;
                 }
-
+    
                 p {
-                    font-size: 14px;
-                    line-height: 19px;
+                    font-size: $typography-paragraph-dstext-sm-font-size;
+                    text-decoration: $typography-paragraph-dstext-sm-text-decoration;
+                    font-family: $typography-paragraph-dstext-sm-font-family;
+                    font-weight: $typography-paragraph-dstext-sm-font-weight;
+                    font-style: $typography-paragraph-dstext-sm-font-style;
+                    font-stretch: $typography-paragraph-dstext-sm-font-stretch;
+                    letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
+                    line-height: $typography-paragraph-dstext-sm-line-height;
+                }
+    
+                h4 {
+                    font-size: $typography-title-dstitle-md-font-size;
+                    text-decoration: $typography-title-dstitle-md-text-decoration;
+                    font-family: $typography-title-dstitle-md-font-family;
+                    font-weight: $typography-title-dstitle-md-font-weight;
+                    font-style: $typography-title-dstitle-md-font-style;
+                    font-stretch: $typography-title-dstitle-md-font-stretch;
+                    letter-spacing: $typography-title-dstitle-md-letter-spacing;
+                    line-height: $typography-title-dstitle-md-line-height;
                 }
             }
         }
@@ -336,8 +311,6 @@
     .PeopleComentsContainer {
 
         >h2 {
-            font-size: 20px;
-            line-height: 29px;
             padding-bottom: 30px;
         }
 
@@ -346,21 +319,7 @@
             .sliderComentsContainer {
     
                 h2 {
-                    font-size: 20px;
                     margin-bottom: 5px;
-                }
-
-                h3 {
-                    font-size: 16px;
-                }
-
-                p {
-                    font-size: 14px;
-                    line-height: 19px;
-                }
-
-                h4 {
-                    font-size: 18px;
                 }
             }
 

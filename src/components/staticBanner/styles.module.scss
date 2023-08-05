@@ -275,14 +275,26 @@
         .textBox {
 
             h1 {
-                font-size: 32px;
-                line-height: 38px;
+                font-size: $typography-title-dstitle-xxl-bold-font-size;
+                text-decoration: $typography-title-dstitle-xxl-bold-text-decoration;
+                font-family: $typography-title-dstitle-xxl-bold-font-family;
+                font-weight: $typography-title-dstitle-xxl-bold-font-weight;
+                font-style: $typography-title-dstitle-xxl-bold-font-style;
+                font-stretch: $typography-title-dstitle-xxl-bold-font-stretch;
+                letter-spacing: $typography-title-dstitle-xxl-bold-letter-spacing;
+                line-height: $typography-title-dstitle-xxl-bold-line-height;
             }
 
             p {
                 color: white;
-                margin-bottom: 25px;
-                line-height: 22px;
+                font-size: $typography-paragraph-dstext-sm-font-size;
+                text-decoration: $typography-paragraph-dstext-sm-text-decoration;
+                font-family: $typography-paragraph-dstext-sm-font-family;
+                font-weight: $typography-paragraph-dstext-sm-font-weight;
+                font-style: $typography-paragraph-dstext-sm-font-style;
+                font-stretch: $typography-paragraph-dstext-sm-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
+                line-height: $typography-paragraph-dstext-sm-line-height;
             }
         }
     }

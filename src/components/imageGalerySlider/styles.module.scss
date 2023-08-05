@@ -120,18 +120,6 @@
             width: calc(100% - 23px);
         }
     }
-
-    .sliderContainer {
-        h2 {
-            font-size: 28px;
-            line-height: 30px;
-        }
-
-        h3 {
-            font-size: 18px !important;
-            line-height: 30px !important;
-        }
-    }
     
 
     .addMarginOnClean {
@@ -163,6 +151,18 @@
             flex-direction: column;
             gap: 0px;
             margin-bottom: 24px;
+
+            h3 {
+                font-size: $typography-title-dstitle-sm-font-size;
+                text-decoration: $typography-title-dstitle-sm-text-decoration;
+                font-family: $typography-title-dstitle-sm-font-family;
+                font-weight: $typography-title-dstitle-sm-font-weight;
+                font-style: $typography-title-dstitle-sm-font-style;
+                font-stretch: $typography-title-dstitle-sm-font-stretch;
+                letter-spacing: $typography-title-dstitle-sm-letter-spacing;
+                line-height: $typography-title-dstitle-sm-line-height;
+                max-width: 540px;
+            }
         }
 
         h2 {
@@ -175,17 +175,7 @@
             font-style: $typography-title-dstitle-lg-bold-font-style;
             font-stretch: $typography-title-dstitle-lg-bold-font-stretch;
             letter-spacing: $typography-title-dstitle-lg-bold-letter-spacing;
-        }
-
-        h3 {
-            font-size: $typography-title-dstitle-lg-font-size;
-            text-decoration: $typography-title-dstitle-lg-text-decoration;
-            font-family: $typography-title-dstitle-lg-font-family;
-            font-weight: $typography-title-dstitle-lg-font-weight;
-            font-style: $typography-title-dstitle-lg-font-style;
-            font-stretch: $typography-title-dstitle-lg-font-stretch;
-            letter-spacing: $typography-title-dstitle-lg-letter-spacing;
-            max-width: 540px;
+            line-height: $typography-title-dstitle-lg-bold-line-height;
         }
 
         :global(.swiper) {

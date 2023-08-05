@@ -11,14 +11,14 @@
         h3 {
             width: 100%;
             text-align: center;
-            font-size: $typography-title-dstitle-xxl-font-size;
-            text-decoration: $typography-title-dstitle-xxl-text-decoration;
-            font-family: $typography-title-dstitle-xxl-font-family;
-            font-weight: $typography-title-dstitle-xxl-font-weight;
-            font-style: $typography-title-dstitle-xxl-font-style;
-            font-stretch: $typography-title-dstitle-xxl-font-stretch;
-            letter-spacing: $typography-title-dstitle-xxl-letter-spacing;
-            line-height: $typography-title-dstitle-xxl-line-height;
+            font-size: $typography-title-dstitle-xxl-semi-bold-font-size;
+            text-decoration: $typography-title-dstitle-xxl-semi-bold-text-decoration;
+            font-family: $typography-title-dstitle-xxl-semi-bold-font-family;
+            font-weight: $typography-title-dstitle-xxl-semi-bold-font-weight;
+            font-style: $typography-title-dstitle-xxl-semi-bold-font-style;
+            font-stretch: $typography-title-dstitle-xxl-semi-bold-font-stretch;
+            letter-spacing: $typography-title-dstitle-xxl-semi-bold-letter-spacing;
+            line-height: $typography-title-dstitle-xxl-semi-bold-line-height;
             padding: 120px 0 68px;
         }
 
@@ -60,6 +60,14 @@
 
         summary::marker {
             content: none;
+        }
+
+        details > summary {
+            list-style: none;
+        }
+        
+        details > summary::-webkit-details-marker {
+            display: none;
         }
 
         summary::before,
@@ -182,6 +190,18 @@
     
         .containerFaq {
             padding: 0 27px;
+
+            h3 {
+                font-size: $typography-title-dstitle-lg-font-size;
+                text-decoration: $typography-title-dstitle-lg-text-decoration;
+                font-family: $typography-title-dstitle-lg-font-family;
+                font-weight: $typography-title-dstitle-lg-font-weight;
+                font-style: $typography-title-dstitle-lg-font-style;
+                font-stretch: $typography-title-dstitle-lg-font-stretch;
+                letter-spacing: $typography-title-dstitle-lg-letter-spacing;
+                line-height: $typography-title-dstitle-lg-line-height;
+                padding: 80px 0 32px;
+            }
 
             details:hover {
                 svg {

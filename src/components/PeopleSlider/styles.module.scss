@@ -81,6 +81,7 @@
             justify-content: flex-end;
             align-items: center;
             flex-direction: column;
+            padding-bottom: 20px;
         }
 
         h2 {
@@ -140,6 +141,11 @@
             font-stretch: $typography-title-dstitle-xl-font-stretch;
             letter-spacing: $typography-title-dstitle-xl-letter-spacing;
             line-height: $typography-title-dstitle-xl-line-height;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            margin-bottom: 22px;
         }
 
         p {
