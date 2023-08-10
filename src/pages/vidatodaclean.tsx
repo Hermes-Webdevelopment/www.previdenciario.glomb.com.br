@@ -119,7 +119,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
       image={'/assets/images/aposentadoria/quemTemDireito.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.jpg'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
@@ -212,10 +212,6 @@ return (
         {
           imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.jpg',
           imageDescription: 'Recepção escritório glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice10.jpg',
-          imageDescription: 'Sala de reuniões glomb advogados'
         },
         {
           imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.jpg',
