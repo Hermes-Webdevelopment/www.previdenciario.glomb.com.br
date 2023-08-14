@@ -41,7 +41,7 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
                 <div>
                     <div className={styles.imageContainer}>
                         <Image 
-                            priority
+                            loading="lazy"
                             src={imageUrl}
                             alt={imageDescription}
                             width={404}

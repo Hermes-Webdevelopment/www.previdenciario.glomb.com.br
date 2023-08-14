@@ -117,7 +117,7 @@ export default function PeopleSlider(props: peopleSlider) {
                             <div key={Math.random()} className={styles.slideContainer}>
                                 <div className={styles.imgDiv}>
                                     <Image 
-                                        priority
+                                        loading="lazy"
                                         height={413}
                                         width={254}
                                         src={image.imageUrl}

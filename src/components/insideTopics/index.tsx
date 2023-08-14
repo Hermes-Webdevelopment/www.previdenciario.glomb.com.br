@@ -62,12 +62,12 @@ export default function InsideTopics(props: insideTopicsInterface) {
                                 height={ 1000 }
                                 src={imageClean} 
                                 alt={imageDescription} 
-                                priority
+                                loading="lazy"
                                 unoptimized={true}
                             />
                             :
                             <Image 
-                                priority
+                                loading="lazy"
                                 width={ cleanMode ? 324 : 540}
                                 height={ cleanMode ? 500 : 360}
                                 src={image} 
