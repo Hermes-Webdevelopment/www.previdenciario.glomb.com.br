@@ -58,11 +58,12 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     {
                         screenSize.dynamicWidth >= 992 && cleanMode && imageClean ?
                             <Image 
-                                width={ cleanMode ? 324 : 540}
-                                height={ cleanMode ? 500 : 360}
+                                width={ 646 }
+                                height={ 1000 }
                                 src={imageClean} 
                                 alt={imageDescription} 
                                 priority
+                                unoptimized={true}
                             />
                             :
                             <Image 
@@ -71,6 +72,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                                 height={ cleanMode ? 500 : 360}
                                 src={image} 
                                 alt={imageDescription} 
+                                unoptimized={true}
                             />
                     }
                 </div>

@@ -228,74 +228,39 @@ return (
       subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageUrl: '/assets/images/aposentadoria/advogados/angelaGlomb.jpg',
+          imageTitle: 'Angela Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.jpg',
           imageTitle: 'Daniel Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucioGlomb.jpg',
+          imageTitle: 'José Lúcio Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucasEmmen.jpg',
+          imageTitle: 'Lucas Emmendorfer',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/rogerioLoch.jpg',
+          imageTitle: 'Rogério Loch',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
+        }
       ]}
     />
 
