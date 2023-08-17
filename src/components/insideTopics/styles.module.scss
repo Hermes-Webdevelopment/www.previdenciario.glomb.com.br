@@ -125,6 +125,12 @@
             height: auto;
             margin-right: 0px;
 
+            &.imageContainerClean {
+                img {
+                    width: 100%;
+                }
+            }
+
             img {
                 width: 100%;
                 height: auto;

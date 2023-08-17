@@ -77,7 +77,6 @@ return (
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
-      cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -113,7 +112,6 @@ return (
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
-      cleanModeText={'A Revisão da Vida Toda pode gerar um aumento no valor mensal de milhares de aposentadoria e pensões.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -135,10 +133,9 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/quemTemDireito.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.jpg'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
-      cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
 
     <PeopleComents 
@@ -152,31 +149,31 @@ return (
           title: 'Excelentes profissionais',
           text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
           starNumber:5,
-          clientName:'Doroti Valeixo'
+          clientName:'Marines Gai'
         },
         {
           title: 'Muito bom',
           text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
           starNumber:5,
-          clientName:'Tadeu Timowicz'
+          clientName:'William Fabrício de Oliveira'
         },
         {
-          title: 'Há mais de 25 anos',
-          text:'Atendimento impecável, tratei com os advogados mais experientes da área. Sou cliente do escritório a mais de 25 anos.',
+          title: 'Muito atenciosos',
+          text:'Muito atenciosos. Fiquei satisfeita com o atendimento.',
           starNumber:5,
-          clientName:'Nilva Carvalho'
+          clientName:'Shirley Ribeiro da Costa'
         },
         {
-          title: 'Rápido e excelente trabalho',
-          text:'Gostaria de agradecer o excelente trabalho realizado pela Dra Bruna Stefano. O processo foi concluído com sucesso em um tempo muito bom.',
+          title: 'Muito bem atendido',
+          text:'Fui muito bem atendido nota 20!',
           starNumber:5,
-          clientName:'Daiane Lima'
+          clientName:'Dicezar Gomes'
         },
         {
-          title: 'Atendimento excelente',
-          text:'Ótimo atendimento, excelente. Super indico para quem está procurando um serviço de qualidade.',
+          title: 'Estão de parabéns',
+          text:'Essa equipe da Glomb Advogados é ótima. Rapidinho me deu resposta do que eu precisava, estão de parabéns. Muito obrigada.',
           starNumber:5,
-          clientName:'Gabriela Fialho'
+          clientName:'Selma Januaria da Silva'
         },
         {
           title: 'Profissionais focados e respeitosos',
@@ -245,74 +242,39 @@ return (
       subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageUrl: '/assets/images/aposentadoria/advogados/angelaGlomb.jpg',
+          imageTitle: 'Angela Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.jpg',
           imageTitle: 'Daniel Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucioGlomb.jpg',
+          imageTitle: 'José Lúcio Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucasEmmen.jpg',
+          imageTitle: 'Lucas Emmendorfer',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/rogerioLoch.jpg',
+          imageTitle: 'Rogério Loch',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
+        }
       ]}
     />
       
