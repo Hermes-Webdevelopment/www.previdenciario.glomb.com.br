@@ -26,9 +26,9 @@ return (
       <meta property='og:url' content='https://previdenciario.com.br/aposentadoriaemanalise/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Aposentadoria negada tem solução</title>
-      <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
+      <title>Aposentadoria parada no INSS tem solução</title>
+      <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
+      <meta name="description" content="Se seu pedido está em análise há mais de 90 dias no INSS, você pode exigir uma resposta na justiça e receber indenização pela demora."></meta>
     </Head>
 
     <div className='apearDesktop'>
@@ -41,14 +41,14 @@ return (
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="Aposentadoria negada tem solução"
-      subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
+      title="Aposentadoria parada no INSS tem solução"
+      subTitle={<>Se seu pedido está em análise no <strong>INSS</strong> há mais de <strong>90 dias</strong>, você pode exigir uma <strong>resposta</strong> na justiça e receber <strong>indenização</strong> pela demora.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
-      headerDesktopDescription="Aposentadoria negada"
+      headerDesktopDescription="Aposentadoria demora"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
-      headerMobileDescription="Aposentadoria negada"
+      headerMobileDescription="Aposentadoria demora"
     />
 
     <FormsTopics 
@@ -63,17 +63,17 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Você pode ter direito à aposentadoria'} 
+      title={'A demora do INSS causa grandes prejuízos'} 
       text={
         <>
           <p>
-            É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe o direito de receber</strong>. 
+            Infelizmente a <strong>demora</strong> do INSS para analisar pedidos de aposentadoria é um problema muito comum.. 
           </p><br />
           <p>
-            De janeiro a março de 2022, o INSS negou <strong>3 em cada 4</strong> pedidos que foram feitos, conforme dados do boletim estatístico da previdência social.
+            Porém, isso <strong>prejudica</strong> muitas pessoas que já deveriam estar <strong>recebendo</strong> seus benefícios.
           </p><br />
           <p>
-            Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua <strong>aposentadoria</strong>.
+            Para evitar <strong>prejuízos</strong>, é possível cobrar uma <strong>resposta rápida</strong> na justiça, <strong>garantir</strong> seus direitos e ainda receber uma <strong>indenização</strong> do INSS pela demora.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
@@ -86,29 +86,20 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Como conquistar sua aposentadoria'} 
+      title={'O INSS tem 90 dias para analisar seu pedido'} 
       text={
         <>  
           <p>
-            Após a resposta negativa do INSS, é possível fazer um recurso administrativo.
+            Como regra geral, o INSS tem um prazo máximo de 90 dias para analisar os pedidos de aposentadoria.
           </p><br />
           <p>
-            Porém, esse recurso é <strong>demorado</strong> e na maioria dos casos o INSS <strong>nega</strong> o pedido mais uma vez.
+            Mas no caso da aposentadoria por invalidez, esse prazo é de apenas 45 dias.
           </p><br />
           <p>
-            Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
+            Se o INSS está demorando para analisar seu pedido de aposentadoria, é possível exigir uma resposta por meio de ação na justiça, receber os valores atrasados e ainda cobrar uma indenização pela demora.
           </p>
         </>
       } 
-      listText={[
-        "Colheita",
-        "Plantio",
-        "Tratamento da terra",
-        "Pecuária",
-        "Pesca",
-        "Seringal",
-        "Garimpo",
-      ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 

@@ -100,15 +100,6 @@ return (
           </p>
         </>
       } 
-      listText={[
-        "Colheita",
-        "Plantio",
-        "Tratamento da terra",
-        "Pecuária",
-        "Pesca",
-        "Seringal",
-        "Garimpo",
-      ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 

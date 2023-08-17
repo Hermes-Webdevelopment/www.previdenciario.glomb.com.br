@@ -42,7 +42,7 @@ return (
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
       title="O VALOR DA SUA APOSENTADORIA PODE DOBRAR"
-      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos. Clique no botão abaixo para descobrir se você tem direito.</>}
+      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
