@@ -161,10 +161,6 @@ return (
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice10.jpg',
-          imageDescription: 'Sala de reuniões glomb advogados'
-        },
-        {
           imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.jpg',
           imageDescription: 'Sala de reuniões glomb advogados'
         }

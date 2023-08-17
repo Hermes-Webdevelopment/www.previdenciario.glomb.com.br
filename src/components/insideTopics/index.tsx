@@ -2,8 +2,9 @@ import styles from './styles.module.scss';
 
 import BlueButton from '../atons/blueButton';
 import Image from 'next/image';
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode } from 'react';
 import WhiteButton from '../atons/whiteButton';
+import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface insideTopicsInterface {
     title: ReactNode | string, 
@@ -24,32 +25,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
 
     const {title, text, buttonText, buttonLink, listText, grayBoxText, image, imageDescription, invertImagePosition = false, cleanMode = false, cleanModeText, imageClean} = props
     
-    const [screenSize, getDimension] = useState({
-        dynamicWidth: 0,
-        dynamicHeight: 0
-      });
-
-    const setDimension = () => {
-        getDimension({
-            dynamicWidth: window.innerWidth,
-            dynamicHeight: window.innerHeight
-        })
-    }
-
-    useEffect(() => {
-        getDimension({
-            dynamicWidth: window.innerWidth,
-            dynamicHeight: window.innerHeight
-        })
-    }, [])
-
-    useEffect(() => {
-        window.addEventListener('resize', setDimension, {passive: true});
-    
-        return(() => {
-            window.removeEventListener('resize', setDimension);
-        })
-    }, [screenSize])
+    const screenSize = getScreenSiteAndWidth()
 
     return (
         <section className={`${styles.insideContainer} ${cleanMode && styles.containerClean}`}>

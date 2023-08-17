@@ -1,11 +1,12 @@
 import styles from './styles.module.scss';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { ReactNode } from 'react';
 import SwiperButtons from './swiperButtons';
 import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
+import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface imageGalerySliderInterface {
     title: ReactNode | string;
@@ -27,32 +28,7 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
 
     const {title, subTitle, carrouselImages, initialSlideNumber, cleanCode = false} = props
 
-    const [screenSize, getDimension] = useState({
-        dynamicWidth: 0,
-        dynamicHeight: 0
-      });
-
-    const setDimension = () => {
-        getDimension({
-            dynamicWidth: window.innerWidth,
-            dynamicHeight: window.innerHeight
-        })
-    }
-
-    useEffect(() => {
-        getDimension({
-            dynamicWidth: window.innerWidth,
-            dynamicHeight: window.innerHeight
-        })
-    }, [])
-
-    useEffect(() => {
-        window.addEventListener('resize', setDimension, {passive: true});
-    
-        return(() => {
-            window.removeEventListener('resize', setDimension);
-        })
-    }, [screenSize])
+    const screenSize = getScreenSiteAndWidth()
     
     return (
         <section className={`${styles.imageGalerySliderSection} ${cleanCode && styles.addMarginOnClean}`}>
