@@ -46,6 +46,7 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
                             alt={imageDescription}
                             width={404}
                             height={445}
+                            unoptimized={true}
                         />
                     </div>
                     <div className={styles.sliderComentsContainer}>

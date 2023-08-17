@@ -1,7 +1,7 @@
 @import '/src/styles/variables.scss';
 
 .peopleSliderSection {
-    background-color: $color-brand-brandingquartiary;
+    background-color: $light-gray-red;
     padding: 80px 0;
     display: flex;
     justify-content: center;
@@ -23,7 +23,6 @@
         font-stretch: $typography-display-dsdisplay-sm-bold-font-stretch;
         letter-spacing: $typography-display-dsdisplay-sm-bold-letter-spacing;
         line-height: $typography-display-dsdisplay-sm-bold-line-height;
-        color: black;
         text-align: center;
         margin-bottom: 24px;
     }
@@ -37,7 +36,6 @@
         font-stretch: $typography-paragraph-dstext-xl-font-stretch;
         letter-spacing: $typography-paragraph-dstext-xl-letter-spacing;
         line-height: $typography-paragraph-dstext-xl-line-height;
-        color: black;
         text-align: center;
         margin-bottom: 80px;
     }
@@ -71,7 +69,7 @@
             flex-direction: column;
             position: relative;
             display: inline-block;
-            margin-right: 26px;
+            margin-right: 56px;
         }
 
         .descriptionDiv {

@@ -119,7 +119,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
       image={'/assets/images/aposentadoria/quemTemDireito.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.jpg'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
@@ -214,10 +214,6 @@ return (
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice10.jpg',
-          imageDescription: 'Sala de reuniões glomb advogados'
-        },
-        {
           imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.jpg',
           imageDescription: 'Sala de reuniões glomb advogados'
         }
@@ -232,74 +228,39 @@ return (
       subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
+          imageUrl: '/assets/images/aposentadoria/advogados/angelaGlomb.jpg',
+          imageTitle: 'Angela Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 103.642'
+        },
+        
+        {
+          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.jpg',
           imageTitle: 'Daniel Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucioGlomb.jpg',
+          imageTitle: 'José Lúcio Glomb',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/lucasEmmen.jpg',
+          imageTitle: 'Lucas Emmendorfer',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
         },
         
         {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
+          imageUrl: '/assets/images/aposentadoria/advogados/rogerioLoch.jpg',
+          imageTitle: 'Rogério Loch',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
-        
-        {
-          imageUrl: '/assets/images/aposentadoria/advogados/danielGlomb.png',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 103.642'
-        },
+        }
       ]}
     />
 
