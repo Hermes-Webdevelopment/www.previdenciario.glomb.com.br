@@ -222,13 +222,14 @@ return (
       title='Nossos profissionais'
       subTitle={<p>Nossa equipe altamente qualificada trabalha com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
-        {
-          imageUrl: '/assets/images/advogados/angela_glomb.webp',
-          imageTitle: 'Angela Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 37.004'
-        },
         
+        {
+          imageUrl: '/assets/images/advogados/jose_lucio_glomb.webp',
+          imageTitle: 'José Lúcio Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 6.838'
+        },
+
         {
           imageUrl: '/assets/images/advogados/daniel_glomb.webp',
           imageTitle: 'Daniel Glomb',
@@ -237,10 +238,24 @@ return (
         },
         
         {
-          imageUrl: '/assets/images/advogados/jose_lucio_glomb.webp',
-          imageTitle: 'José Lúcio Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 6.838'
+          imageUrl: '/assets/images/advogados/angela_glomb.webp',
+          imageTitle: 'Angela Glomb',
+          imageSubTitle: 'Advogada',
+          text: 'OAB/PR 37.004'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/marcia_leticia_glomb.webp',
+          imageTitle: 'Márcia Letícia Glomb',
+          imageSubTitle: 'Advogada',
+          text: 'OAB/PR 86.573'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/cleide_glomb.webp',
+          imageTitle: 'Cleide Glomb',
+          imageSubTitle: 'Advogada',
+          text: 'OAB/PR 26.012'
         },
         
         {
@@ -255,6 +270,55 @@ return (
           imageTitle: 'Rogério Loch',
           imageSubTitle: 'Advogado',
           text: 'OAB/PR 113.316'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/francisco_torres.webp',
+          imageTitle: 'Francisco Torres',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 45.155'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/marcelo_mano_alves.webp',
+          imageTitle: 'Marcelo Mano Alves',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 44.200'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/andre_durdyn.webp',
+          imageTitle: 'André Durdyn',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 41.300'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/paulo_eduardo_muller.webp',
+          imageTitle: 'Paulo Eduardo Müller',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 59.060'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/guilherme_seiti.webp',
+          imageTitle: 'Guilherme Seiti',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 42.351'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/mauricio_simoes.webp',
+          imageTitle: 'Maurício Simões',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 37.008'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/jose_paulo_barcellos.webp',
+          imageTitle: 'José Paulo Barcellos',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 47.112'
         }
       ]}
     />
