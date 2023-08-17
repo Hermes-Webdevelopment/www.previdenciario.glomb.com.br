@@ -69,7 +69,6 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
                                         alt={image.imageDescription}
                                         width={478}
                                         height={503}
-                                        unoptimized={true}
                                     />
                                 </SwiperSlide>
                                 )
