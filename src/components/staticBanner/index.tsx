@@ -60,6 +60,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={1000}
                         src={headerDesktop}
                         alt={headerDesktopDescription}
+                        unoptimized={true}
                         loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
                     />
 
@@ -69,6 +70,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={503}
                         src={headerMobile}
                         alt={headerMobileDescription}
+                        unoptimized={true}
                         loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
                     />
 
