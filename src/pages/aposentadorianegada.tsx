@@ -8,7 +8,7 @@ import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
 
-const VidaTodaClean: NextPage = () => {
+const AposentadoriaTempoEspecial: NextPage = () => {
   
 return (
   <>
@@ -19,108 +19,103 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
-      <meta property='og:title' content='O valor da sua aposentadoria pode dobrar'/>
+      <meta property='og:title' content='Aposentadoria negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
-      <meta property='og:image:alt' content='Logomarca Glomb'/>
-      <meta property='og:description' content='Descubra como aumentar o valor da sua aposentadoria e receber uma indenização.'/>
-      <meta property='og:url' content='https://previdenciario.glomb.com.br/vidatoda/'/>
+      <meta property='og:image:alt' content='Aposentadoria negada INSS'/>
+      <meta property='og:description' content='O INSS nega muitas aposentadorias, até para quem tem direito. Saiba como resolver.'/>
+      <meta property='og:url' content='https://previdenciario.com.br/aposentadorianegada/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Glomb - O valor da sua aposentadoria pode dobrar</title>
-      <meta name="keywords" content="aposentadoria, aposentado, pensionista, revisão, vida toda, INSS, Advogado"></meta>
-      <meta name="description" content="Descubra como aumentar o valor da sua aposentadoria e receber uma indenização."></meta>
+      <title>Aposentadoria negada tem solução</title>
+      <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
+      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
     </Head>
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'/'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'}
           buttonText={'Quero ser atendido'}
         />
     </div>
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="O VALOR DA SUA APOSENTADORIA PODE DOBRAR"
-      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos. Clique no botão abaixo para descobrir se você tem direito.</>}
+      title="Aposentadoria negada tem solução"
+      subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
       buttonText="Quero ser atendido"
-      buttonLink="/"
-      advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
-      headerDesktopDescription="Aposentada recebeu aposentadoria maior"
+      headerDesktopDescription="Aposentadoria negada"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
-      headerMobileDescription="Aposentada recebeu aposentadoria maior"
+      headerMobileDescription="Aposentadoria negada"
     />
 
     <FormsTopics 
-      firstTitle="Poupe seu tempo" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> e indicamos como conquistar seus direitos.</>}
-      secondTitle="Resolva sua necessidade"
-      secondSubTitle={<>Nossos <strong>advogados especialistas</strong> entrarão em contato para atendê-lo e indicar a melhor solução.</>}
+      firstTitle="Sem compromisso" 
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste sua aposentadoria.</>}
+      secondTitle="Atendimento especializado"
+      secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
       thirdTitle="Conquiste seus direitos"
-      thirdSubTitle={<>Conte com nossa <strong>experiência</strong> de <strong>45 anos</strong> e descubra se você tem direito à revisão da vida toda.</>}
+      thirdSubTitle={<>Nossos advogados entrarão em contato para indicar a <strong>melhor solução</strong>.</>}
       cleanModel={true}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Você pode ter uma aposentadoria melhor'} 
+      title={'Você pode ter direito à aposentadoria'} 
       text={
         <>
           <p>
-            Milhares de <strong>aposentados </strong>que contribuíram ao INSS <strong>antes de 1994</strong>, podem estar recebendo uma <strong>aposentadoria menor</strong> do que deveriam.<br/>
-          </p>
+            É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe o direito de receber</strong>. 
+          </p><br />
           <p>
-            Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.<br /> 
+            De janeiro a março de 2022, o INSS negou <strong>3 em cada 4</strong> pedidos que foram feitos, conforme dados do boletim estatístico da previdência social.
+          </p><br />
+          <p>
+            Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua <strong>aposentadoria</strong>.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
-      cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Vantagens da Revisão da Vida Toda'} 
+      title={'Como conquistar sua aposentadoria'} 
       text={
         <>  
           <p>
-            Em dezembro de 2022 o STF aprovou a Revisão da Vida Toda, que tem como objetivo <strong>corrigir a injustiça</strong> no cálculo nas aposentadorias.
-          </p>
+            Após a resposta negativa do INSS, é possível fazer um recurso administrativo.
+          </p><br />
           <p>
-            Agora é possível considerar todas as contribuições feitas ao longo da vida para <strong>recalcular</strong> milhares de <strong>aposentadorias</strong> e <strong>pensões</strong>.
+            Porém, esse recurso é <strong>demorado</strong> e na maioria dos casos o INSS <strong>nega</strong> o pedido mais uma vez.
+          </p><br />
+          <p>
+            Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
           </p>
         </>
       } 
+      listText={[
+        "Colheita",
+        "Plantio",
+        "Tratamento da terra",
+        "Pecuária",
+        "Pesca",
+        "Seringal",
+        "Garimpo",
+      ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
-      cleanModeText={'A Revisão da Vida Toda pode gerar um aumento no valor mensal de milhares de aposentadoria e pensões.'}
-    />
-
-    {/* imagem deve ser com width: 560px por heigh: 315px */}
-    <InsideTopics 
-      title={'Quem tem direito?'} 
-      text={<p>Infelizmente não são todas as pessoas que têm esse direito. A Revisão da Vida Toda se aplica apenas aos <strong>aposentados</strong> e <strong>pensionistas</strong> que:</p>} 
-      listText={[
-        <>Contribuíram ao INSS <strong>antes de 1994</strong> e;</>,
-        <>Recebem o benefício <strong>há menos de 10 anos.</strong></>
-      ]}
-      buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
-      imageDescription={'APensionista recebeu um valor maior de benefício'} 
-      cleanMode={true}
-      cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
 
     <PeopleComents 
@@ -131,41 +126,53 @@ return (
       cleanLayout={true}
       clientsComentCard={[
         {
-          title: 'Muito bem atendida',
-          text:'Muito bem atendida pela excelente advogada, Dra. Bruna Stephano, "expert" em direito previdenciário. Super Recomendo!',
+          title: 'Excelentes profissionais',
+          text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
           starNumber:5,
-          clientName:'Doroti Valeixo'
+          clientName:'Marines Gai'
         },
         {
-          title: 'Confiança e profissionalismo',
-          text:'Sou cliente deste conceituado escritório de advocacia há mais de 20 anos, e sempre fui atendido com muito profissionalismo. Recomendo!',
+          title: 'Muito bom',
+          text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
           starNumber:5,
-          clientName:'Tadeu Timowicz'
+          clientName:'William Fabrício de Oliveira'
         },
         {
-          title: 'Há mais de 25 anos',
-          text:'Atendimento impecável, tratei com os advogados mais experientes da área. Sou cliente do escritório a mais de 25 anos.',
+          title: 'Muito atenciosos',
+          text:'Muito atenciosos. Fiquei satisfeita com o atendimento.',
           starNumber:5,
-          clientName:'Nilva Carvalho'
+          clientName:'Shirley Ribeiro da Costa'
         },
         {
-          title: 'Rápido e excelente trabalho',
-          text:'Gostaria de agradecer o excelente trabalho realizado pela Dra Bruna Stefano. O processo foi concluído com sucesso em um tempo muito bom.',
+          title: 'Muito bem atendido',
+          text:'Fui muito bem atendido nota 20!',
           starNumber:5,
-          clientName:'Daiane Lima'
+          clientName:'Dicezar Gomes'
+        },
+        {
+          title: 'Estão de parabéns',
+          text:'Essa equipe da Glomb Advogados é ótima. Rapidinho me deu resposta do que eu precisava, estão de parabéns. Muito obrigada.',
+          starNumber:5,
+          clientName:'Selma Januaria da Silva'
+        },
+        {
+          title: 'Ótimo!',
+          text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
+          starNumber:5,
+          clientName:'Matilde Reami Rodrigues'
+        },
+        {
+          title: 'Extremamante qualificados',
+          text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
+          starNumber:5,
+          clientName:'Marcos Aurélio Padilha'
         },
         {
           title: 'Atendimento excelente',
-          text:'Ótimo atendimento, excelente. Super indico para quem está procurando um serviço de qualidade.',
+          text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
           starNumber:5,
           clientName:'Gabriela Fialho'
-        },
-        {
-          title: 'Profissionais focados e respeitosos',
-          text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
-          starNumber:5,
-          clientName:'Matilde Rodrigues'
-        },
+        }
       ]}
     />
     
@@ -327,4 +334,4 @@ return (
   )
 }
 
-export default VidaTodaClean
+export default AposentadoriaTempoEspecial

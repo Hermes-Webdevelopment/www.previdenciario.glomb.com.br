@@ -19,36 +19,36 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
-      <meta property='og:title' content='Você pode se aposentar antes'/>
+      <meta property='og:title' content='Conquiste sua aposentadoria'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
-      <meta property='og:image:alt' content='Aposentadoria Especial e tempo especial'/>
-      <meta property='og:description' content='Quem trabalhou em atividades prejudiciais se aposenta antes e com um valor maior.'/>
-      <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'/>
+      <meta property='og:image:alt' content='Aposentadoria por Idade'/>
+      <meta property='og:description' content='Quem completou 60 anos de idade e contribuiu ao INSS por 15 anos já pode ter direito à aposentadoria.'/>
+      <meta property='og:url' content='https://previdenciario.com.br/aposentadoriaporidade/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Glomb - O valor da sua aposentadoria pode dobrar</title>
-      <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
-      <meta name="description" content="Descubra como aumentar o valor da sua aposentadoria e receber uma indenização."></meta>
+      <title>Conquiste sua Aposentadoria</title>
+      <meta name="keywords" content="aposentadoria, aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição"></meta>
+      <meta name="description" content="Quem tem 60 anos e 15 anos de contribuição já pode ter direito à aposentadoria."></meta>
     </Head>
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'}
           buttonText={'Quero ser atendido'}
         />
     </div>
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="Você pode se aposentar antes"
-      subTitle={<>Quem trabalhou em <strong>atividades perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais</strong> pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
+      title="Conquiste sua Aposentadoria"
+      subTitle={<>Quem completou <strong>60 anos</strong> de idade e contribuiu ao INSS por <strong>15 anos</strong> já pode ter direito à <strong>aposentadoria</strong>.</>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
-      headerDesktopDescription="Aposentada recebeu aposentadoria maior"
+      headerDesktopDescription=" Aposentadoria por idade"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
-      headerMobileDescription="Aposentada recebeu aposentadoria maior"
+      headerMobileDescription=" Aposentadoria por idade"
     />
 
     <FormsTopics 
@@ -63,77 +63,21 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Aposente-se antes e com um valor maior'} 
+      title={'Você já pode ter direito à aposentadoria'} 
       text={
         <>
           <p>
-            Todas as pessoas que trabalharam em atividades <strong>perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais à saúde</strong> têm direito a uma <strong>aposentadoria antecipada</strong> e com <strong>valores maiores</strong>. 
+            As pessoas que já completaram <strong>60 anos de idade</strong> e contribuíram para o INSS por <strong>15 anos</strong> podem ter direito de se aposentar. 
+          </p><br />
+          <p>
+            Além disso, quem já trabalhou na <strong>roça</strong> ou em <strong>atividades prejudiciais</strong> à saúde pode usar esse tempo de trabalho para conquistar uma <strong>aposentadoria melhor</strong>.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
-      cleanMode={true}
-    />
-
-    {/* imagem deve ser com width: 560px por heigh: 315px */}
-    <InsideTopics 
-      title={'Quem tem direito?'} 
-      text={
-        <>  
-          <p>
-            Quem trabalhou em contato com qualquer um dos itens abaixo tem vantagens na aposentadoria:
-          </p>
-        </>
-      } 
-      listText={[
-        "Insalubridade ou Periculosidade",
-        "Ruído",
-        "Forno (calor em geral)",
-        "Câmara Fria (frio em geral)",
-        "Eletricidade",
-        "Óleo, graxa, gasolina",
-        "Combustíveis",
-        "Petróleo",
-        "Poeira",
-        "Solda",
-        "Sangue",
-        "Radiação",
-        "Produtos químicos",
-        "Maquinário pesado"
-      ]}
-      buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
-      imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
-      invertImagePosition={true}
-      cleanMode={true}
-    />
-
-    {/* imagem deve ser com width: 560px por heigh: 315px */}
-    <InsideTopics 
-      title={'Atividades'} 
-      text={<p>Quem trabalhou por qualquer período em alguma dessas atividades também têm direito a uma aposentadoria mais vantajosa:</p>} 
-      listText={[
-        "Hospitais",
-        "Laboratórios",
-        "Consultórios",
-        "Segurança",
-        "Indústria metalúrgica",
-        "Indústria química",
-        "Gráfica",
-        "Madeireira",
-        "Mineração",
-        "Plataforma ou Refinarias"
-      ]}
-      buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
-      image={'/assets/images/aposentadoria/quemTemDireito.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
-      imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
     />
 
@@ -185,6 +129,12 @@ return (
           text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
           starNumber:5,
           clientName:'Marcos Aurélio Padilha'
+        },
+        {
+          title: 'Atendimento excelente',
+          text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
+          starNumber:5,
+          clientName:'Gabriela Fialho'
         }
       ]}
     />

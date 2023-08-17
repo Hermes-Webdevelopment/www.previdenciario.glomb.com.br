@@ -10,6 +10,24 @@
     }
 }
 
+.removeMarginBotton {
+    margin-bottom: 0 !important;
+}
+
+ul {
+    li {
+        .removeMarginBotton {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    li:last-child{
+        .removeMarginBotton {
+            margin-bottom: 32px !important;
+        }
+    }
+}
+
 .insideTopicsMainBox {
     width: 100%;
     height: auto;

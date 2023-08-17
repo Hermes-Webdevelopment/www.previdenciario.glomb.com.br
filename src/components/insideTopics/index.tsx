@@ -58,7 +58,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                             <ul>
                                 {
                                     listText.map((text: string | ReactNode) => {
-                                        return <li key={Math.random()}><p>{text}</p></li>
+                                        return <li key={Math.random()}><p className={styles.removeMarginBotton}>{text}</p></li>
                                     })
                                 }
                             </ul>
