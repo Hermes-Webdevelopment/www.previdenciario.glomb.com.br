@@ -5,6 +5,7 @@ import BlueCheck from '@/public/assets/svgs/blueCheck.svg';
 import BlueButton from '../atons/blueButton';
 import { ReactNode } from 'react';
 import WhiteButton from '../atons/whiteButton';
+import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface staticBannerInterface {
     title: ReactNode | string; 
@@ -21,6 +22,8 @@ interface staticBannerInterface {
 export default function StaticBanner(props: staticBannerInterface) {
 
     const {title, subTitle, buttonText, buttonLink, advantages, headerDesktop, headerDesktopDescription, headerMobile, headerMobileDescription} = props
+
+    const screenSize = getScreenSiteAndWidth()
 
     return (
         <section className={styles.staticbannerSection}>
@@ -51,23 +54,28 @@ export default function StaticBanner(props: staticBannerInterface) {
                 </div>
                 <div className={styles.imageBox}>
                     
-                    <Image
-                        className={'apearMobile'}
-                        height={1090}
-                        width={1000}
-                        src={headerDesktop}
-                        alt={headerDesktopDescription}
-                        loading={'lazy'}
-                    />
+                    {
+                        screenSize.dynamicWidth >= 992 ?
+                            <Image
+                                className={'apearMobile'}
+                                height={1090}
+                                width={1000}
+                                src={headerDesktop}
+                                alt={headerDesktopDescription}
+                                priority
+                            />
 
-                    <Image
-                        className={'apearDesktop'}
-                        height={965}
-                        width={503}
-                        src={headerMobile}
-                        alt={headerMobileDescription}
-                        loading={'lazy'}
-                    />
+                            :
+
+                            <Image
+                                className={'apearDesktop'}
+                                height={965}
+                                width={503}
+                                src={headerMobile}
+                                alt={headerMobileDescription}
+                                priority
+                            />
+                    }
 
                 </div>
             </div>
