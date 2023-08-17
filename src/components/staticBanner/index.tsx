@@ -5,7 +5,6 @@ import BlueCheck from '@/public/assets/svgs/blueCheck.svg';
 import BlueButton from '../atons/blueButton';
 import { ReactNode } from 'react';
 import WhiteButton from '../atons/whiteButton';
-import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface staticBannerInterface {
     title: ReactNode | string; 
@@ -22,8 +21,6 @@ interface staticBannerInterface {
 export default function StaticBanner(props: staticBannerInterface) {
 
     const {title, subTitle, buttonText, buttonLink, advantages, headerDesktop, headerDesktopDescription, headerMobile, headerMobileDescription} = props
-
-    const screenSize = getScreenSiteAndWidth()
 
     return (
         <section className={styles.staticbannerSection}>
@@ -60,7 +57,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={1000}
                         src={headerDesktop}
                         alt={headerDesktopDescription}
-                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
+                        loading={'lazy'}
                     />
 
                     <Image
@@ -69,7 +66,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         width={503}
                         src={headerMobile}
                         alt={headerMobileDescription}
-                        loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
+                        loading={'lazy'}
                     />
 
                 </div>
