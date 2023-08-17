@@ -39,6 +39,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                                 src={imageClean} 
                                 alt={imageDescription} 
                                 loading="lazy"
+                                unoptimized={true}
                             />
                             :
                             <Image 
@@ -47,6 +48,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                                 height={ cleanMode ? 500 : 360}
                                 src={image} 
                                 alt={imageDescription} 
+                                unoptimized={true}
                             />
                     }
                 </div>
