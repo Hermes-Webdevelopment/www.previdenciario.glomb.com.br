@@ -11,7 +11,7 @@ interface staticBannerInterface {
     subTitle: ReactNode | string; 
     buttonText: string; 
     buttonLink: string; 
-    advantages: string[]; 
+    advantages?: string[]; 
     headerDesktop: string;
     headerMobile: string;
     headerDesktopDescription: string;
@@ -42,6 +42,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                     </div>
                     <div className={styles.checkedContainer}>
                         {
+                            advantages &&
                             advantages.map((advantage: string) => {
                                 return <p key={advantage}><BlueCheck />{advantage}</p>
                             })

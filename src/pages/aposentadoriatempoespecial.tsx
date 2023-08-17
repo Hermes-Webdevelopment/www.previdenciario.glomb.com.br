@@ -8,9 +8,8 @@ import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import SingleText from '../components/singleTextSection';
 import PeopleSlider from '../components/PeopleSlider';
-import Faq from '../components/faq';
 
-const VidaTodaClean: NextPage = () => {
+const AposentadoriaTempoEspecial: NextPage = () => {
   
 return (
   <>
@@ -21,33 +20,32 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
-      <meta property='og:title' content='O valor da sua aposentadoria pode dobrar'/>
+      <meta property='og:title' content='Você pode se aposentar antes'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
-      <meta property='og:image:alt' content='Logomarca Glomb'/>
-      <meta property='og:description' content='Descubra como aumentar o valor da sua aposentadoria e receber uma indenização.'/>
-      <meta property='og:url' content='https://previdenciario.glomb.com.br/vidatoda/'/>
+      <meta property='og:image:alt' content='Aposentadoria Especial e tempo especial'/>
+      <meta property='og:description' content='Quem trabalhou em atividades prejudiciais se aposenta antes e com um valor maior.'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'/>
       <meta property='og:type' content='website'/>
 
       <title>Glomb - O valor da sua aposentadoria pode dobrar</title>
-      <meta name="keywords" content="aposentadoria, aposentado, pensionista, revisão, vida toda, INSS, Advogado"></meta>
+      <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
       <meta name="description" content="Descubra como aumentar o valor da sua aposentadoria e receber uma indenização."></meta>
     </Head>
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'/'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'}
           buttonText={'Quero ser atendido'}
         />
     </div>
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="O VALOR DA SUA APOSENTADORIA PODE DOBRAR"
-      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos. Clique no botão abaixo para descobrir se você tem direito.</>}
+      title="Você pode se aposentar antes"
+      subTitle={<>Quem trabalhou em <strong>atividades perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais</strong> pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
       buttonText="Quero ser atendido"
-      buttonLink="/"
-      advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
@@ -55,29 +53,26 @@ return (
     />
 
     <FormsTopics 
-      firstTitle="Poupe seu tempo" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> e indicamos como conquistar seus direitos.</>}
-      secondTitle="Resolva sua necessidade"
-      secondSubTitle={<>Nossos <strong>advogados especialistas</strong> entrarão em contato para atendê-lo e indicar a melhor solução.</>}
+      firstTitle="Sem compromisso" 
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste sua aposentadoria.</>}
+      secondTitle="Atendimento especializado"
+      secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
       thirdTitle="Conquiste seus direitos"
-      thirdSubTitle={<>Conte com nossa <strong>experiência</strong> de <strong>45 anos</strong> e descubra se você tem direito à revisão da vida toda.</>}
+      thirdSubTitle={<>Nossos advogados entrarão em contato para indicar a <strong>melhor solução</strong>.</>}
       cleanModel={true}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Você pode ter uma aposentadoria melhor'} 
+      title={'Aposente-se antes e com um valor maior'} 
       text={
         <>
           <p>
-            Milhares de <strong>aposentados </strong>que contribuíram ao INSS <strong>antes de 1994</strong>, podem estar recebendo uma <strong>aposentadoria menor</strong> do que deveriam.<br/>
-          </p>
-          <p>
-            Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.<br /> 
+            Todas as pessoas que trabalharam em atividades <strong>perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais à saúde</strong> têm direito a uma <strong>aposentadoria antecipada</strong> e com <strong>valores maiores</strong>. 
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -87,19 +82,32 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Vantagens da Revisão da Vida Toda'} 
+      title={'Quem tem direito?'} 
       text={
         <>  
           <p>
-            Em dezembro de 2022 o STF aprovou a Revisão da Vida Toda, que tem como objetivo <strong>corrigir a injustiça</strong> no cálculo nas aposentadorias.
-          </p>
-          <p>
-            Agora é possível considerar todas as contribuições feitas ao longo da vida para <strong>recalcular</strong> milhares de <strong>aposentadorias</strong> e <strong>pensões</strong>.
+            Quem trabalhou em contato com qualquer um dos itens abaixo tem vantagens na aposentadoria:
           </p>
         </>
       } 
+      listText={[
+        "Insalubridade ou Periculosidade",
+        "Ruído",
+        "Forno (calor em geral)",
+        "Câmara Fria (frio em geral)",
+        "Eletricidade",
+        "Óleo, graxa, gasolina",
+        "Combustíveis",
+        "Petróleo",
+        "Poeira",
+        "Solda",
+        "Sangue",
+        "Radiação",
+        "Produtos químicos",
+        "Maquinário pesado"
+      ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.jpg'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -110,14 +118,22 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Quem tem direito?'} 
-      text={<p>Infelizmente não são todas as pessoas que têm esse direito. A Revisão da Vida Toda se aplica apenas aos <strong>aposentados</strong> e <strong>pensionistas</strong> que:</p>} 
+      title={'Atividades'} 
+      text={<p>Quem trabalhou por qualquer período em alguma dessas atividades também têm direito a uma aposentadoria mais vantajosa:</p>} 
       listText={[
-        <>Contribuíram ao INSS <strong>antes de 1994</strong> e;</>,
-        <>Recebem o benefício <strong>há menos de 10 anos.</strong></>
+        "Hospitais",
+        "Laboratórios",
+        "Consultórios",
+        "Segurança",
+        "Indústria metalúrgica",
+        "Indústria química",
+        "Gráfica",
+        "Madeireira",
+        "Mineração",
+        "Plataforma ou Refinarias"
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'/'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/quemTemDireito.webp'}
       imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.png'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
@@ -133,14 +149,14 @@ return (
       cleanLayout={true}
       clientsComentCard={[
         {
-          title: 'Muito bem atendida',
-          text:'Muito bem atendida pela excelente advogada, Dra. Bruna Stephano, "expert" em direito previdenciário. Super Recomendo!',
+          title: 'Excelentes profissionais',
+          text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
           starNumber:5,
           clientName:'Doroti Valeixo'
         },
         {
-          title: 'Confiança e profissionalismo',
-          text:'Sou cliente deste conceituado escritório de advocacia há mais de 20 anos, e sempre fui atendido com muito profissionalismo. Recomendo!',
+          title: 'Muito bom',
+          text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
           starNumber:5,
           clientName:'Tadeu Timowicz'
         },
@@ -224,9 +240,6 @@ return (
       ]}
     />
     
-    <SingleText 
-      text='Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'
-    />
     <PeopleSlider 
       title='Nossos profissionais'
       subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
@@ -302,43 +315,9 @@ return (
         },
       ]}
     />
-
-    {/* <Faq 
-      title={'Dúvidas frequentes'}
-      questionWithAnswer={[
-        {
-          question: 'Quais são os direitos legais dos idosos e como protegê-los?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'Como posso garantir a segurança financeira e o planejamento patrimonial para a terceira idade?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'Quais são as opções legais para cuidados de saúde e tomada de decisões médicas para idosos?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'O que fazer em casos de abuso ou negligência de idosos e como buscar justiça?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'Como posso planejar uma sucessão familiar e transmitir meu patrimônio para meus entes queridos?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'Quais são os tipos de contratos ou acordos legais recomendados para idosos em diferentes situações?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-        {
-          question: 'Quais são os benefícios e recursos disponíveis para os idosos e como acessá-los legalmente?',
-          answer:'Para garantir a proteção desses direitos, é essencial buscar o auxílio de um advogado especializado em direitos dos idosos. Um profissional qualificado pode ajudar a identificar violações dos direitos, fornecer orientação legal, auxiliar na elaboração de documentos importantes, como testamentos e procurações, e representar os interesses dos idosos em casos de abuso ou negligência.'
-        },
-      ]}
-    /> */}
       
   </>
   )
 }
 
-export default VidaTodaClean
+export default AposentadoriaTempoEspecial
