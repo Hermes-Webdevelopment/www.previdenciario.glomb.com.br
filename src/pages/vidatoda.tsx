@@ -6,8 +6,9 @@ import InsideTopics from '../components/insideTopics';
 import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
+import PeopleSlider from '../components/PeopleSlider';
 
-const Aposentadoria: NextPage = () => {
+const VidaTodaClean: NextPage = () => {
   
 return (
   <>
@@ -41,23 +42,24 @@ return (
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
       title="O VALOR DA SUA APOSENTADORIA PODE DOBRAR"
-      subTitle={<>A Revisão da Vida Toda pode aumentar o valor da sua aposentadoria ou pensão e pagar uma indenização pelas diferenças dos últimos 5 anos.</>}
+      subTitle={<>Com a Revisão da Vida Toda você pode <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e receber uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos. Clique no botão abaixo para descobrir se você tem direito.</>}
       buttonText="Quero ser atendido"
       buttonLink="/"
       advantages={["Sem compromisso", "100% on-line", "Atendimento especializado"]}
-      headerDesktop='/assets/images/aposentadoria/headerPerson.jpg'
+      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
+      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
     />
 
     <FormsTopics 
       firstTitle="Poupe seu tempo" 
-      firstSubTitle="Avaliamos seu caso sem compromisso e indicamos como conquistar seus direitos."
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> e indicamos como conquistar seus direitos.</>}
       secondTitle="Resolva sua necessidade"
-      secondSubTitle="Nossos advogados especialistas entrarão em contato para atendê-lo e indicar a melhor solução."
+      secondSubTitle={<>Nossos <strong>advogados especialistas</strong> entrarão em contato para atendê-lo e indicar a melhor solução.</>}
       thirdTitle="Conquiste seus direitos"
-      thirdSubTitle="Conte com nossa experiência de 45 anos e descubra se você tem direito à revisão da vida toda."
+      thirdSubTitle={<>Conte com nossa <strong>experiência</strong> de <strong>45 anos</strong> e descubra se você tem direito à revisão da vida toda.</>}
+      cleanModel={true}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -71,14 +73,14 @@ return (
           <p>
             Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.<br /> 
           </p>
-          <p>
-            Por esse motivo, o <strong>valor</strong> de <strong>muitos benefícios</strong> pode estar <strong>mais baixo</strong> do que deveria ser.
-          </p>
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      image={'/assets/images/aposentadoria/imagemteste.webp'} 
+      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
+      cleanMode={true}
+      cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -92,16 +94,16 @@ return (
           <p>
             Agora é possível considerar todas as contribuições feitas ao longo da vida para <strong>recalcular</strong> milhares de <strong>aposentadorias</strong> e <strong>pensões</strong>.
           </p>
-          <p>
-            Isso pode refletir em um <strong>aumento no valor</strong> mensal do seu benefício e <strong>indenização</strong> pelas diferenças dos últimos 5 anos.
-          </p>
         </>
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
+      image={'/assets/images/aposentadoria/imagemteste.webp'} 
+      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
+      cleanMode={true}
+      cleanModeText={'A Revisão da Vida Toda pode gerar um aumento no valor mensal de milhares de aposentadoria e pensões.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -114,64 +116,19 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'/'} 
-      grayBoxText={<>Se você se encaixa nesses requisitos, <strong>clique no botão abaixo</strong> e descubra se você tem direito à revisão da vida toda.</>}
-      image={'/assets/images/aposentadoria/quemTemDireito.webp'} 
+      image={'/assets/images/aposentadoria/imagemteste.webp'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
-    />
-    
-    <ImageGalerySlider 
-      title={'Transformar vidas por meio da justiça é nosso propósito'} 
-      subTitle={['46+ anos de atuação', '25.000+ clientes atendidos']} 
-      initialSlideNumber={5}
-      carrouselImages={[
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.jpg',
-          imageDescription: 'Corredor do escritório Glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.jpg',
-          imageDescription: 'Sala de atendimento aos clientes glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.jpg',
-          imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.jpg',
-          imageDescription: 'Salas dos advogados especialistas'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.jpg',
-          imageDescription: 'Salas dos advogados especialistas'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.jpg',
-          imageDescription: 'Recepção escritório glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.jpg',
-          imageDescription: 'Recepção escritório glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.jpg',
-          imageDescription: 'Recepção escritório glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.jpg',
-          imageDescription: 'Recepção escritório glomb advogados'
-        },
-        {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.jpg',
-          imageDescription: 'Sala de reuniões glomb advogados'
-        }
-      ]}
+      cleanMode={true}
+      cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
 
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
       clientCardsTitle='O que nossos clientes dizem'
-      imageUrl={'/assets/images/aposentadoria/grupoPessoas.png'} 
+      imageUrl={'/assets/images/aposentadoria/grupoPessoas.webp'} 
       imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
+      cleanLayout={true}
       clientsComentCard={[
         {
           title: 'Muito bem atendida',
@@ -211,8 +168,99 @@ return (
         },
       ]}
     />
+    
+    <ImageGalerySlider 
+      title={'Transformar vidas por meio da justiça é nosso propósito'} 
+      subTitle={['46+ anos de atuação', '25.000+ clientes atendidos']} 
+      initialSlideNumber={5}
+      cleanCode={true}
+      carrouselImages={[
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.webp',
+          imageDescription: 'Corredor do escritório Glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.webp',
+          imageDescription: 'Sala de atendimento aos clientes glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.webp',
+          imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.webp',
+          imageDescription: 'Salas dos advogados especialistas'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.webp',
+          imageDescription: 'Salas dos advogados especialistas'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.webp',
+          imageDescription: 'Recepção escritório glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.webp',
+          imageDescription: 'Recepção escritório glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.webp',
+          imageDescription: 'Recepção escritório glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.webp',
+          imageDescription: 'Recepção escritório glomb advogados'
+        },
+        {
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.webp',
+          imageDescription: 'Sala de reuniões glomb advogados'
+        }
+      ]}
+    />
+    
+    <PeopleSlider 
+      title='Nossos profissionais'
+      subTitle={<p>Nossa equipe altamente qualificada trabalha com excelência e rigor técnico para oferecer o melhor serviço.</p>}
+      carrouselImages={[
+        {
+          imageUrl: '/assets/images/advogados/angela_glomb.webp',
+          imageTitle: 'Angela Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 37.004'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/daniel_glomb.webp',
+          imageTitle: 'Daniel Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 45.288'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/jose_lucio_glomb.webp',
+          imageTitle: 'José Lúcio Glomb',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 6.838'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/lucas_emmendorfer.webp',
+          imageTitle: 'Lucas Emmendorfer',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 111.802'
+        },
+        
+        {
+          imageUrl: '/assets/images/advogados/rogerio_loch.webp',
+          imageTitle: 'Rogério Loch',
+          imageSubTitle: 'Advogado',
+          text: 'OAB/PR 113.316'
+        }
+      ]}
+    />
+      
   </>
   )
 }
 
-export default Aposentadoria
+export default VidaTodaClean

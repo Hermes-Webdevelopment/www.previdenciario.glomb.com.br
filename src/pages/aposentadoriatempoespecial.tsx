@@ -240,7 +240,7 @@ return (
     
     <PeopleSlider 
       title='Nossos profissionais'
-      subTitle={<p>Contamos com uma equipe altamente qualificada.<br />Trabalhamos com excelência e rigor técnico para oferecer o melhor serviço.</p>}
+      subTitle={<p>Nossa equipe altamente qualificada trabalha com excelência e rigor técnico para oferecer o melhor serviço.</p>}
       carrouselImages={[
         
         {
