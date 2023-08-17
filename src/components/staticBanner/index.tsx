@@ -54,28 +54,23 @@ export default function StaticBanner(props: staticBannerInterface) {
                 </div>
                 <div className={styles.imageBox}>
                     
-                    {
-                        screenSize.dynamicWidth >= 992 ?
-                            <Image
-                                className={'apearMobile'}
-                                height={1090}
-                                width={1000}
-                                src={headerDesktop}
-                                alt={headerDesktopDescription}
-                                priority
-                            />
+                    <Image
+                        className={'apearMobile'}
+                        height={1090}
+                        width={1000}
+                        src={headerDesktop}
+                        alt={headerDesktopDescription}
+                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
+                    />
 
-                            :
-
-                            <Image
-                                className={'apearDesktop'}
-                                height={965}
-                                width={503}
-                                src={headerMobile}
-                                alt={headerMobileDescription}
-                                priority
-                            />
-                    }
+                    <Image
+                        className={'apearDesktop'}
+                        height={965}
+                        width={503}
+                        src={headerMobile}
+                        alt={headerMobileDescription}
+                        loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
+                    />
 
                 </div>
             </div>
