@@ -118,8 +118,8 @@ export default function PeopleSlider(props: peopleSlider) {
                                 <div className={styles.imgDiv}>
                                     <Image 
                                         loading="lazy"
-                                        height={413}
-                                        width={254}
+                                        height={420}
+                                        width={320}
                                         src={image.imageUrl}
                                         alt={image.imageTitle}
                                     />
