@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    bottom: 40px;
+    bottom: 20px;
     z-index: 999;
     width: 100%;
     padding-left: 15px;
@@ -54,14 +54,14 @@
 @media (max-width: 768px) {
     .buttonContainer {
         width: 100%;
-        font-size: $typography-paragraph-dstext-xs-semi-bold-font-size;
-        text-decoration: $typography-paragraph-dstext-xs-semi-bold-text-decoration;
-        font-family: $typography-paragraph-dstext-xs-semi-bold-font-family;
-        font-weight: $typography-paragraph-dstext-xs-semi-bold-font-weight;
-        font-style: $typography-paragraph-dstext-xs-semi-bold-font-style;
-        font-stretch: $typography-paragraph-dstext-xs-semi-bold-font-stretch;
-        letter-spacing: $typography-paragraph-dstext-xs-semi-bold-letter-spacing;
-        line-height: $typography-paragraph-dstext-xs-semi-bold-line-height;
+        font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+        text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+        font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+        font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+        font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+        font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+        line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
         
     }
 }

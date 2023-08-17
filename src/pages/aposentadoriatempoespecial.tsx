@@ -47,7 +47,7 @@ return (
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.jpg'
+      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
     />
 
@@ -73,7 +73,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.jpg'} 
+      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -107,7 +107,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.jpg'} 
+      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
@@ -132,7 +132,7 @@ return (
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
       image={'/assets/images/aposentadoria/quemTemDireito.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.jpg'}
+      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
     />
@@ -140,7 +140,7 @@ return (
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
       clientCardsTitle='O que nossos clientes dizem'
-      imageUrl={'/assets/images/aposentadoria/grupoPessoas.jpg'} 
+      imageUrl={'/assets/images/aposentadoria/grupoPessoas.webp'} 
       imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
       cleanLayout={true}
       clientsComentCard={[
@@ -196,43 +196,43 @@ return (
       cleanCode={true}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.webp',
           imageDescription: 'Corredor do escritório Glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.webp',
           imageDescription: 'Sala de atendimento aos clientes glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.webp',
           imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.jpg',
+          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.webp',
           imageDescription: 'Sala de reuniões glomb advogados'
         }
       ]}

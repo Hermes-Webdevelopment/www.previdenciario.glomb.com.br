@@ -126,7 +126,7 @@
                 margin-top: 10px;
             }
 
-            h4 {
+            .personName {
                 margin-top: 24px;
                 font-size: $typography-title-dstitle-md-font-size;
                 text-decoration: $typography-title-dstitle-md-text-decoration;
@@ -231,7 +231,7 @@
                     line-height: $typography-paragraph-dstext-sm-line-height;
                 }
     
-                h4 {
+                .personName {
                     font-size: $typography-title-dstitle-md-font-size;
                     text-decoration: $typography-title-dstitle-md-text-decoration;
                     font-family: $typography-title-dstitle-md-font-family;

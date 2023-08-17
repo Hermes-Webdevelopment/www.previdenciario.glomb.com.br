@@ -75,7 +75,7 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
                                                     }
                                                 </div>
                                                 <p>{coment.text}</p>
-                                                <h4>{coment.clientName}</h4>
+                                                <p className={styles.personName}>{coment.clientName}</p>
                                             </div>
                                         </SwiperSlide>
                                     )
