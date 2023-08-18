@@ -95,7 +95,7 @@ return (
             Após a resposta negativa do INSS, é possível fazer um recurso administrativo. 
           </p><br />
           <p>
-            Porém, esse recurso é <strong>demorado</strong> e na maioria dos casos o INSS <strong>nega</strong> o pedido mais uma vez.
+            Porém, esse recurso é demorado e na maioria dos casos o INSS nega o pedido mais uma vez.
           </p><br />
           <p>
             Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.

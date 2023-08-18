@@ -19,36 +19,38 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
-      <meta property='og:title' content='Aposentadoria negada tem solução'/>
+      <meta property='og:title' content='Pensão negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
-      <meta property='og:image:alt' content='Aposentadoria negada INSS'/>
-      <meta property='og:description' content='O INSS nega muitas aposentadorias, até para quem tem direito. Saiba como resolver.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/aposentadorianegada/'/>
+      <meta property='og:image:alt' content='Pensão negada pelo INSS'/>
+      <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução'/>
+      <meta property='og:url' content='https://previdenciario.com.br/pensaonegada/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Aposentadoria negada tem solução</title>
-      <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
+      <title>Pensão negada tem solução</title>
+      <meta name="keywords" content="pensão por morte, pensão por morte inss, pensão por morte indeferida o que fazer, pensao por morte indeferido, pensao por morte negada o que fazer"></meta>
       <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
     </Head>
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
           buttonText={'Quero ser atendido'}
         />
     </div>
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="Aposentadoria negada tem solução"
-      subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
+      title="Pensão indeferida tem solução"
+      subTitle={<>O INSS nega 3 em cada 4 pedidos de benefício, mesmo para quem tem direito.<br />
+                  Então, se o seu pedido foi negado, não se preocupe!
+                </>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
-      headerDesktopDescription="Aposentadoria negada"
+      headerDesktopDescription="pensao por morte negada"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
-      headerMobileDescription="Aposentadoria negada"
+      headerMobileDescription="pensao por morte negada"
     />
 
     <FormsTopics 
@@ -62,22 +64,22 @@ return (
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
-    <InsideTopics 
-      title={'Você pode ter direito à aposentadoria'} 
+    <InsideTopics
+      title={'Você pode ter direito a receber Pensão do INSS'} 
       text={
         <>
           <p>
-            É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe o direito de receber</strong>. 
+            É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe</strong> o <strong>direito de receber</strong>.
           </p><br />
           <p>
             De janeiro a março de 2022, o INSS negou <strong>3 em cada 4</strong> pedidos que foram feitos, conforme dados do boletim estatístico da previdência social.
           </p><br />
           <p>
-            Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua <strong>aposentadoria</strong>.
+            Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua pensão.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -86,9 +88,33 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Como conquistar sua aposentadoria'} 
+      title={'Sua pensão foi negada? Não se preocupe'} 
       text={
         <>  
+          <p>
+            As causas mais comuns para o INSS negar pedidos de pensão por morte são:
+          </p>
+        </>
+      } 
+      listText={[
+        "Não reconhecimento de união estável.",
+        "Não reconhecimento de dependência econômica.",
+        "Falta de comprovação da qualidade de segurado do falecido.",
+      ]}
+      buttonText={'Quero ser atendido'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
+      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
+      invertImagePosition={true}
+      cleanMode={true}
+    />
+
+    {/* imagem deve ser com width: 560px por heigh: 315px */}
+    <InsideTopics
+      title={'Como conquistar sua Pensão'} 
+      text={
+        <>
           <p>
             Após a resposta negativa do INSS, é possível fazer um recurso administrativo.
           </p><br />
@@ -96,16 +122,14 @@ return (
             Porém, esse recurso é demorado e na maioria dos casos o INSS nega o pedido mais uma vez.
           </p><br />
           <p>
-            Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
+            Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça para receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
           </p>
-        </>
-      } 
+        </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
-      imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
-      invertImagePosition={true}
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
 

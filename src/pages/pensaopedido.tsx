@@ -19,36 +19,36 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
-      <meta property='og:title' content='Aposentadoria negada tem solução'/>
+      <meta property='og:title' content='Receba até 5 salários por mês do INSS'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
-      <meta property='og:image:alt' content='Aposentadoria negada INSS'/>
-      <meta property='og:description' content='O INSS nega muitas aposentadorias, até para quem tem direito. Saiba como resolver.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/aposentadorianegada/'/>
+      <meta property='og:image:alt' content='Pensão por morte'/>
+      <meta property='og:description' content='Dependentes de trabalhador ou aposentado falecido podem receber uma pensão mensal do INSS.'/>
+      <meta property='og:url' content='https://previdenciario.com.br/pensaopedido/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Aposentadoria negada tem solução</title>
-      <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
+      <title>Receba até 5 salários por mês do INSS</title>
+      <meta name="keywords" content="pensão por morte, pensão por morte inss, pensão por morte cônjuge, pensão por morte para filhos, viúva recebe pensão integral"></meta>
+      <meta name="description" content="Dependentes de trabalhador ou aposentado falecido podem receber uma pensão mensal do INSS."></meta>
     </Head>
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
           buttonText={'Quero ser atendido'}
         />
     </div>
 
     {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
-      title="Aposentadoria negada tem solução"
-      subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
+      title="Receba até 5 salários por mês do INSS"
+      subTitle={<>Dependentes de <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber uma <strong>pensão mensal</strong> do INSS de até <strong>5 salários</strong> mínimos.</>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
-      headerDesktopDescription="Aposentadoria negada"
+      headerDesktopDescription="Receba até 5 salários por mês do INSS"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
-      headerMobileDescription="Aposentadoria negada"
+      headerMobileDescription="Receba até 5 salários por mês do INSS"
     />
 
     <FormsTopics 
@@ -63,21 +63,18 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Você pode ter direito à aposentadoria'} 
+      title={'Receba de 1 a 5 salários-mínimos por mês do INSS'} 
       text={
         <>
           <p>
-            É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe o direito de receber</strong>. 
+            Os familiares <strong>dependentes</strong> de um <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber de <strong>1 a 5 salários</strong> mínimos por mês do INSS.
           </p><br />
           <p>
-            De janeiro a março de 2022, o INSS negou <strong>3 em cada 4</strong> pedidos que foram feitos, conforme dados do boletim estatístico da previdência social.
-          </p><br />
-          <p>
-            Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua <strong>aposentadoria</strong>.
+            A causa da morte <strong>não precisa</strong> ter relação com o trabalho para que você tenha direito de receber esse benefício.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -86,22 +83,26 @@ return (
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
-      title={'Como conquistar sua aposentadoria'} 
+      title={'Quem tem direito?'} 
       text={
         <>  
           <p>
-            Após a resposta negativa do INSS, é possível fazer um recurso administrativo.
-          </p><br />
+            Para receber pensão basta comprovar <strong>dependência econômica</strong> e <strong>relação familiar</strong> com a pessoa falecida.
+          </p> <br />
           <p>
-            Porém, esse recurso é demorado e na maioria dos casos o INSS nega o pedido mais uma vez.
-          </p><br />
-          <p>
-            Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
+            Têm direito à pensão por morte:
           </p>
         </>
       } 
+      listText={[
+        "Marido ou esposa",
+        "Companheiro(a)",
+        "Filhos menores de 21 anos",
+        "Filhos com deficiência grave de qualquer idade",
+        "Pais e irmãos",
+      ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
