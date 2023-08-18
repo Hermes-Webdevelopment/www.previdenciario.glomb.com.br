@@ -34,7 +34,7 @@ return (
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -46,7 +46,7 @@ return (
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="pensao por morte negada"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
@@ -79,7 +79,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -102,7 +102,7 @@ return (
         "Falta de comprovação da qualidade de segurado do falecido.",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -126,7 +126,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 

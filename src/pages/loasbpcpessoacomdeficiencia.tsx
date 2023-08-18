@@ -34,7 +34,7 @@ return (
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -44,7 +44,7 @@ return (
       title="Pessoas com deficiência podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para <strong>pessoas com deficiência</strong> de <strong>qualquer idade</strong> que não têm condições de se sustentar.</>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
@@ -77,7 +77,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -103,7 +103,7 @@ return (
         "Dentre outras",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 

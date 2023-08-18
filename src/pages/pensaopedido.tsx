@@ -34,7 +34,7 @@ return (
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -44,7 +44,7 @@ return (
       title="Receba até 5 salários por mês do INSS"
       subTitle={<>Dependentes de <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber uma <strong>pensão mensal</strong> do INSS de até <strong>5 salários</strong> mínimos.</>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Receba até 5 salários por mês do INSS"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
@@ -74,7 +74,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -102,7 +102,7 @@ return (
         "Pais e irmãos",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
