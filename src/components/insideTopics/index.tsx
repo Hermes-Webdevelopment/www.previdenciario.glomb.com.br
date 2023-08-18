@@ -55,7 +55,7 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     <div>{text}</div>
                     {
                         listText &&
-                            <ul>
+                            <ul className={`${listText.length > 7 && styles.divideSection}`}>
                                 {
                                     listText.map((text: string | ReactNode) => {
                                         return <li key={Math.random()}><p className={styles.removeMarginBotton}>{text}</p></li>

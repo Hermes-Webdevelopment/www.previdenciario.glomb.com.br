@@ -15,6 +15,24 @@
 }
 
 ul {
+    &.divideSection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+
+        li {
+            width: 45%;
+        }
+
+        li:last-child{
+            .removeMarginBotton {
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+
     li {
         .removeMarginBotton {
             margin-bottom: 0 !important;
@@ -208,6 +226,20 @@ ul {
 }
 
 @media (max-width: 768px) {
+    ul {
+        &.divideSection {
+    
+            li {
+                width: 100%;
+            }
+    
+            li:last-child{
+                .removeMarginBotton {
+                    margin-bottom: 32px !important;
+                }
+            }
+        }
+    }
 
     .insideTopicsMainBox {
         >div {
