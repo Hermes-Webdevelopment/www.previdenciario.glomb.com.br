@@ -1,0 +1,99 @@
+@import '/src/styles/variables.scss';
+
+.linksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    max-width: 1500px;
+    padding: 0;
+
+    .textBox {
+        width: 38%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+
+        h1 {
+            font-family: 'Poppins';
+            font-size: 80px;
+            font-weight: 600;
+            margin-bottom: 56px;
+        }
+
+        >p {
+            font-size: $typography-paragraph-dstext-xl-font-size;
+            text-decoration: $typography-paragraph-dstext-xl-text-decoration;
+            font-family: $typography-paragraph-dstext-xl-font-family;
+            font-weight: $typography-paragraph-dstext-xl-font-weight;
+            font-style: $typography-paragraph-dstext-xl-font-style;
+            font-stretch: $typography-paragraph-dstext-xl-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-xl-letter-spacing;
+            line-height: $typography-paragraph-dstext-xl-line-height;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 345px;
+
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                padding: 0;
+                width: auto;
+
+                P {
+                    font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+                    text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+                    font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+                    font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+                    font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+                    font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+                    letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+                    line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
+                    text-align: center;
+                    color: $branding-primary;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .imageBox {
+        width: 47%;
+        height: auto;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}
+
+
+@media (max-width:1200px) {
+    
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}

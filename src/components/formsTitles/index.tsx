@@ -42,7 +42,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                             <OrangeForm />
                     }
                     <div>
-                        <h1>{firstTitle}</h1>
+                        <p className={styles.titleTopics}>{firstTitle}</p>
                         <p>{firstSubTitle}</p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                             <GreenForm />
                     }
                     <div>
-                        <h1>{secondTitle}</h1>
+                        <p className={styles.titleTopics}>{secondTitle}</p>
                         <p>{secondSubTitle}</p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                             <BlueForm />
                     }
                     <div>
-                        <h1>{thirdTitle}</h1>
+                        <p className={styles.titleTopics}>{thirdTitle}</p>
                         <p>{thirdSubTitle}</p>
                     </div>
                 </div>

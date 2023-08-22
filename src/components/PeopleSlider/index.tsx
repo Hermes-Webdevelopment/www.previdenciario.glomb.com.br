@@ -93,13 +93,13 @@ export default function PeopleSlider(props: peopleSlider) {
     <section className={styles.peopleSliderSection}>
         <div className={`container ${styles.peopleContainer}`}>
 
-            <h1>
-                {title}
-            </h1>
-
             <h2>
-                {subTitle}
+                {title}
             </h2>
+
+            <h3>
+                {subTitle}
+            </h3>
         </div>
         <div
             className={`${styles.sliderContainer} ${supportsTouch ? styles.changeToTouchMode : ''}`}

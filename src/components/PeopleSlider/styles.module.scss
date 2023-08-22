@@ -7,14 +7,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
     width: 100vw;
-    overflow: hidden;
 }
 
 .peopleContainer {
 
-    >h1 {
+    >h2 {
         font-size: $typography-display-dsdisplay-sm-bold-font-size;
         text-decoration: $typography-display-dsdisplay-sm-bold-text-decoration;
         font-family: $typography-display-dsdisplay-sm-bold-font-family;
@@ -27,7 +25,7 @@
         margin-bottom: 24px;
     }
 
-    >h2 {
+    >h3 {
         font-size: $typography-paragraph-dstext-xl-font-size;
         text-decoration: $typography-paragraph-dstext-xl-text-decoration;
         font-family: $typography-paragraph-dstext-xl-font-family;
@@ -168,7 +166,7 @@
 
     .peopleContainer {
 
-        >h1 {
+        >h2 {
             font-size: $typography-title-dstitle-xl-font-size;
             text-decoration: $typography-title-dstitle-xl-text-decoration;
             font-family: $typography-title-dstitle-xl-font-family;
@@ -180,7 +178,7 @@
             margin-bottom: 8px;
         }
 
-        h2 {
+        h3 {
             margin-bottom: 22px;
         }
 
