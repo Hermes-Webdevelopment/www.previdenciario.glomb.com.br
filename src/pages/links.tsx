@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
+import Image from 'next/image';
 import LinksBanner from '../components/linksBanner';
+import SocialMediaLink from '../components/atons/socialMediaLink';
+import LinksList from '../components/linksList';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
   
@@ -25,29 +28,8 @@ return (
         <meta name="description" content="Sofreu acidente e tem dificuldade para trabalhar? Receba um valor mensal do INSS."></meta>
       </Head>
 
-      <LinksBanner 
-        title='Obrigado!'
-        image='/assets/images/agradecimento/banner.webp'
-        imageMobile='/assets/images/agradecimento/bannerMobile.webp'
-        imageAlt='Pessoas felizes agradecendo'
-        text={<>Já estamos analisando seu caso.<br/> Em breve nossos especialistas entrarão em contato para indicar como conquistar seus direitos.</>}
-        socialMediaArray={[
-          {
-            icon:'blog',
-            name:'Blog',
-            link: ''
-          },
-          {
-            icon:'site',
-            name:'Site',
-            link: ''
-          },
-          {
-            icon:'instagram',
-            name:'Instagram',
-            link: ''
-          }
-        ]}
+      <LinksList 
+        
       />
       
     </>

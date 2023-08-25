@@ -1,0 +1,73 @@
+@import '/src/styles/variables.scss';
+
+.buttonContainer {
+    width: 95%;
+    padding: 14px;
+    background-color: $color-brand-brandingprimary;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $typography-paragraph-dstext-md-semi-bold-font-size;
+    text-decoration: $typography-paragraph-dstext-md-semi-bold-text-decoration;
+    font-family: $typography-paragraph-dstext-md-semi-bold-font-family;
+    font-weight: $typography-paragraph-dstext-md-semi-bold-font-weight;
+    font-style: $typography-paragraph-dstext-md-semi-bold-font-style;
+    font-stretch: $typography-paragraph-dstext-md-semi-bold-font-stretch;
+    letter-spacing: $typography-paragraph-dstext-md-semi-bold-letter-spacing;
+    line-height: $typography-paragraph-dstext-md-semi-bold-line-height;
+
+}
+
+.btnClean {
+    max-width: 400px;
+}
+
+.floatingButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+    width: 100vw;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 1200px) {
+    .buttonContainer {
+        width: 90%;
+        font-size: 18px;
+        padding: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .btnClean {
+        max-width: unset;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .buttonContainer {
+        width: 100%;
+        font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+        text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+        font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+        font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+        font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+        font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+        line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
+        
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}

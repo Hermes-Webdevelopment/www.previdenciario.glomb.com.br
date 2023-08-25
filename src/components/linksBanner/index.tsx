@@ -3,8 +3,12 @@ import Image from 'next/image';
 import { ReactNode } from 'react';
 
 import InstagramIcon from '@/public/assets/images/agradecimento/svgs/instagram.svg';
+import InstagramIconMobile from '@/public/assets/images/agradecimento/svgs/instagrammobile.svg';
 import BlogIcon from '@/public/assets/images/agradecimento/svgs/blog.svg';
+import BlogIconMobile from '@/public/assets/images/agradecimento/svgs/blogmobile.svg';
 import SiteIcon from '@/public/assets/images/agradecimento/svgs/site.svg';
+import SiteIconMobile from '@/public/assets/images/agradecimento/svgs/sitemobile.svg';
+import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface singleText {
     image: string; 
@@ -22,15 +26,26 @@ interface singleText {
 export default function LinksBanner(props: singleText) {
 
     const {text, image, imageMobile, imageAlt, title, socialMediaArray} = props
+    
+    const screenSize = getScreenSiteAndWidth()
 
     function brinRightIcon(icon: string) {
         
         if( icon === 'instagram') {
-            return <InstagramIcon />
+            if(screenSize.dynamicWidth >= 769) {
+                return <InstagramIcon />
+            }
+            return <InstagramIconMobile />
         } else if( icon === 'blog') {
-            return <BlogIcon />
+            if(screenSize.dynamicWidth >= 769) {
+                return <BlogIcon />
+            }
+            return <BlogIconMobile />
         } else if( icon === 'site') {
-            return <SiteIcon />
+            if(screenSize.dynamicWidth >= 769) {
+                return <SiteIcon />
+            }
+            return <SiteIconMobile />
         }
     }
 
@@ -49,7 +64,11 @@ export default function LinksBanner(props: singleText) {
                             socialMediaArray.map(socialMedia => {
                                 return (
                                     <a href={socialMedia.link}>
-                                        {brinRightIcon(socialMedia.icon)}
+                                        <div className={styles.svgBoxContainer}>
+                                            { 
+                                                brinRightIcon(socialMedia.icon)
+                                            }
+                                        </div>
                                         <p>
                                             {socialMedia.name}
                                         </p>
@@ -61,11 +80,22 @@ export default function LinksBanner(props: singleText) {
                 </div>
                 <div className={styles.imageBox}>
                     <Image
-                        loading="lazy"
+                        className={'apearMobile'}
                         height={1090}
                         width={943.5}
                         src={image}
                         alt={imageAlt}
+                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
+                    />
+
+                    <Image
+                        className={'apearDesktop'}
+                        height={965}
+                        width={503}
+                        src={imageMobile}
+                        alt={imageAlt}
+                        unoptimized={true}
+                        loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
                     />
                 </div>
             </div>
