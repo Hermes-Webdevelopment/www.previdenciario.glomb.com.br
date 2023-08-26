@@ -1,73 +1,99 @@
 @import '/src/styles/variables.scss';
 
-.buttonContainer {
-    width: 95%;
-    padding: 14px;
-    background-color: $color-brand-brandingprimary;
-    border-radius: 8px;
+.linkContainer {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    font-size: $typography-paragraph-dstext-md-semi-bold-font-size;
-    text-decoration: $typography-paragraph-dstext-md-semi-bold-text-decoration;
-    font-family: $typography-paragraph-dstext-md-semi-bold-font-family;
-    font-weight: $typography-paragraph-dstext-md-semi-bold-font-weight;
-    font-style: $typography-paragraph-dstext-md-semi-bold-font-style;
-    font-stretch: $typography-paragraph-dstext-md-semi-bold-font-stretch;
-    letter-spacing: $typography-paragraph-dstext-md-semi-bold-letter-spacing;
-    line-height: $typography-paragraph-dstext-md-semi-bold-line-height;
+    background-color: white;
+    border-radius: 12px;
+    filter: drop-shadow(0 0 0.3rem rgba(0,0,0,0.25));
+    overflow: hidden;
+    margin-top: 40px;
 
+    .imageContainer {
+        max-width: 163px;
+        max-height: 118px;
+
+        img{
+            object-fit: contain;
+        }
+    }
+
+    .textContainer {
+        width: 100%;
+        height: auto;
+        padding-left: 32px;
+
+        h3 {
+            font-size: $typography-paragraph-dstext-xl-semi-bold-font-size;
+            text-decoration: $typography-paragraph-dstext-xl-semi-bold-text-decoration;
+            font-family: $typography-paragraph-dstext-xl-semi-bold-font-family;
+            font-weight: $typography-paragraph-dstext-xl-semi-bold-font-weight;
+            font-style: $typography-paragraph-dstext-xl-semi-bold-font-style;
+            font-stretch: $typography-paragraph-dstext-xl-semi-bold-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-xl-semi-bold-letter-spacing;
+            line-height: $typography-paragraph-dstext-xl-semi-bold-line-height;
+        }
+
+        p {
+            font-size: $typography-paragraph-dstext-sm-font-size;
+            text-decoration: $typography-paragraph-dstext-sm-text-decoration;
+            font-family: $typography-paragraph-dstext-sm-font-family;
+            font-weight: $typography-paragraph-dstext-sm-font-weight;
+            font-style: $typography-paragraph-dstext-sm-font-style;
+            font-stretch: $typography-paragraph-dstext-sm-font-stretch;
+            letter-spacing: $typography-paragraph-dstext-sm-letter-spacing;
+            line-height: $typography-paragraph-dstext-sm-line-height;
+            color: $color-brand-brandingprimary;
+        }
+    }
 }
 
-.btnClean {
-    max-width: 400px;
-}
-
-.floatingButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 20px;
-    z-index: 999;
-    width: 100vw;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 @media (max-width: 1200px) {
-    .buttonContainer {
-        width: 90%;
-        font-size: 18px;
-        padding: 14px;
-    }
 }
 
 @media (max-width: 992px) {
 
-    .btnClean {
-        max-width: unset;
-    }
-
 }
 
 @media (max-width: 768px) {
-    .buttonContainer {
-        width: 100%;
-        font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
-        text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
-        font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
-        font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
-        font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
-        font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
-        letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
-        line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
-        
-    }
 }
 
 @media (max-width: 576px) {
-    .container {
-        max-width: 100%;
+    .linkContainer {
+    margin-top: 32px;
+    
+        .imageContainer {
+            max-width: 163px;
+            max-height: 86px;
+        }
+    
+        .textContainer {
+    
+            h3 {
+                font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
+                text-decoration: $typography-paragraph-dstext-sm-semi-bold-text-decoration;
+                font-family: $typography-paragraph-dstext-sm-semi-bold-font-family;
+                font-weight: $typography-paragraph-dstext-sm-semi-bold-font-weight;
+                font-style: $typography-paragraph-dstext-sm-semi-bold-font-style;
+                font-stretch: $typography-paragraph-dstext-sm-semi-bold-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-sm-semi-bold-letter-spacing;
+                line-height: $typography-paragraph-dstext-sm-semi-bold-line-height;
+            }
+    
+            p {
+                font-size: $typography-paragraph-dstext-xxs-font-size;
+                text-decoration: $typography-paragraph-dstext-xxs-text-decoration;
+                font-family: $typography-paragraph-dstext-xxs-font-family;
+                font-weight: $typography-paragraph-dstext-xxs-font-weight;
+                font-style: $typography-paragraph-dstext-xxs-font-style;
+                font-stretch: $typography-paragraph-dstext-xxs-font-stretch;
+                letter-spacing: $typography-paragraph-dstext-xxs-letter-spacing;
+                line-height: $typography-paragraph-dstext-xxs-line-height;
+                color: $color-brand-brandingprimary;
+            }
+        }
     }
 }

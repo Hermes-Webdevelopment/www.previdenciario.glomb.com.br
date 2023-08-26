@@ -29,7 +29,41 @@ return (
       </Head>
 
       <LinksList 
-        
+        imageTop='/assets/images/links/imageTop.webp'
+        altImageTop=''
+        imageBottom='/assets/images/links/imageBotton.webp'
+        altImageBottom=''
+        linkArray={[{
+            imageButton:'/assets/images/links/aposentadoria.webp',
+            imageButtonAlt:'',
+            buttonTextTitle:'Aposentadoria',
+            buttonText:'Avalie seu caso sem compromisso',
+            buttonLink:'/'
+          },{
+            imageButton:'/assets/images/links/revisao.webp',
+            imageButtonAlt:'',
+            buttonTextTitle:'Revisão da Vida Toda',
+            buttonText:'Avalie seu caso sem compromisso',
+            buttonLink:'/'
+          },{
+            imageButton:'/assets/images/links/rural.webp',
+            imageButtonAlt:'',
+            buttonTextTitle:'Aposentadoria Rural',
+            buttonText:'Avalie seu caso sem compromisso',
+            buttonLink:'/'
+          }
+        ]}
+        socialMediaArray= {[{
+            icon: 'instagram',
+            link: ''
+          },{
+            icon: 'facebook',
+            link: ''
+          },{
+            icon: 'youtube',
+            link: ''
+          }
+        ]}
       />
       
     </>

@@ -15,8 +15,8 @@ export default function SocialMediaLink(props: socialMediaLinkProps) {
     const {imageButton, buttonTextTitle, buttonText , imageButtonAlt, buttonLink} = props
 
     return (
-        <Link href={buttonLink} className={`${styles.buttonContainer}`}>
-            <div>
+        <Link href={buttonLink} className={`${styles.linkContainer}`}>
+            <div className={styles.imageContainer}>
                 <Image 
                     height={118}
                     width={163}
@@ -24,12 +24,12 @@ export default function SocialMediaLink(props: socialMediaLinkProps) {
                     alt={imageButtonAlt}
                 />
             </div>
-            <div>
+            <div className={styles.textContainer}>
                 <h3>
                     {buttonTextTitle}
                 </h3>
                 <p>
-                    {buttonText}
+                    <u>{buttonText}</u>
                 </p>
             </div>
         </Link>
