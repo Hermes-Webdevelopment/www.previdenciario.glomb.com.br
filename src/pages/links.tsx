@@ -1,8 +1,5 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
-import Image from 'next/image';
-import LinksBanner from '../components/linksBanner';
-import SocialMediaLink from '../components/atons/socialMediaLink';
 import LinksList from '../components/linksList';
 
 const AposentadoriaTempoEspecial: NextPage = () => {

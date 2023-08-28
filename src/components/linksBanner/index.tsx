@@ -51,7 +51,7 @@ export default function LinksBanner(props: singleText) {
 
     return (
         <section>
-            <div className={`container ${styles.linksContainer}`}>
+            <div className={`${styles.linksContainer}`}>
                 <div className={styles.textBox}>
                     <h1>
                         {title}

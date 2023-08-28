@@ -22,7 +22,7 @@ return (
       <meta property='og:title' content='Aposentadoria negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Aposentadoria negada INSS'/>
-      <meta property='og:description' content='O INSS nega muitas aposentadorias, até para quem tem direito. Saiba como resolver.'/>
+      <meta property='og:description' content=' '/>
       <meta property='og:url' content='https://previdenciario.com.br/aposentadorianegada/'/>
       <meta property='og:type' content='website'/>
 

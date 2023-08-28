@@ -34,7 +34,7 @@ return (
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -44,7 +44,7 @@ return (
       title="Sofreu acidente? Receba auxílio acidente do INSS"
       subTitle={<>Quem sofreu <strong>qualquer acidente</strong> e por isso tem <strong>dificuldades</strong> para trabalhar pode receber um <strong>valor mensal</strong> do INSS.</>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="Receba auxílio acidente do INSS"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
@@ -77,7 +77,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -99,7 +99,7 @@ return (
         "Ter dificuldade para trabalhar por conta do acidente",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -129,7 +129,7 @@ return (
           "Os valores de auxílio acidente aumentam o valor da aposentadoria",
         ]} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
