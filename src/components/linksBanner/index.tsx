@@ -94,7 +94,6 @@ export default function LinksBanner(props: singleText) {
                         width={503}
                         src={imageMobile}
                         alt={imageAlt}
-                        unoptimized={true}
                         loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
                     />
                 </div>
