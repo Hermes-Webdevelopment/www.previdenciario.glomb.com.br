@@ -19,6 +19,8 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
+      <meta property="og:locale" content="pt_BR"/>
+      <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Auxílio acidente negado tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Auxílio acidente negado pelo INSS'/>
@@ -34,7 +36,7 @@ return (
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+negado'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -46,7 +48,7 @@ return (
                   Então, se o seu pedido foi negado, não se preocupe!
                   </>}
       buttonText="Quero ser atendido"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+negado"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado"
       headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
       headerDesktopDescription="auxílio acidente negado"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
@@ -79,7 +81,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+negado'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -107,7 +109,7 @@ return (
         "Ter dificuldade para trabalhar por conta do acidente",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+negado'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado'} 
       image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -137,7 +139,7 @@ return (
           "Os valores de auxílio acidente aumentam o valor da aposentadoria",
         ]} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+negado'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado'} 
       image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 

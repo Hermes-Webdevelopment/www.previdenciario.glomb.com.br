@@ -19,6 +19,8 @@ return (
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
       {/* Image shared in web social links */}
+      <meta property="og:locale" content="pt_BR"/>
+      <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Fez trabalho rural? Você pode se aposentar antes'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Aposentadoria rural'/>
