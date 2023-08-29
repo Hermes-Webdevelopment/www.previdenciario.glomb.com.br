@@ -28,6 +28,15 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/vidatoda/'/>
       <meta property='og:type' content='website'/>
 
+      <meta property="og:locale" content="pt_BR"/>
+      <meta property="og:site_name" content="Blog | Glomb Advogados"/>
+      <meta property='og:title' content='Fez trabalho rural? Você pode se aposentar antes'/>
+      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
+      <meta property='og:image:alt' content='Aposentadoria rural'/>
+      <meta property='og:description' content='Quem já fez trabalho rural por qualquer período, pode se aposentar mais cedo e com um valor maior.'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriarural/'/>
+      
+
       <title>Sua aposentadoria pode dobrar</title>
       <meta name="keywords" content="revisão da vida toda, revisão da vida toda stf, revisão da vida toda INSS, revisão aposentadoria, aumentar aposentadoria"></meta>
       <meta name="description" content="Com a revisão da vida toda é possível aumentar o valor de sua aposentadoria ou pensão e receber uma indenização pelas diferenças dos últimos 5 anos."></meta>

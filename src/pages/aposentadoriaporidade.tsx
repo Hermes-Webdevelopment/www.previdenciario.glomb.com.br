@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Aposentadoria por Idade'/>
       <meta property='og:description' content='Quem completou 60 anos de idade e contribuiu ao INSS por 15 anos já pode ter direito à aposentadoria.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/aposentadoriaporidade/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriaporidade/'/>
       <meta property='og:type' content='website'/>
 
       <title>Conquiste sua Aposentadoria</title>

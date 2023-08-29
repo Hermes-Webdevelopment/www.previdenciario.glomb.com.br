@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='LOAS-BPC negado INSS'/>
       <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/loasbpcnegado/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcnegado/'/>
       <meta property='og:type' content='website'/>
 
       <title>LOAS-BPC negado tem solução</title>

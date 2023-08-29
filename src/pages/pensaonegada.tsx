@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Pensão negada pelo INSS'/>
       <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução'/>
-      <meta property='og:url' content='https://previdenciario.com.br/pensaonegada/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/pensaonegada/'/>
       <meta property='og:type' content='website'/>
 
       <title>Pensão negada tem solução</title>

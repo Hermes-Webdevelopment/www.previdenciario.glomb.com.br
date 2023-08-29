@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Auxílio acidente'/>
       <meta property='og:description' content='Quem sofreu acidente e ficou com dificuldade para trabalhar pode receber um valor mensal do INSS.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/auxilioacidentepedido/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentepedido/'/>
       <meta property='og:type' content='website'/>
 
       <title>Sofreu acidente? Receba um valor do INSS</title>

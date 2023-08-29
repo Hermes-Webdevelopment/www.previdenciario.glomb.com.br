@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Auxílio acidente negado pelo INSS'/>
       <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, até para quem tem direito.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/auxilioacidentenegado/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentenegado/'/>
       <meta property='og:type' content='website'/>
 
       <title>Auxílio acidente negado tem solução.</title>

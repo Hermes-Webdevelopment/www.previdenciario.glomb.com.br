@@ -25,7 +25,7 @@ return (
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
       <meta property='og:image:alt' content='Loas BPC'/>
       <meta property='og:description' content='Idosos ou pessoas com deficiência podem receber um salário mínimo mensal do INSS.'/>
-      <meta property='og:url' content='https://previdenciario.com.br/loasbpcgeral/'/>
+      <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcgeral/'/>
       <meta property='og:type' content='website'/>
 
       <title>Você pode receber um valor mensal do INSS</title>
