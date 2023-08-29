@@ -10,6 +10,7 @@ import YoutubeIcon from '@/public/assets/images/links/svgs/youtubedesk.svg';
 import YoutubeMobile from '@/public/assets/images/links/svgs/youtubemobile.svg';
 import Logo from '@/public/assets/images/links/svgs/logo.svg';
 import { getScreenSiteAndWidth } from '../../helpers/screenSize';
+import Link from 'next/link';
 
 interface linksListInterface {
     imageTop: string; 
@@ -71,6 +72,7 @@ export default function LinksList(props: linksListInterface) {
                         linkArray.map((link) => {
                             return(
                                 <SocialMediaLink
+                                    key={link.imageButtonAlt}
                                     imageButton={link.imageButton} 
                                     imageButtonAlt={link.imageButtonAlt} 
                                     buttonTextTitle={link.buttonTextTitle} 
@@ -81,12 +83,14 @@ export default function LinksList(props: linksListInterface) {
                         })
                     }
                     
-                    <Image
-                        height={352}
-                        width={767}
-                        src={imageBottom}
-                        alt={altImageBottom}
-                    />
+                    <Link href={''}>
+                        <Image
+                            height={352}
+                            width={767}
+                            src={imageBottom}
+                            alt={altImageBottom}
+                        />
+                    </Link>
                 </div>
                 <div>
                     <div className={styles.socialMediaContainer}>
