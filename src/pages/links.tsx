@@ -26,9 +26,9 @@ return (
       </Head>
 
       <LinksList 
-        imageTop='/assets/images/links/imageTop.webp'
+        imageTop='/assets/images/links/imagemTopC.webp'
         altImageTop=''
-        imageBottom='/assets/images/links/imageBotton.webp'
+        imageBottom='/assets/images/links/imagemBottomC.webp'
         altImageBottom=''
         linkArray={[{
             imageButton:'/assets/images/links/aposentadoria.webp',
