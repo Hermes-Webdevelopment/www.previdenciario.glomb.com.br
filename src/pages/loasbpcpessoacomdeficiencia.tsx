@@ -22,7 +22,9 @@ return (
       <meta property="og:locale" content="pt_BR"/>
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Pessoas com deficiência podem receber um valor mensal do INSS'/>
-      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
+      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogo.png'/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='Loas BPC'/>
       <meta property='og:description' content='Pessoas com deficiência podem receber um salário mínimo mensal do INSS.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcpessoacomdeficiencia/'/>

@@ -22,7 +22,9 @@ return (
       <meta property="og:locale" content="pt_BR"/>
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='LOAS-BPC negado tem solução'/>
-      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
+      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogo.png'/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='LOAS-BPC negado INSS'/>
       <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcnegado/'/>

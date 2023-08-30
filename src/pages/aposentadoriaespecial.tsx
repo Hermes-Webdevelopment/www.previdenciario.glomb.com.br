@@ -22,7 +22,9 @@ return (
       <meta property="og:locale" content="pt_BR"/>
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Você pode se aposentar antes'/>
-      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/aposentadoria/cover.png'/>
+      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogo.png'/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='Aposentadoria Especial e tempo especial'/>
       <meta property='og:description' content='Quem trabalhou em atividades prejudiciais se aposenta antes e com um valor maior.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'/>
