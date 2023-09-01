@@ -20,6 +20,7 @@ return (
 
       {/* Image shared in web social links */}
       <meta property="og:locale" content="pt_BR"/>
+      <meta property="fb:app_id" content="824919729364803" />
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Pensão negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogo.png'/>
