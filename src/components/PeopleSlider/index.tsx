@@ -2,11 +2,14 @@ import Image from 'next/image';
 import styles from './styles.module.scss';
 
 import { ReactNode, useEffect, useRef, useState} from 'react';
+import BlueButton from '../atons/blueButton';
 
 interface peopleSlider {
     title: ReactNode | string;
     subTitle: ReactNode | string ;
     carrouselImages: carrouselImages[];
+    buttonLink: string;
+    buttonText: string;
 }
 
 interface carrouselImages {
@@ -18,7 +21,7 @@ interface carrouselImages {
 
 export default function PeopleSlider(props: peopleSlider) {
 
-    const {title, subTitle, carrouselImages} = props
+    const {title, subTitle, carrouselImages, buttonLink, buttonText} = props
 
     const [isDragging, setIsDragging] = useState(false);
     const [startPosition, setStartPosition] = useState(0);
@@ -137,7 +140,9 @@ export default function PeopleSlider(props: peopleSlider) {
                 }
             </div>
         </div>
-        
+        <div className='apearMobile' style={{width: "100%", display:"flex", justifyContent:"center"}}>
+            <BlueButton buttonLink={buttonLink} buttonText={buttonText} transparentMode={true}/>
+        </div>
     </section>
   );
 }

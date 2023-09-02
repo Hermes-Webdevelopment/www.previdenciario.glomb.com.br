@@ -16,7 +16,19 @@
     font-stretch: $typography-paragraph-dstext-md-semi-bold-font-stretch;
     letter-spacing: $typography-paragraph-dstext-md-semi-bold-letter-spacing;
     line-height: $typography-paragraph-dstext-md-semi-bold-line-height;
+}
 
+.btnTransparent {
+    width: 100%;
+    max-width: 400px;
+
+    .buttonContainer {
+        background-color: transparent;
+        border: 2px solid $color-brand-brandingprimary;
+        border-radius: 8px;
+        margin-top: 48px;
+        color: $color-brand-brandingprimary;
+    }
 }
 
 .btnClean {
