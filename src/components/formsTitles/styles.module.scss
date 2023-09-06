@@ -2,7 +2,7 @@
 
 .formsTopicsSection {
     background-color: #f8f8f8;
-    padding: 100px 0;
+    padding: 75px 0;
     position: relative;
     overflow: visible;
 }
@@ -21,25 +21,6 @@
 .changeBG {
     .backgroundPlay {
         display: none;
-    }
-
-    .formsTopics {
-    
-        >div {
-    
-            &.flexStart {
-    
-                &:after {
-                    height: 180%;
-                }
-            }
-    
-            &.center {
-                &:after {
-                    height: 180%;
-                }
-            }
-        }
     }
 }
 
@@ -93,16 +74,6 @@
                 left: -24px;
                 top: -8%;
             }
-
-            &:after {
-                content: "";
-                position: absolute;
-                bottom: -40%;
-                right: 4%;
-                height: 200%;
-                border-right: 1px solid $color-brand-brandingquartiary;
-                z-index: 1;
-            }
         }
 
         &.flexEnd {
@@ -124,16 +95,6 @@
                 z-index: -1;
                 left: 0;
                 top: -8%;
-            }
-
-            &:after {
-                content: "";
-                position: absolute;
-                bottom: -40%;
-                right: -2%;
-                height: 200%;
-                border-right: 1px solid $color-brand-brandingquartiary;
-                z-index: 1;
             }
         }
 
@@ -163,23 +124,23 @@
     .formsTopics {
     
         >div {
-    
-            &.flexStart {
-    
-                &:after {
-                    right: 0%;
+
+            &.flexEnd {
+
+                .newPosition {
+                    left: 51px;
                 }
             }
-    
+
             &.center {
-    
-                &:after {
-                    right: -3%;
+
+                .newPosition {
+                    left: 6px;
                 }
             }
     
             div {
-                max-width: 65%;
+                max-width: 71%;
             }
         }
     }
@@ -215,6 +176,28 @@
             &:after {
                 content: unset !important;
             }
+
+            &.flexStart {
+    
+                .newPosition {
+                    left: 9px;
+                    top: 1%;
+                }
+            }
+    
+            &.flexEnd {
+    
+                .newPosition {
+                    left: -6px;
+                }
+            }
+    
+            &.center {
+    
+                .newPosition {
+                    left: -4px;
+                }
+            }
         }
     }
 
@@ -224,15 +207,43 @@
 }
 
 @media (max-width: 768px) {
-    .formsTopicsSection, .backgroundPlay {
-        background-color: transparent;
-    }
     .formsTopics {
         flex-wrap: wrap;
         gap: 60px;
+        padding: 0 29px;
 
         >div {
             width: 100%;
+            justify-content: flex-start !important;
+
+            div {
+                max-width: 100%;
+                padding-left: 20px;
+            }
+
+            &.flexStart {
+
+                .newPosition {
+                    left: 0;
+                    top: -25px;
+                }
+            }
+
+            &.flexEnd {
+
+                .newPosition {
+                    left: 0;
+                    top: -25px;
+                }
+            }
+
+            &.center {
+
+                .newPosition {
+                    left: 0;
+                    top: -25px;
+                }
+            }
         }
     }
 }
@@ -240,10 +251,9 @@
 @media (max-width: 576px) {
 
     .formsTopicsSection {
-        padding: 40px 0;
+        padding: 60px 0 58px;
         position: relative;
         overflow: visible;
-        margin-bottom: 10px;
 
         &::after {
             content: "";
@@ -253,13 +263,6 @@
             left: 10%;
             height: 2px;
             width: 80%;
-        }
-    }
-    .formsTopics {
-        >div {
-            div {
-                max-width: 60%;
-            }
         }
     }
 }

@@ -260,27 +260,11 @@
         padding: 48px 0;
     }
 
-    .PeopleComentsContainer {
-
-        >h2 {
-            padding-bottom: 48px;
-        }
-    
-        >div {
-
-            .imageContainer {
-                justify-content: center;
-                display: flex;
-                margin-bottom: 32px;
-            }
-        }
-    }
-
     .cleanPeopleComents {
         .PeopleComentsContainer {
 
             >h2 {
-                padding-bottom: 80px;
+                padding-bottom: 48px;
             }
 
             .imageContainer {
@@ -288,6 +272,9 @@
                 margin-right: 143px;
                 height: auto;
                 margin-right: 0;
+                justify-content: center;
+                display: flex;
+                margin-bottom: 32px;
 
                 img {
                     margin: 0;
@@ -309,10 +296,6 @@
 
 @media (max-width: 576px) {
     .PeopleComentsContainer {
-
-        >h2 {
-            padding-bottom: 30px;
-        }
 
         >div {
 

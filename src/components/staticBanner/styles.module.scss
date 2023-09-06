@@ -100,6 +100,7 @@
     img {
         width: 100%;
         object-fit: cover;
+        height: 100%;
     }
 }
 
@@ -111,14 +112,14 @@
             padding: 0 56px 0 0;
 
             h1 {
-                font-size: $typography-display-dsdisplay-md-semi-bold-font-size;
-                text-decoration: $typography-display-dsdisplay-md-semi-bold-text-decoration;
-                font-family: $typography-display-dsdisplay-md-semi-bold-font-family;
-                font-weight: $typography-display-dsdisplay-md-semi-bold-font-weight;
-                font-style: $typography-display-dsdisplay-md-semi-bold-font-style;
-                font-stretch: $typography-display-dsdisplay-md-semi-bold-font-stretch;
-                letter-spacing: $typography-display-dsdisplay-md-semi-bold-letter-spacing;
-                line-height: $typography-display-dsdisplay-md-semi-bold-line-height;
+                font-size: $typography-display-dsdisplay-md-bold-font-size;
+                text-decoration: $typography-display-dsdisplay-md-bold-text-decoration;
+                font-family: $typography-display-dsdisplay-md-bold-font-family;
+                font-weight: $typography-display-dsdisplay-md-bold-font-weight;
+                font-style: $typography-display-dsdisplay-md-bold-font-style;
+                font-stretch: $typography-display-dsdisplay-md-bold-font-stretch;
+                letter-spacing: $typography-display-dsdisplay-md-bold-letter-spacing;
+                line-height: $typography-display-dsdisplay-md-bold-line-height;
                 margin-bottom: 16px;
             }
     
@@ -184,6 +185,7 @@
 
 @media (max-width: 768px) {
     .staticbannerSection{
+        min-height: unset;
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -209,7 +211,7 @@
         align-items: flex-end;
         padding: 0px;
         padding-bottom: 32px;
-        height: 107vh;
+        height: 100vh;
     }
     
     .bannerContainer {
@@ -232,7 +234,7 @@
             max-width: unset;
             object-fit: cover;
             width: 100vw;
-            height: 107vh;
+            height: 100vh;
             object-position: 50% 0;
         }
             

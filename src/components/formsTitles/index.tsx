@@ -8,6 +8,10 @@ import FormOne from '@/public/assets/svgs/formone.svg';
 import FormTwo from '@/public/assets/svgs/formtwo.svg';
 import FormThree from '@/public/assets/svgs/formthree.svg';
 
+import FormOneMobile from '@/public/assets/svgs/formonemobile.svg';
+import FormTwoMobile from '@/public/assets/svgs/formtwomobile.svg';
+import FormThreeMobile from '@/public/assets/svgs/formthreemobile.svg';
+
 import { ReactNode } from 'react';
 
 interface formsTitleInterface {
@@ -31,7 +35,8 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <FormOne className={styles.newPosition} />
+                                <FormOne className={`apearMobile ${styles.newPosition}`} />
+                                <FormOneMobile className={`apearDesktop ${styles.newPosition}`} />
                             </>
                         :
                             <OrangeForm />
@@ -45,7 +50,8 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <FormTwo className={styles.newPosition} />
+                                <FormTwo className={`apearMobile ${styles.newPosition}`} />
+                                <FormTwoMobile className={`apearDesktop ${styles.newPosition}`} />
                             </>
                         :
                             <GreenForm />
@@ -59,7 +65,8 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <FormThree className={styles.newPosition} />
+                                <FormThree className={`apearMobile ${styles.newPosition}`} />
+                                <FormThreeMobile className={`apearDesktop ${styles.newPosition}`} />
                             </>
                         :
                             <BlueForm />

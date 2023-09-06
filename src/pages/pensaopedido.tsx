@@ -47,7 +47,7 @@ return (
     <StaticBanner 
       title="Receba até 5 salários por mês do INSS"
       subTitle={<>Dependentes de <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber uma <strong>pensão mensal</strong> do INSS de até <strong>5 salários</strong> mínimos.</>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão"
       headerDesktop='/assets/images/pensao_por_morte/capa_ppm_we.webp'
       headerDesktopDescription="Receba até 5 salários por mês do INSS"
