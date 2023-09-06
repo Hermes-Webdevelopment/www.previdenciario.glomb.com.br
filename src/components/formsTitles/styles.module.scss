@@ -87,6 +87,13 @@
         &.flexStart {
             justify-content: flex-start;
 
+            .newPosition {
+                position: absolute;
+                z-index: -1;
+                left: -24px;
+                top: -8%;
+            }
+
             &:after {
                 content: "";
                 position: absolute;
@@ -100,10 +107,24 @@
 
         &.flexEnd {
             justify-content: flex-end;
+
+            .newPosition {
+                position: absolute;
+                z-index: -1;
+                left: 40px;
+                top: -8%;
+            }
         }
 
         &.center {
             justify-content: center;
+
+            .newPosition {
+                position: absolute;
+                z-index: -1;
+                left: 0;
+                top: -8%;
+            }
 
             &:after {
                 content: "";
@@ -117,7 +138,7 @@
         }
 
         div {
-            max-width: 60%;
+            max-width: 80%;
         }
     }
 }

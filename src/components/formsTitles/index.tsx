@@ -4,13 +4,9 @@ import OrangeForm from '@/public/assets/svgs/firstForm.svg';
 import GreenForm from '@/public/assets/svgs/secondForm.svg';
 import BlueForm from '@/public/assets/svgs/thirdForm.svg';
 
-import AbstractFormSemiRound from '@/public/assets/svgs/abstractFormOne.svg';
-import AbstractFormline from '@/public/assets/svgs/abstractFormTwo.svg';
-import AbstractFormSemiBottonLine from '@/public/assets/svgs/abstractFormThree.svg';
-
-import AbstractFormSemiRoundMobile from '@/public/assets/svgs/abstractFormOneMobile.svg';
-import AbstractFormlineMobile from '@/public/assets/svgs/abstractFormTwoMobile.svg';
-import AbstractFormSemiBottonLineMobile from '@/public/assets/svgs/abstractFormThreeMobile.svg';
+import FormOne from '@/public/assets/svgs/formone.svg';
+import FormTwo from '@/public/assets/svgs/formtwo.svg';
+import FormThree from '@/public/assets/svgs/formthree.svg';
 
 import { ReactNode } from 'react';
 
@@ -35,8 +31,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <AbstractFormSemiRound className={`apearMobile`} />
-                                <AbstractFormSemiRoundMobile className={`apearDesktop`}/>
+                                <FormOne className={styles.newPosition} />
                             </>
                         :
                             <OrangeForm />
@@ -50,8 +45,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <AbstractFormline className={`apearMobile`} />
-                                <AbstractFormlineMobile className={`apearDesktop`}/>
+                                <FormTwo className={styles.newPosition} />
                             </>
                         :
                             <GreenForm />
@@ -65,8 +59,7 @@ export default function FormsTopics(props: formsTitleInterface) {
                     {
                         cleanModel ?
                             <>
-                                <AbstractFormSemiBottonLine className={`apearMobile`} />
-                                <AbstractFormSemiBottonLineMobile className={`apearDesktop`}/>
+                                <FormThree className={styles.newPosition} />
                             </>
                         :
                             <BlueForm />

@@ -85,7 +85,7 @@ export default function LinksBanner(props: singleText) {
                         width={943.5}
                         src={image}
                         alt={imageAlt}
-                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
+                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'} 
                     />
 
                     <Image

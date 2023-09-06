@@ -27,7 +27,7 @@ export default function StaticBanner(props: staticBannerInterface) {
 
     return (
         <section className={styles.staticbannerSection}>
-            <div className={`container ${styles.bannerContainer}`}>
+            <div className={`${styles.bannerContainer}`}>
                 <div className={styles.textBox}>
                     <h1>{title}</h1>
                     <p>{subTitle}</p>
@@ -52,28 +52,37 @@ export default function StaticBanner(props: staticBannerInterface) {
                         }
                     </div>
                 </div>
-                <div className={styles.imageBox}>
-                    
-                    <Image
-                        className={'apearMobile'}
-                        height={1090}
-                        width={1000}
-                        src={headerDesktop}
-                        alt={headerDesktopDescription}
-                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
-                    />
+            </div>
+            <div className={styles.imageBox}>
+                
+                <Image
+                    className={'apearMobile'}
+                    height={1090}
+                    width={1000}
+                    src={headerDesktop}
+                    alt={headerDesktopDescription}
+                    quality={100}
+                    loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
+                />
 
-                    <Image
-                        className={'apearDesktop'}
-                        height={965}
-                        width={503}
-                        src={headerMobile}
-                        alt={headerMobileDescription}
-                        unoptimized={true}
-                        loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
-                    />
+                <Image
+                    className={'apearDesktop'}
+                    height={965}
+                    width={503}
+                    src={headerMobile}
+                    alt={headerMobileDescription}
+                    unoptimized={true}
+                    loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
+                />
 
-                </div>
+            </div>
+            <div className={`apearMobile ${styles.starsImage}`}>
+                <Image 
+                    height={138}
+                    width={232}
+                    src={'/assets/images/clients_stars.webp'}
+                    alt={'Avaliação de 4.9 estrelas'}
+                />
             </div>
         </section>
     )

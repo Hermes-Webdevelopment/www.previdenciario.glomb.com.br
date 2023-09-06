@@ -44,15 +44,14 @@ return (
         />
     </div>
 
-    {/* imagem desktop deve ser com width: 375px por heigh: 720px  e a mobile deve ser width: 596px por heigh: 652px*/}
     <StaticBanner 
       title="Receba até 5 salários por mês do INSS"
       subTitle={<>Dependentes de <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber uma <strong>pensão mensal</strong> do INSS de até <strong>5 salários</strong> mínimos.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pedido+de+pensão"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/pensao_por_morte/capa_ppm_we.webp'
       headerDesktopDescription="Receba até 5 salários por mês do INSS"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/pensao_por_morte/capa_ppm_mobile.webp'
       headerMobileDescription="Receba até 5 salários por mês do INSS"
     />
 
