@@ -7,6 +7,7 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
+import SimpleHead from '../components/headFormats/simpleHead';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
   
@@ -35,6 +36,12 @@ return (
       <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc loas, bpcloas, loas quem tem direito, bpc quem tem direito"></meta>
       <meta name="description" content="Idosos ou pessoas com deficiência podem receber um salário mínimo mensal do INSS."></meta>
     </Head>
+                    
+    <SimpleHead 
+        logo='glomb'
+        btnTxt='Quero ser atendido'
+        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'
+    />
 
     <div className='apearDesktop'>
       <BlueButton 
@@ -184,43 +191,43 @@ return (
       cleanCode={true}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice.webp',
           imageDescription: 'Corredor do escritório Glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice2.webp',
           imageDescription: 'Sala de atendimento aos clientes glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice3.webp',
           imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice4.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice5.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice6.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice7.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice8.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice9.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice11.webp',
           imageDescription: 'Sala de reuniões glomb advogados'
         }
       ]}

@@ -7,6 +7,7 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
+import SimpleHead from '../components/headFormats/simpleHead';
 
 const VidaTodaClean: NextPage = () => {
   
@@ -36,6 +37,12 @@ return (
       <meta name="keywords" content="revisão da vida toda, revisão da vida toda stf, revisão da vida toda INSS, revisão aposentadoria, aumentar aposentadoria"></meta>
       <meta name="description" content="Com a revisão da vida toda é possível aumentar o valor de sua aposentadoria ou pensão e receber uma indenização pelas diferenças dos últimos 5 anos."></meta>
     </Head>
+                    
+    <SimpleHead 
+        logo='glomb'
+        btnTxt='Quero ser atendido'
+        btnLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
+    />
 
     <div className='apearDesktop'>
       <BlueButton 
@@ -51,7 +58,7 @@ return (
       subTitle={<>A Revisão da Vida Toda permite <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e cobrar uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/aposentadoria/ap_demora_mobile.webp'
       headerDesktopDescription="Revisão da vida toda"
       headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
       headerMobileDescription="Revisão da vida toda"
@@ -187,43 +194,43 @@ return (
       cleanCode={true}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice.webp',
           imageDescription: 'Corredor do escritório Glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice2.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice2.webp',
           imageDescription: 'Sala de atendimento aos clientes glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice3.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice3.webp',
           imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice4.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice4.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice5.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice5.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice6.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice6.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice7.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice7.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice8.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice8.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice9.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice9.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/aposentadoria/escritorio/glomOffice11.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice11.webp',
           imageDescription: 'Sala de reuniões glomb advogados'
         }
       ]}

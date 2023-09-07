@@ -2,12 +2,12 @@ import styles from './styles.module.scss';
 import Image from 'next/image';
 import { ReactNode } from 'react';
 
-import InstagramIcon from '@/public/assets/images/agradecimento/svgs/instagram.svg';
-import InstagramIconMobile from '@/public/assets/images/agradecimento/svgs/instagrammobile.svg';
-import BlogIcon from '@/public/assets/images/agradecimento/svgs/blog.svg';
-import BlogIconMobile from '@/public/assets/images/agradecimento/svgs/blogmobile.svg';
-import SiteIcon from '@/public/assets/images/agradecimento/svgs/site.svg';
-import SiteIconMobile from '@/public/assets/images/agradecimento/svgs/sitemobile.svg';
+import InstagramIcon from '@/public/assets/images/svgs/instagram.svg';
+import InstagramIconMobile from '@/public/assets/images/svgs/instagrammobile.svg';
+import BlogIcon from '@/public/assets/images/svgs/blog.svg';
+import BlogIconMobile from '@/public/assets/images/svgs/blogmobile.svg';
+import SiteIcon from '@/public/assets/images/svgs/site.svg';
+import SiteIconMobile from '@/public/assets/images/svgs/sitemobile.svg';
 import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface singleText {
