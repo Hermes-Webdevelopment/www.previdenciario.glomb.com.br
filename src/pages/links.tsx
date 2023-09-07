@@ -40,27 +40,27 @@ return (
             imageButtonAlt:'',
             buttonTextTitle:'Aposentadoria',
             buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'/'
+            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriaporidade/'
           },{
             imageButton:'/assets/images/links/revisao.webp',
             imageButtonAlt:'',
             buttonTextTitle:'Revisão da Vida Toda',
             buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'/'
+            buttonLink:'https://previdenciario.glomb.com.br/vidatoda/'
           },{
             imageButton:'/assets/images/links/rural.webp',
             imageButtonAlt:'',
             buttonTextTitle:'Aposentadoria Rural',
             buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'/'
+            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriarural/'
           }
         ]}
         socialMediaArray= {[{
             icon: 'instagram',
-            link: ''
+            link: 'https://www.instagram.com/glombadvogados/'
           },{
             icon: 'facebook',
-            link: ''
+            link: 'https://www.facebook.com/glombadvogados'
           },{
             icon: 'youtube',
             link: ''

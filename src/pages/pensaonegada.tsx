@@ -50,11 +50,11 @@ return (
       subTitle={<>O INSS nega 3 em cada 4 pedidos de benefício, mesmo para quem tem direito.<br />
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/pensao_negada/pensao_negada.webp'
       headerDesktopDescription="pensao por morte negada"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/pensao_negada/pensao_negada.webp'
       headerMobileDescription="pensao por morte negada"
     />
 
@@ -85,7 +85,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      image={'/assets/images/pensao_negada/pensao_negada_1.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
@@ -108,7 +108,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
+      image={'/assets/images/pensao_negada/pensao_negada_2.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
@@ -132,7 +132,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      image={'/assets/images/pensao_negada/pensao_negada_3.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}

@@ -50,11 +50,11 @@ return (
       subTitle={<>O INSS nega 3 em cada 4 pedidos de benefício, mesmo para quem tem direito.<br />
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/loas_bpc_negada/loas_bpc_ne.webp'
       headerDesktopDescription="LOAS-BPC negado"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/loas_bpc_negada/loas_bpc_ne_Mobile.webp'
       headerMobileDescription="LOAS-BPC negado"
     />
 
@@ -85,8 +85,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/loas_bpc_negada/loas_bpc_ne_1.webp'} 
+      imageClean={'/assets/images/loas_bpc_negada/loas_bpc_ne_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -109,8 +109,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/loas_bpc_negada/loas_bpc_ne_2.webp'} 
+      imageClean={'/assets/images/loas_bpc_negada/loas_bpc_ne_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

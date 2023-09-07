@@ -48,11 +48,11 @@ return (
     <StaticBanner 
       title="Fez trabalho rural? Você pode se aposentar antes"
       subTitle={<>Quem já fez <strong>trabalho rural</strong> por qualquer período, pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/aposentadoria_rural/ap_rural.webp'
       headerDesktopDescription="Aposentadoria rural"
-      headerMobile='/assets/images/aposentadoria_rural/aposentadoria_rural_banner.webp'
+      headerMobile='/assets/images/aposentadoria_rural/ap_rural_mobile.webp'
       headerMobileDescription="Aposentadoria rural"
     />
 
@@ -80,7 +80,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
-      image={'/assets/images/aposentadoria_rural/aposentadoria_rural_fazendeiro_plantacao.webp'} 
+      image={'/assets/images/aposentadoria_rural/ap_rural_1.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
@@ -107,7 +107,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'} 
-      image={'/assets/images/aposentadoria_rural/aposentadoria_rural_enchada_na_mao.webp'} 
+      image={'/assets/images/aposentadoria_rural/ap_rural_2.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}

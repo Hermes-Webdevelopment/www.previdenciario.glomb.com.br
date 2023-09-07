@@ -48,11 +48,11 @@ return (
     <StaticBanner 
       title="Você pode se aposentar antes"
       subTitle={<>Quem trabalhou em <strong>atividades perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais</strong> pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/aposentadoria_especial/ap_especial.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/aposentadoria_especial/ap_especial_mobile.webp'
       headerMobileDescription="Aposentada recebeu aposentadoria maior"
     />
 
@@ -77,7 +77,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      image={'/assets/images/aposentadoria_especial/ap_especial_1.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
@@ -111,7 +111,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
+      image={'/assets/images/aposentadoria_especial/ap_especial_2.webp'} 
       imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
@@ -136,7 +136,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
-      image={'/assets/images/aposentadoria/quemTemDireito.webp'}
+      image={'/assets/images/aposentadoria_especial/ap_especial_3.webp'}
       imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
       cleanMode={true}

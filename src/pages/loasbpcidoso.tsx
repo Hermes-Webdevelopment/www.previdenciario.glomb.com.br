@@ -48,11 +48,11 @@ return (
     <StaticBanner 
       title="Idosos podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para pessoas com <strong>65 anos</strong> ou mais que não têm condições de se sustentar. </>}
-      buttonText="Quero ser atendido"
+      buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso"
-      headerDesktop='/assets/images/aposentadoria/headerPersonClean.webp'
+      headerDesktop='/assets/images/loas_bpc_idoso/loas_bpc_idoso.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/loas_bpc_idoso/loas_bpc_idoso_mobile.webp'
       headerMobileDescription="Receba um salário mensal do INSS"
     />
 
@@ -83,7 +83,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
+      image={'/assets/images/loas_bpc_idoso/loas_bpc_idoso_1.webp'} 
       imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
