@@ -7,6 +7,7 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
+import SimpleHead from '../components/headFormats/simpleHead';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
   

@@ -1,0 +1,130 @@
+@import '/src/styles/variables.scss';
+
+.footerSection {
+    background-color: $title-text-color;
+}
+
+.simpleFooterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 52px;
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    p {
+        font-size: $typography-paragraph-dstext-xs-font-size;
+        text-decoration: $typography-paragraph-dstext-xs-text-decoration;
+        font-family: $typography-paragraph-dstext-xs-font-family;
+        font-weight: $typography-paragraph-dstext-xs-font-weight;
+        font-style: $typography-paragraph-dstext-xs-font-style;
+        font-stretch: $typography-paragraph-dstext-xs-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-xs-letter-spacing;
+        line-height: $typography-paragraph-dstext-xs-line-height;
+        color: white;
+    }
+
+    .firstLine {
+        margin-top: 38px;
+        align-items: center;
+    }
+
+    .sloganText {
+        font-size: $typography-paragraph-dstext-lg-font-size;
+        text-decoration: $typography-paragraph-dstext-lg-text-decoration;
+        font-family: $typography-paragraph-dstext-lg-font-family;
+        font-weight: $typography-paragraph-dstext-lg-font-weight;
+        font-style: $typography-paragraph-dstext-lg-font-style;
+        font-stretch: $typography-paragraph-dstext-lg-font-stretch;
+        letter-spacing: $typography-paragraph-dstext-lg-letter-spacing;
+        line-height: $typography-paragraph-dstext-lg-line-height;
+        color: white;
+        max-width: 193px;
+    }
+
+    .secondLine {
+        margin-top: 35px;
+        align-items: center;
+
+        div {
+            width: 180px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+    }
+
+    .bottonLine {
+        margin-top: 42px;
+        padding-top: 34px;
+        border-top: 1px solid white;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .simpleFooterContainer {
+    
+        > div {
+            flex-direction: column;
+        }
+
+        .secondLine {
+            margin-top: 15px;
+        }
+
+        .thirdline {
+            align-items: center;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 32px;
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    
+        .fourthline {
+            align-items: center;
+            margin-top: 30px;
+
+            .sloganText {
+                max-width: 220px;
+                text-align: center;
+            }
+        }
+
+        .bottonLine {
+            margin-top: 34px;
+            padding-top: 14px;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    
+}
