@@ -8,6 +8,7 @@ import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
 import SimpleHead from '../components/headFormats/simpleHead';
+import SimpleFooter from '../components/footerFormats/simpleFooter';
 
 const VidaTodaClean: NextPage = () => {
   
@@ -341,6 +342,12 @@ return (
       ]}
       buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda'
       buttonText='Quero ser atendido'
+    />
+    
+    <SimpleFooter 
+      logo='glomb'
+      sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+      subTxt='Inscrição OAB nº 403'
     />
   </>
   )

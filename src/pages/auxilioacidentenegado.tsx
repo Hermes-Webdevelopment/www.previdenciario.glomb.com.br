@@ -8,6 +8,7 @@ import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
 import SimpleHead from '../components/headFormats/simpleHead';
+import SimpleFooter from '../components/footerFormats/simpleFooter';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
   
@@ -368,6 +369,12 @@ return (
       ]}
       buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+negado'
       buttonText='Quero ser atendido'
+    />
+    
+    <SimpleFooter 
+      logo='glomb'
+      sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+      subTxt='Inscrição OAB nº 403'
     />
       
   </>

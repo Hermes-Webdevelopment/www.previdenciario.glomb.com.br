@@ -12,12 +12,6 @@
     width: 100%;
     padding-bottom: 52px;
 
-    > div {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
     p {
         font-size: $typography-paragraph-dstext-xs-font-size;
         text-decoration: $typography-paragraph-dstext-xs-text-decoration;
@@ -33,6 +27,9 @@
     .firstLine {
         margin-top: 38px;
         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .sloganText {
@@ -51,6 +48,9 @@
     .secondLine {
         margin-top: 35px;
         align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
 
         div {
             width: 180px;
@@ -69,6 +69,9 @@
         padding-top: 34px;
         border-top: 1px solid white;
         align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }
 
@@ -82,6 +85,7 @@
 
 @media (max-width: 768px) {
     .simpleFooterContainer {
+        padding-bottom: 48px;
     
         > div {
             flex-direction: column;
@@ -95,6 +99,7 @@
             align-items: center;
 
             div {
+                width: 180px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;

@@ -335,6 +335,7 @@ return (
       buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural'
       buttonText='Quero ser atendido'
     />
+    
     <SimpleFooter 
       logo='glomb'
       sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}

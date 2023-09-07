@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
 import LinksBanner from '../components/linksBanner';
+import SimpleFooter from '../components/footerFormats/simpleFooter';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
   
@@ -41,6 +42,12 @@ return (
             link: 'https://www.instagram.com/glombadvogados/'
           }
         ]}
+      />
+    
+      <SimpleFooter 
+        logo='glomb'
+        sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+        subTxt='Inscrição OAB nº 403'
       />
       
     </>

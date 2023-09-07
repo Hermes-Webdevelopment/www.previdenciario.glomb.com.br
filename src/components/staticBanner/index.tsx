@@ -71,6 +71,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                     width={503}
                     src={headerMobile}
                     alt={headerMobileDescription}
+                    quality={100}
                     unoptimized={true}
                     loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
                 />

@@ -21,7 +21,7 @@ export default function SimpleFooter(props: simpleFooterInterface) {
 
     return (
 
-        <section className={styles.footerSection}>
+        <section id='footerContainer' className={styles.footerSection}>
             <div className={`container ${styles.simpleFooterContainer}`}>
                 <div className={styles.firstLine}>
                     {
