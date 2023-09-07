@@ -31,28 +31,28 @@ return (
       </Head>
 
       <LinksList 
-        imageTop='/assets/images/links/imagemTopC.webp'
+        imageTop='/assets/images/links/imagemTop.webp'
         altImageTop=''
-        imageBottom='/assets/images/links/imagemBottomC.webp'
+        imageBottom='/assets/images/links/imagemBottom.webp'
         altImageBottom=''
         linkArray={[{
-            imageButton:'/assets/images/links/aposentadoria.webp',
+            imageButton:'/assets/images/links/aposentadoria1.webp',
             imageButtonAlt:'',
-            buttonTextTitle:'Aposentadoria',
+            buttonTextTitle:'Aposentadoria Especial',
             buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriaporidade/'
+            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriaespecial/'
           },{
-            imageButton:'/assets/images/links/revisao.webp',
+            imageButton:'/assets/images/links/revisao1.webp',
             imageButtonAlt:'',
             buttonTextTitle:'Revisão da Vida Toda',
             buttonText:'Avalie seu caso sem compromisso',
             buttonLink:'https://previdenciario.glomb.com.br/vidatoda/'
           },{
-            imageButton:'/assets/images/links/rural.webp',
+            imageButton:'/assets/images/links/rural1.webp',
             imageButtonAlt:'',
-            buttonTextTitle:'Aposentadoria Rural',
-            buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriarural/'
+            buttonTextTitle:'Descubra seus direitos',
+            buttonText:'Acesse nosso blog',
+            buttonLink:'https://blog.glomb.com.br/'
           }
         ]}
         socialMediaArray= {[{
