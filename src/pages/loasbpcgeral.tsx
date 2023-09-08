@@ -130,7 +130,7 @@ return (
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
       clientCardsTitle='O que nossos clientes dizem'
-      imageUrl={'/assets/images/aposentadoria/grupoPessoas.webp'} 
+      imageUrl={'/assets/images/aposentadoria/grupoPessoasCache.webp'} 
       imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
       cleanLayout={true}
       clientsComentCard={[

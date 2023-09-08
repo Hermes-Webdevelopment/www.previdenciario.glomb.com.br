@@ -59,9 +59,9 @@ return (
       subTitle={<>A Revisão da Vida Toda permite <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e cobrar uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
-      headerDesktop='/assets/images/aposentadoria/ap_demora_mobile.webp'
+      headerDesktop='/assets/images/vidatoda/vt_desk.webp'
       headerDesktopDescription="Revisão da vida toda"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/vidatoda/vt_mobile.webp'
       headerMobileDescription="Revisão da vida toda"
     />
 
@@ -89,8 +89,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/vidatoda/vt_mobile_1.webp'} 
+      imageClean={'/assets/images/vidatoda/vt_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
       cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
@@ -111,8 +111,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/vidatoda/vt_mobile_2.webp'} 
+      imageClean={'/assets/images/vidatoda/vt_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
@@ -129,8 +129,8 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
-      image={'/assets/images/aposentadoria/imagemteste.webp'}
-      imageClean={'/assets/images/aposentadoria/quemTemDireitoClean.webp'}
+      image={'/assets/images/vidatoda/vt_mobile_3.webp'} 
+      imageClean={'/assets/images/vidatoda/vt_desk_3.webp'} 
       imageDescription={'A Pensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
@@ -139,7 +139,7 @@ return (
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
       clientCardsTitle='O que nossos clientes dizem'
-      imageUrl={'/assets/images/aposentadoria/grupoPessoas.webp'} 
+      imageUrl={'/assets/images/aposentadoria/grupoPessoasCache.webp'} 
       imageDescription={'Aposentados e pensionistas aumentaram o valor de suas aposentadorias e pensões'}
       cleanLayout={true}
       clientsComentCard={[
