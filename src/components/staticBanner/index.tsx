@@ -57,8 +57,8 @@ export default function StaticBanner(props: staticBannerInterface) {
                 
                 <Image
                     className={'apearMobile'}
-                    height={1090}
-                    width={1000}
+                    height={706}
+                    width={726}
                     src={headerDesktop}
                     alt={headerDesktopDescription}
                     quality={100}
@@ -67,8 +67,8 @@ export default function StaticBanner(props: staticBannerInterface) {
 
                 <Image
                     className={'apearDesktop'}
-                    height={965}
-                    width={503}
+                    height={679}
+                    width={376}
                     src={headerMobile}
                     alt={headerMobileDescription}
                     quality={100}

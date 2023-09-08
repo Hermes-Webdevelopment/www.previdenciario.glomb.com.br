@@ -34,8 +34,8 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     {
                         screenSize.dynamicWidth >= 992 && cleanMode && imageClean ?
                             <Image 
-                                width={ 646 }
-                                height={ 1000 }
+                                width={ 323 }
+                                height={ 500 }
                                 src={imageClean} 
                                 alt={imageDescription} 
                                 loading="lazy"
@@ -43,8 +43,8 @@ export default function InsideTopics(props: insideTopicsInterface) {
                             :
                             <Image 
                                 loading="lazy"
-                                width={ cleanMode ? 324 : 540}
-                                height={ cleanMode ? 500 : 360}
+                                width={ 327 }
+                                height={ 219 }
                                 src={image} 
                                 alt={imageDescription} 
                             />
