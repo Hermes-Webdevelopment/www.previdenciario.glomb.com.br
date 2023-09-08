@@ -59,7 +59,7 @@ return (
       subTitle={<>A Revisão da Vida Toda permite <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e cobrar uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.</>}
       buttonText="Quero ser atendido"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
-      headerDesktop='/assets/images/vidatoda/vt_desk.webp'
+      headerDesktop='/assets/images/vidatoda/vt_desk_c.webp'
       headerDesktopDescription="Revisão da vida toda"
       headerMobile='/assets/images/vidatoda/vt_mobile.webp'
       headerMobileDescription="Revisão da vida toda"
