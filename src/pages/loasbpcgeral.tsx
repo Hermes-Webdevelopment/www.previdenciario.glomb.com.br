@@ -58,9 +58,9 @@ return (
       subTitle={<>Pessoas com <strong>65 anos</strong> ou mais ou com <strong>deficiência</strong> de qualquer idade podem receber um salário mínimo mensal do INSS.</>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral"
-      headerDesktop='/assets/images/loas_bpc/loas_bpc.webp'
+      headerDesktop='/assets/images/loas_bpc/bpc_desk.webp'
       headerDesktopDescription="Receba um salário mínimo do INSS"
-      headerMobile='/assets/images/loas_bpc/loas_bpc_mobile.webp'
+      headerMobile='/assets/images/loas_bpc/bpc_mobile_c.webp'
       headerMobileDescription="Receba um salário mínimo do INSS"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'} 
-      image={'/assets/images/loas_bpc/loas_bpc_1.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/loas_bpc/bpc_mobile_1.webp'} 
+      imageClean={'/assets/images/loas_bpc/bpc_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -120,8 +120,8 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'} 
-      image={'/assets/images/loas_bpc/loas_bpc_2.webp'} 
-      imageClean={'/assets/images/loas_bpc/loas_bpc_2.webp'} 
+      image={'/assets/images/loas_bpc/bpc_mobile_2.webp'} 
+      imageClean={'/assets/images/loas_bpc/bpc_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

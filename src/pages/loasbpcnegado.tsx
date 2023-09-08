@@ -60,9 +60,9 @@ return (
                 </>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado"
-      headerDesktop='/assets/images/loas_bpc_negada/loas_bpc_ne.webp'
+      headerDesktop='/assets/images/loas_bpc_negada/loas_n_desk.webp'
       headerDesktopDescription="LOAS-BPC negado"
-      headerMobile='/assets/images/loas_bpc_negada/loas_bpc_ne_Mobile.webp'
+      headerMobile='/assets/images/loas_bpc_negada/loas_n_mobile.webp'
       headerMobileDescription="LOAS-BPC negado"
     />
 
@@ -93,8 +93,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
-      image={'/assets/images/loas_bpc_negada/loas_bpc_ne_1.webp'} 
-      imageClean={'/assets/images/loas_bpc_negada/loas_bpc_ne_1.webp'} 
+      image={'/assets/images/loas_bpc_negada/loas_n_mobile_1.webp'} 
+      imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -117,8 +117,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
-      image={'/assets/images/loas_bpc_negada/loas_bpc_ne_2.webp'} 
-      imageClean={'/assets/images/loas_bpc_negada/loas_bpc_ne_2.webp'} 
+      image={'/assets/images/loas_bpc_negada/loas_n_mobile_2.webp'} 
+      imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

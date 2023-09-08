@@ -58,9 +58,9 @@ return (
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para <strong>pessoas com deficiência</strong> de <strong>qualquer idade</strong> que não têm condições de se sustentar.</>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente"
-      headerDesktop='/assets/images/loas_bpc_pcd/loas_bpc_pcd.webp'
+      headerDesktop='/assets/images/loas_bpc_pcd/loas_pcd_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
-      headerMobile='/assets/images/loas_bpc_pcd/loas_bpc_pcd_mobile.webp'
+      headerMobile='/assets/images/loas_bpc_pcd/loas_pcd_mobile.webp'
       headerMobileDescription="Receba um salário mensal do INSS"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'} 
-      image={'/assets/images/loas_bpc_pcd/loas_bpc_pcd_1.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/loas_bpc_pcd/loas_pcd_mobile_1.webp'} 
+      imageClean={'/assets/images/loas_bpc_pcd/loas_pcd_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -117,8 +117,8 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'} 
-      image={'/assets/images/loas_bpc_pcd/loas_bpc_pcd_2.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/loas_bpc_pcd/loas_pcd_mobile_2.webp'} 
+      imageClean={'/assets/images/loas_bpc_pcd/loas_pcd_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

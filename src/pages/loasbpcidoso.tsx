@@ -58,9 +58,9 @@ return (
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para pessoas com <strong>65 anos</strong> ou mais que não têm condições de se sustentar. </>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso"
-      headerDesktop='/assets/images/loas_bpc_idoso/loas_bpc_idoso.webp'
+      headerDesktop='/assets/images/loas_bpc_idoso/bpc_idoso_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
-      headerMobile='/assets/images/loas_bpc_idoso/loas_bpc_idoso_mobile.webp'
+      headerMobile='/assets/images/loas_bpc_idoso/bpc_idoso_mobile.webp'
       headerMobileDescription="Receba um salário mensal do INSS"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'} 
-      image={'/assets/images/loas_bpc_idoso/loas_bpc_idoso_1.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/loas_bpc_idoso/bpc_idoso_mobile_1.webp'} 
+      imageClean={'/assets/images/loas_bpc_idoso/bpc_idoso_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
