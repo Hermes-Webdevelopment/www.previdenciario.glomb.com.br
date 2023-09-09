@@ -77,14 +77,14 @@ export default function StaticBanner(props: staticBannerInterface) {
                 />
 
             </div>
-            {/* <div className={`apearMobile ${styles.starsImage}`}>
+            <div className={`apearMobile ${styles.starsImage}`}>
                 <Image 
                     height={138}
                     width={232}
                     src={'/assets/images/clients_stars.webp'}
                     alt={'Avaliação de 4.9 estrelas'}
                 />
-            </div> */}
+            </div>
         </section>
     )
 }
