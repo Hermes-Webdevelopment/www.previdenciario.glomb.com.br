@@ -58,9 +58,9 @@ return (
       subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
-      headerDesktop='/assets/images/aposentadoria_negada/ap_negada.webp'
+      headerDesktop='/assets/images/aposentadoria_negada/ap_n_desk.webp'
       headerDesktopDescription="Aposentadoria negada"
-      headerMobile='/assets/images/aposentadoria_negada/ap_negada_mobile.webp'
+      headerMobile='/assets/images/aposentadoria_negada/ap_n_mobile.webp'
       headerMobileDescription="Aposentadoria negada"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
-      image={'/assets/images/aposentadoria_negada/ap_negada_1.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/aposentadoria_negada/ap_n_mobile_1.webp'} 
+      imageClean={'/assets/images/aposentadoria_negada/ap_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -115,8 +115,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
-      image={'/assets/images/aposentadoria_negada/ap_negada_2.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/aposentadoria_negada/ap_n_mobile_2.webp'} 
+      imageClean={'/assets/images/aposentadoria_negada/ap_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

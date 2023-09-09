@@ -58,9 +58,9 @@ return (
       subTitle={<>Se seu pedido está em análise no <strong>INSS</strong> há mais de <strong>90 dias</strong>, você pode exigir uma <strong>resposta</strong> na justiça e receber <strong>indenização</strong> pela demora.</>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias"
-      headerDesktop='/assets/images/aposentadoria_demora/ap_demora.webp'
+      headerDesktop='/assets/images/aposentadoria_demora/ap_analise_desk.webp'
       headerDesktopDescription="Aposentadoria demora"
-      headerMobile='/assets/images/aposentadoria_demora/ap_demora_mobile.webp'
+      headerMobile='/assets/images/aposentadoria_demora/ap_analise_mobile.webp'
       headerMobileDescription="Aposentadoria demora"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'} 
-      image={'/assets/images/aposentadoria_demora/ap_demora_1.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/aposentadoria_demora/ap_analise_mobile_1_c.webp'} 
+      imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_1_c.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -115,8 +115,8 @@ return (
       } 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/aposentadoria_demora/ap_analise_mobile_2.webp'} 
+      imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}

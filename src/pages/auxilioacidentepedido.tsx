@@ -58,9 +58,9 @@ return (
       subTitle={<>Quem sofreu <strong>qualquer acidente</strong> e por isso tem <strong>dificuldades</strong> para trabalhar pode receber um <strong>valor mensal</strong> do INSS.</>}
       buttonText="Atendemos em todo Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido"
-      headerDesktop='/assets/images/aposentadoria/ap_demora_mobile.webp'
+      headerDesktop='/assets/images/auxilio_acidente/aux_ac_desk.webp'
       headerDesktopDescription="Receba auxílio acidente do INSS"
-      headerMobile='/assets/images/aposentadoria/headerPersonMobile.webp'
+      headerMobile='/assets/images/auxilio_acidente/aux_ac_mobile.webp'
       headerMobileDescription="Receba auxílio acidente do INSS"
     />
 
@@ -91,8 +91,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/auxilio_acidente/aux_ac_mobile_1.webp'} 
+      imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
@@ -113,8 +113,8 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
-      image={'/assets/images/aposentadoria/vantagemMelhorRevisao.webp'} 
-      imageClean={'/assets/images/aposentadoria/vantagemMelhorRevisaoClean.webp'} 
+      image={'/assets/images/auxilio_acidente/aux_ac_mobile_2.webp'} 
+      imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
@@ -143,8 +143,8 @@ return (
         ]} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/auxilio_acidente/aux_ac_mobile_3.webp'} 
+      imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_3.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />

@@ -88,8 +88,8 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'} 
-      image={'/assets/images/aposentadoria/imageAposentadoMelhor.webp'} 
-      imageClean={'/assets/images/aposentadoria/imageAposentadoMelhorClean.webp'} 
+      image={'/assets/images/aposentadoria_idade/ap_idade_mobile_1.webp'} 
+      imageClean={'/assets/images/aposentadoria_idade/ap_idade_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
     />
