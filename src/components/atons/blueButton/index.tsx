@@ -32,12 +32,9 @@ export default function BlueButton(props: buttonProps) {
     const listenToScroll = () => {
 
         let heightToHideFrom = height - windowHeight * 2;
-        console.log(windowHeight)
-        console.log(heightToHideFrom)
 
         const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
       
-        console.log(winScroll)
         if (winScroll > heightToHideFrom) {
              setIsVisible(true);
         } else {
