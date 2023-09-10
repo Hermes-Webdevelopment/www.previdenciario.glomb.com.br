@@ -39,11 +39,11 @@ return (
       <meta name="description" content="Com a revisão da vida toda é possível aumentar o valor de sua aposentadoria ou pensão e receber uma indenização pelas diferenças dos últimos 5 anos."></meta>
     </Head>
                     
-    {/* <SimpleHead 
+    <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
-    /> */}
+    />
 
     <div className='apearDesktop'>
       <BlueButton 
@@ -61,7 +61,7 @@ return (
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
       headerDesktop='/assets/images/vidatoda/vt_desk_c.webp'
       headerDesktopDescription="Revisão da vida toda"
-      headerMobile='/assets/images/vidatoda/rvt_teste.webp'
+      headerMobile='/assets/images/vidatoda/vt_mobile_c.webp'
       headerMobileDescription="Revisão da vida toda"
     />
 
