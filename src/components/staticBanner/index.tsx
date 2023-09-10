@@ -31,14 +31,14 @@ export default function StaticBanner(props: staticBannerInterface) {
                 <div className={styles.textBox}>
                     <h1>{title}</h1>
                     <p>{subTitle}</p>
-                    <div className={`apearMobile ${styles.width100}`}>
-                        <BlueButton 
+                    <div className={`apearDesktop`}>
+                        <WhiteButton 
                             buttonLink={buttonLink}
                             buttonText={buttonText}
                         />
                     </div>
-                    <div className={`apearDesktop`}>
-                        <WhiteButton 
+                    <div className={`apearMobile ${styles.width100}`}>
+                        <BlueButton 
                             buttonLink={buttonLink}
                             buttonText={buttonText}
                         />
