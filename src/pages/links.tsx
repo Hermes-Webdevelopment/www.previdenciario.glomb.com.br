@@ -2,7 +2,7 @@ import Head from 'next/head';
 import type { NextPage } from 'next';
 import LinksList from '../components/linksList';
 
-const AposentadoriaTempoEspecial: NextPage = () => {
+const Links: NextPage = () => {
   
 return (
     <>
@@ -73,4 +73,4 @@ return (
   )
 }
 
-export default AposentadoriaTempoEspecial
+export default Links

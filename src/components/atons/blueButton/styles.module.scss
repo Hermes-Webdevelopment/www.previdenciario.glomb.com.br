@@ -46,10 +46,6 @@
     }
 }
 
-.btnClean {
-    max-width: 400px;
-}
-
 .floatingButton {
     display: flex;
     justify-content: center;
@@ -62,23 +58,11 @@
     padding-right: 15px;
 }
 
-@media (max-width: 1200px) {
-    .buttonContainer {
-        width: 90%;
-        font-size: 18px;
-        padding: 16px;
-    }
+.container {
+    max-width: 100%;
 }
 
-@media (max-width: 992px) {
-
-    .btnClean {
-        max-width: unset;
-    }
-
-}
-
-@media (max-width: 768px) {
+@media (min-width: 576px) {
     .buttonContainer {
         width: 100%;
         font-size: $typography-paragraph-dstext-sm-semi-bold-font-size;
@@ -93,8 +77,28 @@
     }
 }
 
-@media (max-width: 576px) {
-    .container {
-        max-width: 100%;
+@media (min-width: 768px) {
+    .btnClean {
+        max-width: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .buttonContainer {
+        width: 90%;
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .btnClean {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .buttonContainer {
+        width: 95%;
+        padding: 14px;
+        font-size: $typography-paragraph-dstext-md-semi-bold-font-size;
     }
 }
