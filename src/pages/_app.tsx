@@ -9,9 +9,9 @@ import { analytics } from '../components/gtmFile/analytics';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  useEffect(() => {
-    analytics(window, document, 'script', 'dataLayer', 'GTM-MZG2JHG');
-  },[])
+  // useEffect(() => {
+  //   analytics(window, document, 'script', 'dataLayer', 'GTM-MZG2JHG');
+  // },[])
 
   return <Component {...pageProps} />
 }
