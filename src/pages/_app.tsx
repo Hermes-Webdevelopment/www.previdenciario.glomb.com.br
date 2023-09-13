@@ -10,7 +10,6 @@ import { analytics } from '../components/gtmFile/analytics';
 function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
-    console.log('aqui')
     analytics(window, document, 'script', 'dataLayer', 'GTM-MZG2JHG');
   },[])
 
