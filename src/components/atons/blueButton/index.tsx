@@ -44,7 +44,7 @@ export default function BlueButton(props: buttonProps) {
 
     return (
         <div className={`${isFloating ? styles.floatingButton : ''} ${cleanMode ? styles.btnClean : ''} ${transparentMode ? styles.btnTransparent : ''}`}>
-            <Link href={buttonLink} className={`${styles.buttonContainer} ${isVisible && isFloating ? styles.changeOpacity : ''}`}>
+            <Link href={buttonLink} className={`${styles.buttonContainer} ${isVisible && isFloating ? styles.changeOpacity : ''}`} prefetch={false}>
                 {buttonText}
             </Link>
         </div>

@@ -3,14 +3,33 @@ import type { NextPage } from 'next';
 import StaticBanner from '../components/staticBanner';
 import FormsTopics from '../components/formsTitles';
 import InsideTopics from '../components/insideTopics';
-import ImageGalerySlider from '../components/imageGalerySlider';
-import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
-import PeopleSlider from '../components/PeopleSlider';
 import SimpleHead from '../components/headFormats/simpleHead';
-import SimpleFooter from '../components/footerFormats/simpleFooter';
+
+import dynamic from "next/dynamic";
+import { useEffect, useState } from 'react';
+
+const PeopleComents = dynamic(() =>  import('../components/peopleComents'));
+const ImageGalerySlider = dynamic(() =>  import('../components/imageGalerySlider'));
+const PeopleSlider = dynamic(() =>  import('../components/PeopleSlider'));
+const SimpleFooter = dynamic(() =>  import('../components/footerFormats/simpleFooter'));
 
 const VidaTodaClean: NextPage = () => {
+  const [shown, setShown] = useState(false);
+
+  // 3. Attach a scroll event handler
+  useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY >= 250) {
+        setShown(true);
+      }
+    };
+    window.addEventListener("scroll", onScroll);
+
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
   
 return (
   <>
@@ -135,7 +154,8 @@ return (
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
-
+    
+    {shown &&
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
       clientCardsTitle='O que nossos clientes dizem'
@@ -187,7 +207,8 @@ return (
         }
       ]}
     />
-    
+    }
+    {shown &&
     <ImageGalerySlider 
       title={'Transformar vidas por meio da justiça é nosso propósito'} 
       subTitle={['46+ anos de atuação', '25.000+ clientes atendidos']} 
@@ -236,7 +257,8 @@ return (
         }
       ]}
     />
-    
+    }
+    {shown &&
     <PeopleSlider 
       title='Nossos profissionais'
       subTitle={<p>Nossa equipe altamente qualificada trabalha com excelência e rigor técnico para oferecer o melhor serviço.</p>}
@@ -343,12 +365,14 @@ return (
       buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda'
       buttonText='Quero ser atendido'
     />
-    
-    <SimpleFooter 
-      logo='glomb'
-      sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
-      subTxt='Inscrição OAB nº 403'
-    />
+    }
+    {shown &&
+      <SimpleFooter 
+        logo='glomb'
+        sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+        subTxt='Inscrição OAB nº 403'
+      />
+    }
   </>
   )
 }

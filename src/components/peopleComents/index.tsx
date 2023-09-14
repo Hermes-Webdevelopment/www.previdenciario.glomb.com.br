@@ -35,58 +35,58 @@ export default function PeopleComents(props: imageGalerySliderInterface) {
     }
     
     return (
-        <section className={`${styles.peopleComentsSection} ${cleanLayout ? styles.cleanPeopleComents : ''}`}>
-            <div className={`container ${styles.PeopleComentsContainer}`}>
-                <h2>{sectionTitle}</h2>
-                <div>
-                    <div className={styles.imageContainer}>
-                        <Image 
-                            loading="lazy"
-                            src={imageUrl}
-                            alt={imageDescription}
-                            width={404}
-                            height={445}
-                        />
-                    </div>
-                    <div className={styles.sliderComentsContainer}>
-                        <h2>{clientCardsTitle}</h2>
-                        <Swiper
-                            slidesPerView={1} 
-                            className="mySwiper"
-                            centeredSlides={true}
-                            spaceBetween={30}
-                        >
-                            <SwiperButtons />
-                            
-                            {
-                                clientsComentCard.map((coment) => {
-                                    return (
-                                        <SwiperSlide key={coment.title}>
-                                            <div className={styles.comentBox}>
-                                                {
-                                                    !cleanLayout &&
-                                                    <h3>{coment.title}</h3>
-                                                }
-                                                <div>
+            <section className={`${styles.peopleComentsSection} ${cleanLayout ? styles.cleanPeopleComents : ''}`}>
+                <div className={`container ${styles.PeopleComentsContainer}`}>
+                    <h2>{sectionTitle}</h2>
+                    <div>
+                        <div className={styles.imageContainer}>
+                            <Image 
+                                loading="lazy"
+                                src={imageUrl}
+                                alt={imageDescription}
+                                width={404}
+                                height={445}
+                            />
+                        </div>
+                        <div className={styles.sliderComentsContainer}>
+                            <h2>{clientCardsTitle}</h2>
+                            <Swiper
+                                slidesPerView={1} 
+                                className="mySwiper"
+                                centeredSlides={true}
+                                spaceBetween={30}
+                            >
+                                <SwiperButtons />
+                                
+                                {
+                                    clientsComentCard.map((coment) => {
+                                        return (
+                                            <SwiperSlide key={coment.title}>
+                                                <div className={styles.comentBox}>
                                                     {
-                                                        starscounter(coment.starNumber).map((star) => {
-                                                            return star
-                                                        })
+                                                        !cleanLayout &&
+                                                        <h3>{coment.title}</h3>
                                                     }
+                                                    <div>
+                                                        {
+                                                            starscounter(coment.starNumber).map((star) => {
+                                                                return star
+                                                            })
+                                                        }
+                                                    </div>
+                                                    <p>{coment.text}</p>
+                                                    <p className={styles.personName}>{coment.clientName}</p>
                                                 </div>
-                                                <p>{coment.text}</p>
-                                                <p className={styles.personName}>{coment.clientName}</p>
-                                            </div>
-                                        </SwiperSlide>
-                                    )
-                                })
-                            }
-                            
-                        </Swiper>
+                                            </SwiperSlide>
+                                        )
+                                    })
+                                }
+                                
+                            </Swiper>
+                        </div>
                     </div>
+                    
                 </div>
-                
-            </div>
-        </section>
+            </section>
     )
 }

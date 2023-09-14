@@ -15,7 +15,7 @@ export default function WhiteButton(props: buttonProps) {
 
     return (
         <div>
-            <Link href={buttonLink} className={`${styles.buttonContainer} ${blueVariable ? styles.changeToBlue : ''}`}>
+            <Link href={buttonLink} className={`${styles.buttonContainer} ${blueVariable ? styles.changeToBlue : ''}`} prefetch={false}>
                 <u>{buttonText}</u> {blueVariable ? <BlueArrow /> : <WhiteArrow />}
             </Link>
         </div>

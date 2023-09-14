@@ -15,7 +15,7 @@ export default function SocialMediaLink(props: socialMediaLinkProps) {
     const {imageButton, buttonTextTitle, buttonText , imageButtonAlt, buttonLink} = props
 
     return (
-        <Link href={buttonLink} className={`${styles.linkContainer}`}>
+        <Link href={buttonLink} className={`${styles.linkContainer}`} prefetch={false}>
             <div className={styles.imageContainer}>
                 <Image 
                     height={118}
