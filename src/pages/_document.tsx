@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
                 </Head>
                 <body>
-                    <Script id="gtm-script" strategy="afterInteractive">
+                    {/* <Script id="gtm-script" strategy="afterInteractive">
                         {
                             `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -22,12 +22,12 @@ export default class MyDocument extends Document {
                             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                             })(window,document,'script','dataLayer','GTM-MZG2JHG');`
                         }
-                    </Script>
+                    </Script> */}
                     <Main />
                     <NextScript />
-                    <noscript>
+                    {/* <noscript>
                         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG2JHG" height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe>
-                    </noscript>
+                    </noscript> */}
                 </body>
             </Html>
         ) 

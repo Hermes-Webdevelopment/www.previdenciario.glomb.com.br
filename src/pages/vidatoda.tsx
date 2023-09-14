@@ -58,11 +58,11 @@ return (
       <meta name="description" content="Com a revisão da vida toda é possível aumentar o valor de sua aposentadoria ou pensão e receber uma indenização pelas diferenças dos últimos 5 anos."></meta>
     </Head>
                     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
@@ -154,7 +154,7 @@ return (
       cleanMode={true}
       cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
-    
+
     {shown &&
     <PeopleComents 
       sectionTitle={<>Atendemos <strong>100% on-line</strong> em todo o Brasil</>}
