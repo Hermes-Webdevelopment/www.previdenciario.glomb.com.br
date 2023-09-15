@@ -38,11 +38,11 @@ return (
       <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
     </Head>
     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 

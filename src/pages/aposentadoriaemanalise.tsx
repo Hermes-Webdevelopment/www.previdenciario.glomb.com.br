@@ -38,11 +38,11 @@ return (
       <meta name="description" content="Se seu pedido está em análise há mais de 90 dias no INSS, você pode exigir uma resposta na justiça e receber indenização pela demora."></meta>
     </Head>
     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 

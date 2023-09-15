@@ -38,11 +38,11 @@ return (
       <meta name="description" content="Pessoas com deficiência podem receber um salário mínimo mensal do INSS."></meta>
     </Head>
                     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente'
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 

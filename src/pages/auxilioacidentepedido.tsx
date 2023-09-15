@@ -38,11 +38,11 @@ return (
       <meta name="description" content="Sofreu acidente e tem dificuldade para trabalhar? Receba um valor mensal do INSS."></meta>
     </Head>
                     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente+pedido'
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 

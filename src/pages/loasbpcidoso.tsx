@@ -38,11 +38,11 @@ return (
       <meta name="description" content="Pessoas com 65 anos ou mais podem receber um salário mínimo mensal do INSS."></meta>
     </Head>
                     
-    <SimpleHead 
+    {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
         btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'
-    />
+    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
