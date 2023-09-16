@@ -22,7 +22,7 @@ return (
       <LinksBanner 
         title='Obrigado!'
         image='/assets/images/agradecimento/bpc_banner.webp'
-        imageMobile='/assets/images/agradecimento/bpc_bannermobile.webp'
+        imageMobile='/assets/images/agradecimento/bpc_bannermobilec.webp'
         imageAlt='Pessoas felizes agradecendo'
         text={<>Já estamos analisando seu caso.<br/> Em breve nossos especialistas entrarão em contato para indicar como conquistar seus direitos.</>}
         socialMediaArray={[

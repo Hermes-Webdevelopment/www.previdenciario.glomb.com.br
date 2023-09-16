@@ -84,17 +84,17 @@ export default function LinksBanner(props: singleText) {
                         height={1090}
                         width={943.5}
                         src={image}
+                        quality={100}
                         alt={imageAlt}
-                        loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'} 
                     />
 
                     <Image
                         className={'apearDesktop'}
                         height={965}
                         width={503}
+                        quality={100}
                         src={imageMobile}
                         alt={imageAlt}
-                        loading={screenSize.dynamicWidth >= 992 ? 'lazy' : 'eager'}
                     />
                 </div>
             </div>

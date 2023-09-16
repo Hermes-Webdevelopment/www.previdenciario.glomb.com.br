@@ -22,7 +22,7 @@ return (
       <LinksBanner 
         title='Obrigado!'
         image='/assets/images/agradecimento/ap_demora_banner.webp'
-        imageMobile='/assets/images/agradecimento/ap_demora_bannermobile.webp'
+        imageMobile='/assets/images/agradecimento/ap_demora_bannermobilec.webp'
         imageAlt='Pessoas felizes agradecendo'
         text={<>Já estamos analisando seu caso.<br/> Em breve nossos especialistas entrarão em contato para indicar como conquistar seus direitos.</>}
         socialMediaArray={[
