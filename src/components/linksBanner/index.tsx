@@ -63,7 +63,7 @@ export default function LinksBanner(props: singleText) {
                         {
                             socialMediaArray.map(socialMedia => {
                                 return (
-                                    <a href={socialMedia.link}>
+                                    <a href={socialMedia.link} key={socialMedia.name}>
                                         <div className={styles.svgBoxContainer}>
                                             { 
                                                 brinRightIcon(socialMedia.icon)

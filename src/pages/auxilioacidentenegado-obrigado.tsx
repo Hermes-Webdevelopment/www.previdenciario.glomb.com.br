@@ -21,8 +21,8 @@ return (
 
       <LinksBanner 
         title='Obrigado!'
-        image='/assets/images/agradecimento/banner.webp'
-        imageMobile='/assets/images/agradecimento/bannermobileCache.webp'
+        image='/assets/images/agradecimento/aux_acd_n_banner.webp'
+        imageMobile='/assets/images/agradecimento/aux_acd_n_bannermobile.webp'
         imageAlt='Pessoas felizes agradecendo'
         text={<>Já estamos analisando seu caso.<br/> Em breve nossos especialistas entrarão em contato para indicar como conquistar seus direitos.</>}
         socialMediaArray={[
