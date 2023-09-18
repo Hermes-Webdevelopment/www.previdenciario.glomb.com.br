@@ -81,7 +81,7 @@ return (
         <>
           <p>
             As pessoas que já completaram <strong>60 anos de idade</strong> e contribuíram para o INSS por <strong>15 anos</strong> podem ter direito de se aposentar. 
-          </p><br />
+          </p>
           <p>
             Além disso, quem já trabalhou na <strong>roça</strong> ou em <strong>atividades prejudiciais</strong> à saúde pode usar esse tempo de trabalho para conquistar uma <strong>aposentadoria melhor</strong>.
           </p>

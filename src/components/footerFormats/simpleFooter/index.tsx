@@ -38,18 +38,34 @@ export default function SimpleFooter(props: simpleFooterInterface) {
                 <div className={styles.secondLine}>
                     <p>{subTxt}</p>
                     <div className='apearMobile'>
-                        <Instagram />
-                        <Facebook />
-                        <Youtube />
-                        <Whats />
+                        <a href="https://www.instagram.com/glombadvogados/">
+                            <Instagram />
+                        </a>
+                        <a href="https://www.facebook.com/glombadvogados">
+                            <Facebook />
+                        </a>
+                        <a href="">
+                            <Youtube />
+                        </a>
+                        <a href="">
+                            <Whats />
+                        </a>
                     </div>
                 </div>
                 <div className={`apearDesktop ${styles.thirdline}`}>
                     <div>
-                        <Instagram />
-                        <Facebook />
-                        <Youtube />
-                        <Whats />
+                        <a href="https://www.instagram.com/glombadvogados/">
+                            <Instagram />
+                        </a>
+                        <a href="https://www.facebook.com/glombadvogados">
+                            <Facebook />
+                        </a>
+                        <a href="">
+                            <Youtube />
+                        </a>
+                        <a href="">
+                            <Whats />
+                        </a>
                     </div>
                 </div>
                 <div className={`apearDesktop ${styles.fourthline}`}>

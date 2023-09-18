@@ -81,7 +81,7 @@ return (
         <>
           <p>
             Todas as pessoas que já trabalharam em atividades rurais têm direito de incluir esse tempo de trabalho no cálculo de suas aposentadorias. 
-          </p><br />
+          </p>
           <p>
             A contagem do tempo rural permite antecipar sua aposentadoria e conquistar um benefício de valor maior.
           </p>

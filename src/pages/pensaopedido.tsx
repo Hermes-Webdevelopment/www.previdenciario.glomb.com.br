@@ -80,7 +80,7 @@ return (
         <>
           <p>
             Os familiares <strong>dependentes</strong> de um <strong>trabalhador</strong> ou <strong>aposentado</strong> falecido podem receber de <strong>1 a 5 salários</strong> mínimos por mês do INSS.
-          </p><br />
+          </p>
           <p>
             A causa da morte <strong>não precisa</strong> ter relação com o trabalho para que você tenha direito de receber esse benefício.
           </p>
@@ -100,7 +100,7 @@ return (
         <>  
           <p>
             Para receber pensão basta comprovar <strong>dependência econômica</strong> e <strong>relação familiar</strong> com a pessoa falecida.
-          </p> <br />
+          </p> 
           <p>
             Têm direito à pensão por morte:
           </p>

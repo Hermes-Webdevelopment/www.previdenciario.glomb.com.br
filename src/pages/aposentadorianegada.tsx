@@ -81,10 +81,10 @@ return (
         <>
           <p>
             É comum que INSS negue a <strong>maioria</strong> dos pedidos de benefício mesmo nos casos em que <strong>existe o direito de receber</strong>. 
-          </p><br />
+          </p>
           <p>
             De janeiro a março de 2022, o INSS negou <strong>3 em cada 4</strong> pedidos que foram feitos, conforme dados do boletim estatístico da previdência social.
-          </p><br />
+          </p>
           <p>
             Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua <strong>aposentadoria</strong>.
           </p>
@@ -104,10 +104,10 @@ return (
         <>  
           <p>
             Após a resposta negativa do INSS, é possível fazer um recurso administrativo.
-          </p><br />
+          </p>
           <p>
             Porém, esse recurso é demorado e na maioria dos casos o INSS nega o pedido mais uma vez.
-          </p><br />
+          </p>
           <p>
             Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça e receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
           </p>

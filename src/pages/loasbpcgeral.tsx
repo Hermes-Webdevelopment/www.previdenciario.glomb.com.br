@@ -81,10 +81,10 @@ return (
         <>
           <p>
             Todas as pessoas com <strong>65 anos</strong> ou mais podem receber um <strong>salário</strong> mínimo por mês do INSS. 
-          </p><br />
+          </p>
           <p>
             Para isso, basta comprovar que não têm <strong>condições</strong> de se sustentar.
-          </p><br />
+          </p>
           <p>
             Mesmo quem <strong>nunca contribuiu</strong> ao INSS tem direito de receber esse benefício.
           </p>
@@ -104,7 +104,7 @@ return (
         <>  
           <p>
             As pessoas com deficiência também podem receber um salário mínimo mensal do INSS, independentemente da idade.
-          </p><br />
+          </p>
           <p>
             Exemplos de condições que dão direito ao BPC-LOAS:
           </p>

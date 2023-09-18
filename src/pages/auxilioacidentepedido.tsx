@@ -81,10 +81,10 @@ return (
         <>
           <p>
             Quem sofreu <strong>qualquer acidente</strong> e ficou com <strong>sequelas</strong> que dificultam a vida profissional pode receber um <strong>valor mensal</strong> do INSS pelo resto da vida.
-          </p><br />
+          </p>
           <p>
             Você pode receber esse benefício mesmo se o acidente aconteceu <strong>fora</strong> do ambiente e do horário de trabalho.
-          </p><br />
+          </p>
           <p>
             Ainda, quem recebe auxílio acidente pode continuar trabalhando normalmente.
           </p>
@@ -127,10 +127,10 @@ return (
         <>
           <p>
             O auxílio acidente é pago até a sua aposentadoria.
-          </p><br />
+          </p>
           <p>
             Quem não se aposentar continuará recebendo o benefício pelo resto da vida.
-          </p><br />
+          </p>
           <p>
             Outras vantagens do auxílio acidente são:
           </p>

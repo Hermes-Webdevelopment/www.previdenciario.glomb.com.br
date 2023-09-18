@@ -81,10 +81,10 @@ return (
         <>
           <p>
             <strong>Pessoas com deficiência</strong> de <strong>qualquer idade</strong> podem receber um <strong>salário</strong> mínimo por mês do INSS. 
-          </p><br />
+          </p>
           <p>
             Para isso, basta comprovar que não têm <strong>condições</strong> de se sustentar.
-          </p><br />
+          </p>
           <p>
             Mesmo quem <strong>nunca contribuiu</strong> ao INSS tem direito de receber esse benefício.
           </p>

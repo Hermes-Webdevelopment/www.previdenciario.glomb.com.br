@@ -100,10 +100,10 @@ return (
       text={
         <>
           <p>
-            Milhares de <strong>aposentados </strong>que contribuíram ao INSS <strong>antes de 1994</strong>, podem estar recebendo uma <strong>aposentadoria menor</strong> do que deveriam.<br/>
+            Milhares de <strong>aposentados </strong>que contribuíram ao INSS <strong>antes de 1994</strong>, podem estar recebendo uma <strong>aposentadoria menor</strong> do que deveriam.
           </p>
           <p>
-            Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.<br /> 
+            Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
@@ -112,7 +112,6 @@ return (
       imageClean={'/assets/images/vidatoda/vt_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
-      cleanModeText={'O valor dos benefícios de quem se aposentou até novembro de 2019 pode estar mais baixo do que deveria ser.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -135,7 +134,6 @@ return (
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
       cleanMode={true}
-      cleanModeText={'A Revisão da Vida Toda pode gerar um aumento no valor mensal de milhares de aposentadoria e pensões.'}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}
@@ -152,7 +150,6 @@ return (
       imageClean={'/assets/images/vidatoda/vt_desk_3.webp'} 
       imageDescription={'A Pensionista recebeu um valor maior de benefício'} 
       cleanMode={true}
-      cleanModeText={'Se você se encaixa nesses requisitos, clique em quero ser atendido e descubra se a revisão da vida toda pode aumentar o valor da sua aposentadoria ou pensão.'}
     />
 
     {shown &&

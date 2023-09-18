@@ -80,11 +80,11 @@ return (
       text={
         <>
           <p>
-            Infelizmente a <strong>demora</strong> do INSS para analisar pedidos de aposentadoria é um problema muito comum.. 
-          </p><br />
+            Infelizmente a <strong>demora</strong> do INSS para analisar pedidos de aposentadoria é um problema muito comum. 
+          </p>
           <p>
             Porém, isso <strong>prejudica</strong> muitas pessoas que já deveriam estar <strong>recebendo</strong> seus benefícios.
-          </p><br />
+          </p>
           <p>
             Para evitar <strong>prejuízos</strong>, é possível cobrar uma <strong>resposta rápida</strong> na justiça, <strong>garantir</strong> seus direitos e ainda receber uma <strong>indenização</strong> do INSS pela demora.
           </p>
@@ -104,10 +104,10 @@ return (
         <>  
           <p>
             Como regra geral, o INSS tem um prazo máximo de 90 dias para analisar os pedidos de aposentadoria.
-          </p><br />
+          </p>
           <p>
             Mas no caso da aposentadoria por invalidez, esse prazo é de apenas 45 dias.
-          </p><br />
+          </p>
           <p>
             Se o INSS está demorando para analisar seu pedido de aposentadoria, é possível exigir uma resposta por meio de ação na justiça, receber os valores atrasados e ainda cobrar uma indenização pela demora.
           </p>
