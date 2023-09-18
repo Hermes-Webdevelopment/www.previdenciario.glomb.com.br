@@ -47,7 +47,7 @@ export default function SimpleFooter(props: simpleFooterInterface) {
                         <a href="">
                             <Youtube />
                         </a>
-                        <a href="">
+                        <a href="https://wa.me/554132239132">
                             <Whats />
                         </a>
                     </div>
@@ -63,7 +63,7 @@ export default function SimpleFooter(props: simpleFooterInterface) {
                         <a href="">
                             <Youtube />
                         </a>
-                        <a href="">
+                        <a href="https://wa.me/554132239132">
                             <Whats />
                         </a>
                     </div>
