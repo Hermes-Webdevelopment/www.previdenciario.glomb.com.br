@@ -19,7 +19,7 @@ return (
         <meta property="fb:app_id" content="824919729364803" />
         <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
         <meta property="og:image:width" content="1200"/>
-        <meta property="og:image:height" content="801"/>
+        <meta property="og:image:height" content="627"/>
         <meta property='og:image:alt' content='Auxílio acidente'/>
         <meta property='og:description' content='Quem sofreu acidente e ficou com dificuldade para trabalhar pode receber um valor mensal do INSS.'/>
         <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentepedido/'/>

@@ -27,7 +27,7 @@ return (
       <meta property='og:title' content='Aposentadoria parada no INSS tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
       <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="801"/>
+      <meta property="og:image:height" content="627"/>
       <meta property='og:image:alt' content='Aposentadoria demora INSS'/>
       <meta property='og:description' content='O INSS tem 90 dias para analisar seu pedido. Exija uma resposta na justiça.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriaemanalise/'/>
