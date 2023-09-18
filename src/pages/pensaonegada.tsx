@@ -58,7 +58,7 @@ return (
       subTitle={<>O INSS nega 3 em cada 4 pedidos de benefício, mesmo para quem tem direito.<br />
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada"
       headerDesktop='/assets/images/pensao_negada/ppm_n_desk_c.webp'
       headerDesktopDescription="pensao por morte negada"

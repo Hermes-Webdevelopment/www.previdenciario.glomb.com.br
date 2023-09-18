@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Conquiste sua Aposentadoria"
       subTitle={<>Quem completou <strong>60 anos</strong> de idade e contribuiu ao INSS por <strong>15 anos</strong> já pode ter direito à <strong>aposentadoria</strong>.</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade"
       headerDesktop='/assets/images/aposentadoria_idade/ap_idade.webp'
       headerDesktopDescription=" Aposentadoria por idade"

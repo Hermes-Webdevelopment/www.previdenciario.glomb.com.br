@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Aposentadoria parada no INSS tem solução"
       subTitle={<>Se seu pedido está em análise no <strong>INSS</strong> há mais de <strong>90 dias</strong>, você pode exigir uma <strong>resposta</strong> na justiça e receber <strong>indenização</strong> pela demora.</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias"
       headerDesktop='/assets/images/aposentadoria_demora/ap_analise_desk.webp'
       headerDesktopDescription="Aposentadoria demora"

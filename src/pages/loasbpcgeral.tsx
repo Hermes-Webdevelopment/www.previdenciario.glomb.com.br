@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Você pode receber um valor mensal do INSS"
       subTitle={<>Pessoas com <strong>65 anos</strong> ou mais ou com <strong>deficiência</strong> de qualquer idade podem receber um salário mínimo mensal do INSS.</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral"
       headerDesktop='/assets/images/loas_bpc/bpc_desk.webp'
       headerDesktopDescription="Receba um salário mínimo do INSS"

@@ -40,7 +40,7 @@ return (
             imageButtonAlt:'',
             buttonTextTitle:'Aposentadoria Especial',
             buttonText:'Avalie seu caso sem compromisso',
-            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriaespecial/'
+            buttonLink:'https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'
           },{
             imageButton:'/assets/images/links/revisao1.webp',
             imageButtonAlt:'',

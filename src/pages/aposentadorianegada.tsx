@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Aposentadoria negada tem solução"
       subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada"
       headerDesktop='/assets/images/aposentadoria_negada/ap_n_desk.webp'
       headerDesktopDescription="Aposentadoria negada"

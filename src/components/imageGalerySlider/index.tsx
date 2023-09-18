@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { ReactNode } from 'react';
 import SwiperButtons from './swiperButtons';
-import { Keyboard, Mousewheel, Navigation, Pagination } from 'swiper/modules';
+import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
@@ -53,9 +53,8 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
                         cssMode={screenSize.dynamicWidth >= 769}
                         navigation={screenSize.dynamicWidth <= 768}
                         pagination={screenSize.dynamicWidth <= 768}
-                        mousewheel={screenSize.dynamicWidth <= 768}
                         keyboard={screenSize.dynamicWidth <= 768}
-                        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                        modules={[Navigation, Pagination, Keyboard]}
                     >
                         <SwiperButtons />
                         

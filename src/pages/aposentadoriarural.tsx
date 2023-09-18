@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Fez trabalho rural? Você pode se aposentar antes"
       subTitle={<>Quem já fez <strong>trabalho rural</strong> por qualquer período, pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+rural"
       headerDesktop='/assets/images/aposentadoria_rural/ap_rural_desk.webp'
       headerDesktopDescription="Aposentadoria rural"

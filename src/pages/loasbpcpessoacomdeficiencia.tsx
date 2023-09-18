@@ -56,7 +56,7 @@ return (
     <StaticBanner 
       title="Pessoas com deficiência podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para <strong>pessoas com deficiência</strong> de <strong>qualquer idade</strong> que não têm condições de se sustentar.</>}
-      buttonText="Atendemos em todo Brasil"
+      buttonText="Atendemos em todo o Brasil"
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+para+deficiente"
       headerDesktop='/assets/images/loas_bpc_pcd/loas_pcd_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
