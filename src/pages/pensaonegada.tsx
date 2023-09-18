@@ -26,8 +26,6 @@ return (
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Pensão negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
-      <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="627"/>
       <meta property='og:image:alt' content='Pensão negada pelo INSS'/>
       <meta property='og:description' content='O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/pensaonegada/'/>
