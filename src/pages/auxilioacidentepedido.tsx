@@ -26,6 +26,8 @@ return (
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Sofreu acidente? Receba um valor do INSS'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="627"/>
       <meta property='og:image:alt' content='Auxílio acidente'/>
       <meta property='og:description' content='Quem sofreu acidente e ficou com dificuldade para trabalhar pode receber um valor mensal do INSS.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentepedido/'/>
