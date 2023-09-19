@@ -27,7 +27,7 @@ return (
       <meta property='og:title' content='Você pode se aposentar antes'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
       <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="627"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='Aposentadoria Especial e tempo especial'/>
       <meta property='og:description' content='Quem trabalhou em atividades prejudiciais se aposenta antes e com um valor maior.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'/>

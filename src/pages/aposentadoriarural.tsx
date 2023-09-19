@@ -27,7 +27,7 @@ return (
       <meta property='og:title' content='Fez trabalho rural? Você pode se aposentar antes'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
       <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="627"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='Aposentadoria rural'/>
       <meta property='og:description' content='Quem já fez trabalho rural por qualquer período, pode se aposentar mais cedo e com um valor maior.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriarural/'/>

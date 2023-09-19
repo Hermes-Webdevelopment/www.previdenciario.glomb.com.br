@@ -27,7 +27,7 @@ return (
       <meta property='og:title' content='Receba até 5 salários por mês do INSS'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
       <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="627"/>
+      <meta property="og:image:height" content="801"/>
       <meta property='og:image:alt' content='Pensão por morte'/>
       <meta property='og:description' content='Dependentes de trabalhador ou aposentado falecido podem receber uma pensão mensal do INSS.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/pensaopedido/'/>
