@@ -44,9 +44,7 @@ return (
       <meta property="fb:app_id" content="824919729364803" />
       <meta property="og:site_name" content="Blog | Glomb Advogados"/>
       <meta property='og:title' content='Sua aposentadoria pode dobrar'/>
-      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogocache.png'/>
-      <meta property="og:image:width" content="1200"/>
-      <meta property="og:image:height" content="801"/>
+      <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogoc.png'/>
       <meta property='og:image:alt' content='Revisão da vida toda'/>
       <meta property='og:description' content='A revisão da vida toda permite aumentar o valor da aposentadoria e cobrar uma indenização.'/>
       <meta property='og:url' content='https://previdenciario.glomb.com.br/vidatoda/'/>
