@@ -162,43 +162,43 @@ return (
       cleanCode={true}
       carrouselImages={[
         {
-          imageUrl: '/assets/images/escritorio/glomOffice.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice_c.webp',
           imageDescription: 'Corredor do escritório Glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice2.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice2_c.webp',
           imageDescription: 'Sala de atendimento aos clientes glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice3.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice3_c.webp',
           imageDescription: 'Sala de atendimento aos clientes 2 glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice4.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice4_c.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice5.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice5_c.webp',
           imageDescription: 'Salas dos advogados especialistas'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice6.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice6_c.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice7.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice7_c.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice8.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice8_c.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice9.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice9_c.webp',
           imageDescription: 'Recepção escritório glomb advogados'
         },
         {
-          imageUrl: '/assets/images/escritorio/glomOffice11.webp',
+          imageUrl: '/assets/images/escritorio/glomOffice11_c.webp',
           imageDescription: 'Sala de reuniões glomb advogados'
         }
       ]}
