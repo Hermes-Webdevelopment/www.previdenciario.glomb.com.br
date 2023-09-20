@@ -6,7 +6,7 @@
 
 .starsImage {
     position: absolute;
-    right: 10%;
+    right: 25%;
     bottom: -10%;
     z-index: 99;
 }
@@ -14,7 +14,6 @@
 .staticbannerSection {
     min-height: 710px;
     height: 70vh;
-    justify-content: flex-end;
     position: relative;
     overflow: unset;
 }
@@ -96,6 +95,7 @@
     align-items: flex-start;
     position: relative;
     overflow: hidden;
+    max-width: 600px;
 
     img {
         width: 100%;

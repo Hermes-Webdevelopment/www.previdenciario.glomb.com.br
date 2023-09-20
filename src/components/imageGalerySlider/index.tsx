@@ -32,7 +32,7 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
     
     return (
         <section className={`${styles.imageGalerySliderSection} ${cleanCode && styles.addMarginOnClean}`}>
-            <div className={`container ${styles.sliderContainer}`}>
+            <div className={` ${styles.sliderContainer}`}>
                 <h2>{title}</h2>
                 <div className={styles.subText}>
                     {
@@ -63,6 +63,7 @@ export default function ImageGalerySlider(props: imageGalerySliderInterface) {
                                 return (
                                 <SwiperSlide key={image.imageUrl} className={`${styles.changeActiveSlider} ${styles.nextOrPrevSlider}`}>
                                     <Image 
+                                        quality={100}
                                         loading="lazy"
                                         src={image.imageUrl}
                                         alt={image.imageDescription}

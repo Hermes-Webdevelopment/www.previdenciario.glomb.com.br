@@ -50,6 +50,10 @@ h6{
   color: $title-text-color;
 }
 
+*::selection {
+  background: transparent;
+}
+
 p,
 span {
   font-weight: 200;
