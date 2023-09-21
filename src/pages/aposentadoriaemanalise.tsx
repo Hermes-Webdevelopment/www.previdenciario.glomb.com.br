@@ -95,6 +95,7 @@ return (
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_1_c.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
+      getCircle={[true, 2]}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}

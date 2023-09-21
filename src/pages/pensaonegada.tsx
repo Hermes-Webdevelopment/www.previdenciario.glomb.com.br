@@ -97,6 +97,7 @@ return (
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
+      getCircle={[true, 3]}
     />
 
     {/* imagem deve ser com width: 560px por heigh: 315px */}

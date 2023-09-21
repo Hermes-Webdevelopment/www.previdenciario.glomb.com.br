@@ -19,11 +19,12 @@ interface insideTopicsInterface {
     cleanMode?: boolean,
     cleanModeText?: string,
     imageClean?: string,
+    getCircle?: [boolean, number]
 }
 
 export default function InsideTopics(props: insideTopicsInterface) {
 
-    const {title, text, buttonText, buttonLink, listText, grayBoxText, image, imageDescription, invertImagePosition = false, cleanMode = false, cleanModeText, imageClean} = props
+    const {title, text, buttonText, buttonLink, listText, grayBoxText, image, imageDescription, invertImagePosition = false, cleanMode = false, cleanModeText, imageClean, getCircle = [false, 0]} = props
     
     const screenSize = getScreenSiteAndWidth()
 
@@ -83,6 +84,10 @@ export default function InsideTopics(props: insideTopicsInterface) {
                     <div className={`container ${styles.cleanModeExtraText}`}>
                         <p>{cleanModeText}</p>
                     </div>
+                }
+                {
+                    getCircle[0] &&
+                    <div className={` ${getCircle[1] === 3 ? styles.circleEffect_3 : ''}  ${getCircle[1] === 2 ? styles.circleEffect_2 : ''}`}></div>
                 }
         </section>
     )

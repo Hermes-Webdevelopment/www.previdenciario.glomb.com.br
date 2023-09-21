@@ -2,12 +2,37 @@
 
 .insideContainer {
     flex-direction: column;
+    position: relative;
+    overflow: unset;
 }
 
 .textBoxContainerClean {
     a {
         margin-top: 32px;
     }
+}
+
+.circleEffect_3 {
+    position: absolute;
+    left: 35%;
+    top: 38%;
+    width: 120%;
+    height: 250%;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #F9F9F9;
+}
+
+.circleEffect_2 {
+    position: absolute;
+    left: 47%;
+    top: 38%;
+    width: 63%;
+    height: 154%;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #F9F9F9;
+    min-width: 1000px;
 }
 
 .removeMarginBotton {
@@ -150,6 +175,16 @@ ul {
 }
 
 @media (max-width: 992px) {
+    .circleEffect_3 {
+        background-color: unset;
+    }
+    .circleEffect_2 {
+        background-color: unset;
+    }
+    .circleEffect_1 {
+        background-color: unset;
+    }
+
     .insideTopicsMainBox {
         flex-direction: column;
         padding: 40px 24px 8px;
