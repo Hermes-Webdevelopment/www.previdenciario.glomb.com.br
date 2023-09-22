@@ -53,9 +53,9 @@ return (
       <meta property='og:type' content='website'/>
       
 
-      <title>Sua aposentadoria pode dobrar</title>
+      <title>Aumente o valor da sua aposentadoria</title>
       <meta name="keywords" content="revisão da vida toda, revisão da vida toda stf, revisão da vida toda INSS, revisão aposentadoria, aumentar aposentadoria"></meta>
-      <meta name="description" content="Com a revisão da vida toda é possível aumentar o valor de sua aposentadoria ou pensão e receber uma indenização pelas diferenças dos últimos 5 anos."></meta>
+      <meta name="description" content="Aposentado há menos de 10 anos - Aumente o valor de sua aposentadoria e receba uma indenização do INSS com a Revisão da Vida Toda. Avalie seu caso s/ compromisso e conquiste uma aposentadoria mais justa."></meta>
     </Head>
                     
     {/* <SimpleHead 

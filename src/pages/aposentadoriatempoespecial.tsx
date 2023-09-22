@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriatempoespecial/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Glomb - O valor da sua aposentadoria pode dobrar</title>
+      <title>Conquiste a melhor Aposentadoria</title>
       <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
-      <meta name="description" content="Descubra como aumentar o valor da sua aposentadoria e receber uma indenização."></meta>
+      <meta name="description" content="Quem trabalhou com periculosidade, insalubridade e atividades prejudiciais à saúde tem direito a se aposentar mais cedo e com valores maiores. Descubra como conquistar a melhor aposentadoria - s/ compromisso."></meta>
     </Head>
     
     {/* <SimpleHead 

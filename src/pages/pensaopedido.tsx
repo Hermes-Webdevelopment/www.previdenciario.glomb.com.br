@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/pensaopedido/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Receba até 5 salários por mês do INSS</title>
+      <title>Receba pensão de até R$ 7.500 por mês do INSS</title>
       <meta name="keywords" content="pensão por morte, pensão por morte inss, pensão por morte cônjuge, pensão por morte para filhos, viúva recebe pensão integral"></meta>
-      <meta name="description" content="Dependentes de trabalhador ou aposentado falecido podem receber uma pensão mensal do INSS."></meta>
+      <meta name="description" content="Familiares de pessoa falecida podem receber uma pensão mensal do INSS. Avalie seu caso s/ compromisso e conquiste sua pensão por morte."></meta>
     </Head>
                     
     {/* <SimpleHead 

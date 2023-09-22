@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriarural/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Quem fez trabalho rural pode se aposentar antes</title>
+      <title>Você pode se Aposentar antes e com valores maiores</title>
       <meta name="keywords" content="aposentadoria, aposentar, aposentadoria rural, inss aposentadoria"></meta>
-      <meta name="description" content="Quem já fez trabalho rural pode se aposentar mais cedo e com um valor maior."></meta>
+      <meta name="description" content="Quem já fez trabalho rural por qualquer período pode se aposentar mais cedo e com valores maiores. Avalie seu caso - sem compromisso e conquiste sua aposentadoria."></meta>
     </Head>
     
     {/* <SimpleHead 

@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadorianegada/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Aposentadoria negada tem solução</title>
+      <title>Aposentadoria negada pelo INSS tem solução</title>
       <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
+      <meta name="description" content="O INSS nega 75% pedidos, mesmo para quem tem direito. Se a sua aposentadoria foi negada, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
     
     {/* <SimpleHead 

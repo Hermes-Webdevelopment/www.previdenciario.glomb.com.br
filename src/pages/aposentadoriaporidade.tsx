@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriaporidade/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Conquiste sua Aposentadoria</title>
+      <title>Conquiste a melhor Aposentadoria</title>
       <meta name="keywords" content="aposentadoria, aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição"></meta>
-      <meta name="description" content="Quem tem 60 anos e 15 anos de contribuição já pode ter direito à aposentadoria."></meta>
+      <meta name="description" content="Quem tem 60 anos e 15 anos de contribuição já pode ter direito à aposentadoria e não saber. Avalie seu caso - sem compromisso e conquiste sua aposentadoria."></meta>
     </Head>
     
     {/* <SimpleHead 

@@ -33,21 +33,21 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcidoso/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Idosos podem receber um valor mensal do INSS</title>
+      <title>Receba um valor mensal do INSS</title>
       <meta name="keywords" content=" benefício de prestação continuada, loas, bpc, bpc loas, bpcloas, loas quem tem direito, bpc quem tem direito"></meta>
-      <meta name="description" content="Pessoas com 65 anos ou mais podem receber um salário mínimo mensal do INSS."></meta>
+      <meta name="description" content="Pessoas com 65 anos ou mais podem receber um salário mensal do INSS. Avalie seu caso s/ compromisso e conquiste seu BPC-LOAS."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'
+        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso'
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -57,7 +57,7 @@ return (
       title="Idosos podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para pessoas com <strong>65 anos</strong> ou mais que não têm condições de se sustentar. </>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso"
       headerDesktop='/assets/images/loas_bpc_idoso/bpc_idoso_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
       headerMobile='/assets/images/loas_bpc_idoso/bpc_idoso_mobile.webp'
@@ -90,7 +90,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso'} 
       image={'/assets/images/loas_bpc_idoso/bpc_idoso_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc_idoso/bpc_idoso_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -307,7 +307,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+idoso'
+      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso'
       buttonText='Quero ser atendido'
     />
     

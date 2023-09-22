@@ -33,21 +33,21 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/aposentadoriaemanalise/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Aposentadoria parada no INSS tem solução</title>
+      <title>Aposentadoria parada no INSS? Resolva já</title>
       <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
-      <meta name="description" content="Se seu pedido está em análise há mais de 90 dias no INSS, você pode exigir uma resposta na justiça e receber indenização pela demora."></meta>
+      <meta name="description" content="O INSS tem 90 dias para analisar seu pedido. Após esse prazo, você pode exigir uma resposta na justiça e receber indenização pela demora. Avalie seu caso s/ compromisso."></meta>
     </Head>
     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'
+        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -57,7 +57,7 @@ return (
       title="Aposentadoria parada no INSS tem solução"
       subTitle={<>Se seu pedido está em análise no <strong>INSS</strong> há mais de <strong>90 dias</strong>, você pode exigir uma <strong>resposta</strong> na justiça e receber <strong>indenização</strong> pela demora.</>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS"
       headerDesktop='/assets/images/aposentadoria_demora/ap_analise_desk.webp'
       headerDesktopDescription="Aposentadoria demora"
       headerMobile='/assets/images/aposentadoria_demora/ap_analise_mobile.webp'
@@ -90,7 +90,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_1_c.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_1_c.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -115,7 +115,7 @@ return (
         </>
       } 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -333,7 +333,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+que+está+demorando+mais+de+90+dias'
+      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'
       buttonText='Quero ser atendido'
     />
     

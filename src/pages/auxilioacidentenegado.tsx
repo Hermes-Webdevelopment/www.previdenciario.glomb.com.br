@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentenegado/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Auxílio acidente negado tem solução.</title>
+      <title>Auxílio acidente negado pelo INSS? Resolva já</title>
       <meta name="keywords" content="auxilio acidente, auxilio acidente inss, auxilio doença acidentario, valor do auxílio doença acidentário, sequela permanente inss, valor do auxílio acidente"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, até para quem tem direito. Se o seu pedido foi negado, seu problema tem solução."></meta>
+      <meta name="description" content="O INSS nega 75% pedidos, até para quem tem direito. Se seu auxílio acidente foi negado, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
                     
     {/* <SimpleHead 

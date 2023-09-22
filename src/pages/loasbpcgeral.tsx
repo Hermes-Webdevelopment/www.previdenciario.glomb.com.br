@@ -33,21 +33,21 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcgeral/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Você pode receber um valor mensal do INSS</title>
+      <title>Receba um valor mensal do INSS</title>
       <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc loas, bpcloas, loas quem tem direito, bpc quem tem direito"></meta>
-      <meta name="description" content="Idosos ou pessoas com deficiência podem receber um salário mínimo mensal do INSS."></meta>
+      <meta name="description" content="Pessoas com 65 anos ou mais e pessoas com deficiência podem receber um salário mensal do INSS. Avalie seu caso s/ compromisso e conquiste seu BPC-LOAS."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'
+        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'}
+          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -57,7 +57,7 @@ return (
       title="Você pode receber um valor mensal do INSS"
       subTitle={<>Pessoas com <strong>65 anos</strong> ou mais ou com <strong>deficiência</strong> de qualquer idade podem receber um salário mínimo mensal do INSS.</>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral"
+      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc"
       headerDesktop='/assets/images/loas_bpc/bpc_desk.webp'
       headerDesktopDescription="Receba um salário mínimo do INSS"
       headerMobile='/assets/images/loas_bpc/bpc_mobile_c.webp'
@@ -90,7 +90,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'} 
       image={'/assets/images/loas_bpc/bpc_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc/bpc_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -120,7 +120,7 @@ return (
         "Dentre outras",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'} 
+      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'} 
       image={'/assets/images/loas_bpc/bpc_mobile_2.webp'} 
       imageClean={'/assets/images/loas_bpc/bpc_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -338,7 +338,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+geral'
+      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'
       buttonText='Quero ser atendido'
     />
     

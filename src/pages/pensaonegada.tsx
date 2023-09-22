@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/pensaonegada/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Pensão negada tem solução</title>
+      <title>Pensão Negada pelo INSS tem solução</title>
       <meta name="keywords" content="pensão por morte, pensão por morte inss, pensão por morte indeferida o que fazer, pensao por morte indeferido, pensao por morte negada o que fazer"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
+      <meta name="description" content="O INSS nega 75% pedidos, até para quem tem direito. Se sua pensão foi negada, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
                     
     {/* <SimpleHead 

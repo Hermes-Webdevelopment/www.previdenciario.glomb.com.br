@@ -33,9 +33,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/loasbpcnegado/'/>
       <meta property='og:type' content='website'/>
 
-      <title>LOAS-BPC negado tem solução</title>
+      <title>LOAS-BPC negado pelo INSS tem solução</title>
       <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc indeferido o que fazer, bpc negado por renda per capita, loas negado como recorrer"></meta>
-      <meta name="description" content="O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe! Seu problema tem solução."></meta>
+      <meta name="description" content="O INSS nega 75% pedidos, até para quem tem direito. Se seu LOAS-BPC foi negado, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
                     
     {/* <SimpleHead 
