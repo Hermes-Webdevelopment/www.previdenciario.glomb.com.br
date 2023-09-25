@@ -7,18 +7,12 @@ export default class MyDocument extends Document {
         return ( 
             <Html lang="pt">
                 <Head>
+
                     <link rel="preconnect" href="https://fonts.googleapis.com/" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
                     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" /> 
                     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-                </Head>
-                <body>
-                    <Main />
-                    <NextScript />
-                    <noscript>
-                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG2JHG" height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe>
-                    </noscript>
-                    <Script id="gtm-script" strategy="lazyOnload">
+                    <Script id="gtm-script" strategy="afterInteractive">
                         {
                             `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -27,6 +21,13 @@ export default class MyDocument extends Document {
                             })(window,document,'script','dataLayer','GTM-MZG2JHG');`
                         }
                     </Script>
+                </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                    <noscript>
+                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG2JHG" height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe>
+                    </noscript>
                 </body>
             </Html>
         ) 
