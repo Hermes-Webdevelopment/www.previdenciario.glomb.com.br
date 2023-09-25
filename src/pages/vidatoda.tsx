@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
-import StaticBanner from '../components/staticBanner';
-import FormsTopics from '../components/formsTitles';
 import InsideTopics from '../components/insideTopics';
 import BlueButton from '../components/atons/blueButton';
-import SimpleHead from '../components/headFormats/simpleHead';
+// import SimpleHead from '../components/headFormats/simpleHead';
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from 'react';
 
+const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
+const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
 const PeopleComents = dynamic(() =>  import('../components/peopleComents'));
 const ImageGalerySlider = dynamic(() =>  import('../components/imageGalerySlider'));
 const PeopleSlider = dynamic(() =>  import('../components/PeopleSlider'));
