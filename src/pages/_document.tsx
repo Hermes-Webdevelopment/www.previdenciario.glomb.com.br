@@ -14,6 +14,11 @@ export default class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
                 </Head>
                 <body>
+                    <Main />
+                    <NextScript />
+                    <noscript>
+                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG2JHG" height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe>
+                    </noscript>
                     <Script id="gtm-script" strategy="afterInteractive">
                         {
                             `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -23,11 +28,6 @@ export default class MyDocument extends Document {
                             })(window,document,'script','dataLayer','GTM-MZG2JHG');`
                         }
                     </Script>
-                    <Main />
-                    <NextScript />
-                    <noscript>
-                        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZG2JHG" height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe>
-                    </noscript>
                 </body>
             </Html>
         ) 
