@@ -1,8 +1,14 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
 import LinksList from '../components/linksList';
+import { useEffect } from 'react';
+import { gtmCaller } from '../components/gtmCaller/gtmScript';
 
 const Links: NextPage = () => {
+
+  useEffect(() => {
+    window.addEventListener('load', gtmCaller)
+  },[])
   
 return (
     <>

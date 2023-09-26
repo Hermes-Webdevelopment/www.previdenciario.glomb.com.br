@@ -9,8 +9,14 @@ import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
 import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
+import { useEffect } from 'react';
+import { gtmCaller } from '../components/gtmCaller/gtmScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
+
+  useEffect(() => {
+    window.addEventListener('load', gtmCaller)
+  },[])
   
 return (
   <>

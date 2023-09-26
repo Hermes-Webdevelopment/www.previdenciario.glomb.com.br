@@ -2,8 +2,14 @@ import Head from 'next/head';
 import type { NextPage } from 'next';
 import LinksBanner from '../components/linksBanner';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
+import { useEffect } from 'react';
+import { gtmCaller } from '../components/gtmCaller/gtmScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
+
+  useEffect(() => {
+    window.addEventListener('load', gtmCaller)
+  },[])
   
 return (
     <>
