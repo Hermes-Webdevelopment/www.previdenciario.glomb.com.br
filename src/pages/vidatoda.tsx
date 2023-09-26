@@ -35,7 +35,7 @@ const VidaTodaClean: NextPage = () => {
   useEffect(() => {
     setTimeout(() => {
       gtmCaller()
-    }, 500)
+    }, 1000)
   },[])
   
 return (
