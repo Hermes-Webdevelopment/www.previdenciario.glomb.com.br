@@ -1,14 +1,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { useEffect } from 'react'
-import { gtmCaller } from '../components/gtmCaller/gtmScript'
 
 
 export default class MyDocument extends Document {
     render() {
-        
-        useEffect(() => {
-            gtmCaller()
-        },[])
 
         return ( 
             <Html lang="pt">

@@ -6,6 +6,7 @@ import BlueButton from '../components/atons/blueButton';
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from 'react';
+import { gtmCaller } from '../components/gtmCaller/gtmScript';
 
 const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
 const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
@@ -30,6 +31,11 @@ const VidaTodaClean: NextPage = () => {
       window.removeEventListener("scroll", onScroll);
     };
   }, []);
+
+  useEffect(() => {
+
+    gtmCaller()
+  })
   
 return (
   <>
