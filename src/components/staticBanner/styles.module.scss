@@ -104,6 +104,17 @@
     }
 }
 
+@media (max-width:2000px) {
+
+    .staticbannerSection {
+        justify-content: flex-end;
+    }
+
+    .imageBox {
+        max-width: unset;
+    }
+}
+
 @media (max-width:1200px) {
     .bannerContainer {
         max-width: 496px;

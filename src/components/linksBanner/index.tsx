@@ -43,7 +43,7 @@ export default function LinksBanner(props: singleText) {
             return <BlogIconMobile />
         } else if( icon === 'site') {
             if(screenSize.dynamicWidth >= 769) {
-                return <SiteIcon />
+                return <SiteIcon style={{"marginLeft":"2px"}}/>
             }
             return <SiteIconMobile />
         }

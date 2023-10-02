@@ -7,6 +7,7 @@ import BlueButton from '../components/atons/blueButton';
 import dynamic from "next/dynamic";
 import { useEffect, useState } from 'react';
 import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import LogoHead from '../components/headFormats/logoHead';
 
 const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
 const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
@@ -364,6 +365,7 @@ return (
         subTxt='Inscrição OAB nº 403'
       />
     }
+    <LogoHead />
   </>
   )
 }
