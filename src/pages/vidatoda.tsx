@@ -91,7 +91,7 @@ return (
 
     <FormsTopics 
       firstTitle="Sem compromisso" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste sua aposentadoria.</>}
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste uma aposentadoria melhor.</>}
       secondTitle="Atendimento especializado"
       secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
       thirdTitle="Conquiste seus direitos"
@@ -129,7 +129,7 @@ return (
             Em dezembro de 2022 o STF aprovou a Revisão da Vida Toda, que tem como objetivo <strong>corrigir a injustiça</strong> no cálculo das aposentadorias das pessoas que contribuíram ao INSS antes de 1994.
           </p>
           <p>
-          Agora é possível considerar todas as contribuições feitas ao longo da vida para recalcular milhares de benefícios e cobrar uma indenização pelas diferenças dos últimos 5 anos.
+          Agora é possível considerar todas as contribuições feitas ao longo da vida para <strong>recalcular</strong> milhares de benefícios e cobrar uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.
           </p>
         </>
       } 
@@ -145,7 +145,7 @@ return (
     {/* imagem deve ser com width: 560px por heigh: 315px */}
     <InsideTopics 
       title={'Quem tem direito?'} 
-      text={<p>Infelizmente não são todas as pessoas que têm esse direito. A Revisão da Vida Toda se aplica apenas aos <strong>aposentados</strong> e <strong>pensionistas</strong> que:</p>} 
+      text={<p>Infelizmente não são todas as pessoas que têm esse direito. <br/>A Revisão da Vida Toda se aplica apenas aos <strong>aposentados</strong> e <strong>pensionistas</strong> que:</p>} 
       listText={[
         <>Contribuíram ao INSS <strong>antes de 1994</strong> e;</>,
         <>Recebem o benefício <strong>há menos de 10 anos.</strong></>
@@ -167,12 +167,6 @@ return (
       cleanLayout={true}
       clientsComentCard={[
         {
-          title: 'Muito bem atendida',
-          text:'Muito bem atendida pela excelente advogada, Dra. Bruna Stephano, "expert" em direito previdenciário. Super Recomendo!',
-          starNumber:5,
-          clientName:'Doroti Valeixo'
-        },
-        {
           title: 'Confiança e profissionalismo',
           text:'Sou cliente deste conceituado escritório de advocacia há mais de 20 anos, e sempre fui atendido com muito profissionalismo. Recomendo!',
           starNumber:5,
@@ -183,12 +177,6 @@ return (
           text:'Atendimento impecável, tratei com os advogados mais experientes da área. Sou cliente do escritório a mais de 25 anos.',
           starNumber:5,
           clientName:'Nilva Carvalho'
-        },
-        {
-          title: 'Rápido e excelente trabalho',
-          text:'Gostaria de agradecer o excelente trabalho realizado pela Dra Bruna Stefano. O processo foi concluído com sucesso em um tempo muito bom.',
-          starNumber:5,
-          clientName:'Daiane Lima'
         },
         {
           title: 'Atendimento excelente',

@@ -7,7 +7,6 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
-import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/gtmCaller/gtmScript';
@@ -72,7 +71,7 @@ return (
 
     <FormsTopics 
       firstTitle="Sem compromisso" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste sua aposentadoria.</>}
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste seu LOAS-BPC.</>}
       secondTitle="Atendimento especializado"
       secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
       thirdTitle="Conquiste seus direitos"

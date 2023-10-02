@@ -86,7 +86,7 @@ return (
       text={
         <>
           <p>
-            Todas as pessoas que trabalharam em atividades <strong>perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais à saúde</strong> têm direito a uma <strong>aposentadoria antecipada</strong> e com <strong>valores maiores</strong>. 
+            Todas as pessoas que trabalharam em atividades <strong>perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais à saúde</strong> tem direito a uma <strong>aposentadoria antecipada</strong> e com <strong>valores maiores</strong>. 
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 

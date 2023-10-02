@@ -72,7 +72,7 @@ return (
 
     <FormsTopics 
       firstTitle="Sem compromisso" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste sua aposentadoria.</>}
+      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste seu auxílio acidente.</>}
       secondTitle="Atendimento especializado"
       secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
       thirdTitle="Conquiste seus direitos"
