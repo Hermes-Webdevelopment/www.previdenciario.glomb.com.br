@@ -1,6 +1,5 @@
 
 export function gtmCaller() {
-    console.log('aqui 2')
     const w = window
     const d = document
     const s = 'script'

@@ -10,11 +10,13 @@ import PeopleSlider from '../components/PeopleSlider';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
+import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
+    window.addEventListener('load', clarityCaller)
   },[])
   
 return (

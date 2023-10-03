@@ -3,11 +3,13 @@ import type { NextPage } from 'next';
 import LinksList from '../components/linksList';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
+import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const Links: NextPage = () => {
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
+    window.addEventListener('load', clarityCaller)
   },[])
   
 return (
