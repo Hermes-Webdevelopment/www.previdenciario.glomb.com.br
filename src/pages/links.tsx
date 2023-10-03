@@ -2,7 +2,7 @@ import Head from 'next/head';
 import type { NextPage } from 'next';
 import LinksList from '../components/linksList';
 import { useEffect } from 'react';
-import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import { gtmCaller } from '../components/scriptCaller/gtmScript';
 
 const Links: NextPage = () => {
 

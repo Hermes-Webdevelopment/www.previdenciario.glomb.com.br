@@ -9,7 +9,7 @@ import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
-import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import { gtmCaller } from '../components/scriptCaller/gtmScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 

@@ -10,7 +10,7 @@ import PeopleSlider from '../components/PeopleSlider';
 import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
-import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import { gtmCaller } from '../components/scriptCaller/gtmScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 

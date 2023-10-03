@@ -7,15 +7,15 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
-import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
-import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import { gtmCaller } from '../components/scriptCaller/gtmScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
+    window.addEventListener('load', clarityCaller)
   },[])
   
 return (
@@ -354,3 +354,7 @@ return (
 }
 
 export default AposentadoriaTempoEspecial
+
+function clarityCaller(this: Window, ev: Event) {
+  throw new Error('Function not implemented.');
+}

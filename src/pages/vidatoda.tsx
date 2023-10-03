@@ -6,7 +6,7 @@ import BlueButton from '../components/atons/blueButton';
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from 'react';
-import { gtmCaller } from '../components/gtmCaller/gtmScript';
+import { gtmCaller } from '../components/scriptCaller/gtmScript';
 import LogoHead from '../components/headFormats/logoHead';
 
 const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
@@ -35,6 +35,7 @@ const VidaTodaClean: NextPage = () => {
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
+    window.addEventListener('load', clarityCaller)
   },[])
   
 return (
@@ -371,3 +372,7 @@ return (
 }
 
 export default VidaTodaClean
+
+function clarityCaller(this: Window, ev: Event) {
+  throw new Error('Function not implemented.');
+}

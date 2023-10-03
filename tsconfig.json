@@ -23,6 +23,6 @@
       "@/public/*": ["/public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/gtmCaller/gtmScript.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/scriptCaller/gtmScript.js"],
   "exclude": ["node_modules"]
 }
