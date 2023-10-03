@@ -15,7 +15,6 @@ const AposentadoriaTempoEspecial: NextPage = () => {
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
-    window.addEventListener('load', clarityCaller)
   },[])
   
 return (
@@ -354,7 +353,3 @@ return (
 }
 
 export default AposentadoriaTempoEspecial
-
-function clarityCaller(this: Window, ev: Event) {
-  throw new Error('Function not implemented.');
-}

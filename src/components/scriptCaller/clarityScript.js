@@ -1,4 +1,4 @@
-export function clarityCaller(c,l,a,r,i,t,y) {
+export function clarityCaller() {
     const c = window
     const l = document
     const a = "clarity"
