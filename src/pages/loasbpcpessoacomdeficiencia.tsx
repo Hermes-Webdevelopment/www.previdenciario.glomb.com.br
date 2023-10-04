@@ -14,6 +14,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+loas-bpc+para+pessoa+com+deficiência'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -41,20 +43,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Receba um valor mensal do INSS</title>
-      <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc loas, bpcloas, loas quem tem direito, bpc quem tem direito"></meta>
+      <meta name="keywords" content="bpc loas; loas quem tem direito; bpc deficiente; benefício assistencial; loas deficiência"></meta>
       <meta name="description" content="Pessoas com deficiência podem receber um salário mínimo mensal do INSS. Avalie seu caso s/ compromisso e conquiste seu BPC-LOAS."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc+para+pessoa+com+deficiência'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc+para+pessoa+com+deficiência'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -97,7 +99,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc+para+pessoa+com+deficiência'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_pcd/loas_pcd_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc_pcd/loas_pcd_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -124,7 +126,7 @@ return (
         "Dentre outras",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc+para+pessoa+com+deficiência'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_pcd/loas_pcd_mobile_2.webp'} 
       imageClean={'/assets/images/loas_bpc_pcd/loas_pcd_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -342,7 +344,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc+para+pessoa+com+deficiência'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

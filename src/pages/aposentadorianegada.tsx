@@ -15,6 +15,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+aposentadoria+negada'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -42,20 +44,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Aposentadoria negada pelo INSS tem solução</title>
-      <meta name="keywords" content="aposentadoria; aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição, aposentadoria por invalidez"></meta>
+      <meta name="keywords" content="aposentadoria negada; pedido de aposentadoria indeferido; aposentadoria indeferida"></meta>
       <meta name="description" content="O INSS nega 75% pedidos, mesmo para quem tem direito. Se a sua aposentadoria foi negada, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -98,7 +100,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_negada/ap_n_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_negada/ap_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -123,7 +125,7 @@ return (
         </>
       } 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_negada/ap_n_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_negada/ap_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -341,7 +343,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+negada'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

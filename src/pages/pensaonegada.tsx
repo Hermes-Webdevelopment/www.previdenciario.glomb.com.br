@@ -14,6 +14,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+pensão+negada'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -41,20 +43,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Pensão Negada pelo INSS tem solução</title>
-      <meta name="keywords" content="pensão por morte, pensão por morte inss, pensão por morte indeferida o que fazer, pensao por morte indeferido, pensao por morte negada o que fazer"></meta>
+      <meta name="keywords" content="pensão por morte; pensão por morte inss; pensão por morte; pensão por morte negada;"></meta>
       <meta name="description" content="O INSS nega 75% pedidos, até para quem tem direito. Se sua pensão foi negada, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -66,7 +68,7 @@ return (
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada"
+      buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/pensao_negada/ppm_n_desk_c.webp'
       headerDesktopDescription="pensao por morte negada"
       headerMobile='/assets/images/pensao_negada/ppm_n_mobile.webp'
@@ -99,7 +101,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_1_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -123,7 +125,7 @@ return (
         "Falta de comprovação da qualidade de segurado do falecido.",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_2_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -147,7 +149,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_3_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_3.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -364,7 +366,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

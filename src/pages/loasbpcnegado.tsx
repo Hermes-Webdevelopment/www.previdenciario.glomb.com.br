@@ -14,6 +14,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+loas+bpc+negado'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -41,20 +43,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>LOAS-BPC negado pelo INSS tem solução</title>
-      <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc indeferido o que fazer, bpc negado por renda per capita, loas negado como recorrer"></meta>
+      <meta name="keywords" content="loas indeferido; loas negado; loas negado como recorrer; loas negado o que fazer; "></meta>
       <meta name="description" content="O INSS nega 75% pedidos, até para quem tem direito. Se seu LOAS-BPC foi negado, não se preocupe! Descubra como resolver - s/ compromisso."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -99,7 +101,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_negada/loas_n_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -124,7 +126,7 @@ return (
         </>
       } 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_negada/loas_n_mobile_2.webp'} 
       imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -342,7 +344,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

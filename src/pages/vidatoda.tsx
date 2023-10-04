@@ -19,7 +19,8 @@ const SimpleFooter = dynamic(() =>  import('../components/footerFormats/simpleFo
 
 const VidaTodaClean: NextPage = () => {
   const [shown, setShown] = useState(false);
-
+  
+  const linkWhatsAp = "https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+Revisão+da+vida+toda"
   // 3. Attach a scroll event handler
   useEffect(() => {
     const onScroll = () => {
@@ -62,20 +63,20 @@ return (
       
 
       <title>Aumente o valor da sua aposentadoria</title>
-      <meta name="keywords" content="revisão da vida toda, revisão da vida toda stf, revisão da vida toda INSS, revisão aposentadoria, aumentar aposentadoria"></meta>
+      <meta name="keywords" content="revisão da vida toda stf; revisão da vida toda aprovada; revisão vida toda inss; "></meta>
       <meta name="description" content="Aposentado há menos de 10 anos - Aumente o valor de sua aposentadoria e receba uma indenização do INSS com a Revisão da Vida Toda. Avalie seu caso s/ compromisso e conquiste uma aposentadoria mais justa."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -85,7 +86,7 @@ return (
       title="SUA APOSENTADORIA PODE DOBRAR"
       subTitle={<>A Revisão da Vida Toda permite <strong>aumentar o valor</strong> de sua aposentadoria ou pensão e cobrar uma <strong>indenização</strong> pelas diferenças dos últimos 5 anos.</>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
+      buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/vidatoda/vt_desk_c.webp'
       headerDesktopDescription="Revisão da vida toda"
       headerMobile='/assets/images/vidatoda/vt_mobile.webp'
@@ -115,7 +116,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_1.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -137,7 +138,7 @@ return (
         </>
       } 
       buttonText={'Quero ser atendido'} 
-      buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_2.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -154,7 +155,7 @@ return (
         <>Recebem o benefício <strong>há menos de 10 anos.</strong></>
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={"https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_3.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_3.webp'} 
       imageDescription={'A Pensionista recebeu um valor maior de benefício'} 

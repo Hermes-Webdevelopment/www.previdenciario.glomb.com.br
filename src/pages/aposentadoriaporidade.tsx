@@ -15,6 +15,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+aposentadoria+por+idade'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -42,20 +44,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Conquiste a melhor Aposentadoria</title>
-      <meta name="keywords" content="aposentadoria, aposentar, aposentadoria por idade, aposentadoria por tempo de contribuição"></meta>
+      <meta name="keywords" content="aposentadoria por idade; advogado aposentadoria; posso me aposentar; aposentadoria; "></meta>
       <meta name="description" content="Quem tem 60 anos e 15 anos de contribuição já pode ter direito à aposentadoria e não saber. Avalie seu caso - sem compromisso e conquiste sua aposentadoria."></meta>
     </Head>
     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -95,7 +97,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_idade/ap_idade_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_idade/ap_idade_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -312,7 +314,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+por+idade'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

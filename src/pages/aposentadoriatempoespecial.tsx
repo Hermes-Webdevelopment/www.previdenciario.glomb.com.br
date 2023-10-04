@@ -15,6 +15,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+aposentadoria+especial'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -42,20 +44,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Conquiste a melhor Aposentadoria</title>
-      <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
+      <meta name="keywords" content="aposentadoria especial; aposentadoria periculosidade; aposentadoria insalubridade;"></meta>
       <meta name="description" content="Quem trabalhou com periculosidade, insalubridade e atividades prejudiciais à saúde tem direito a se aposentar mais cedo e com valores maiores. Descubra como conquistar a melhor aposentadoria - s/ compromisso."></meta>
     </Head>
     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -92,7 +94,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -127,7 +129,7 @@ return (
         "Maquinário pesado"
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -152,7 +154,7 @@ return (
         "Plataforma ou Refinarias"
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_3.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_3.webp'} 
       imageDescription={'APensionista recebeu um valor maior de benefício'} 
@@ -369,7 +371,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+especial'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

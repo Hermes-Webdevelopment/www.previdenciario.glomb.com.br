@@ -14,6 +14,8 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+aposentadoria+parada'
+
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
@@ -41,20 +43,14 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Aposentadoria parada no INSS? Resolva já</title>
-      <meta name="keywords" content="aposentadoria; aposentadoria especial, inss aposentadoria, aposentar, aposentadoria por tempo de contribuição, aposentadorias especiais"></meta>
+      <meta name="keywords" content="prazo para inss analisar aposentadoria; demora aposentadoria INSS; aposentadoria;"></meta>
       <meta name="description" content="O INSS tem 90 dias para analisar seu pedido. Após esse prazo, você pode exigir uma resposta na justiça e receber indenização pela demora. Avalie seu caso s/ compromisso."></meta>
     </Head>
-    
-    {/* <SimpleHead 
-        logo='glomb'
-        btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'
-    /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -97,7 +93,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_1_c.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_1_c.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -122,7 +118,7 @@ return (
         </>
       } 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -340,7 +336,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+parada+no+INSS'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

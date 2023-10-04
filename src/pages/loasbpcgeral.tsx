@@ -7,13 +7,14 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
-import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
 import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
+
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+loas-bpc'
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
@@ -42,20 +43,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Receba um valor mensal do INSS</title>
-      <meta name="keywords" content="benefício de prestação continuada, loas, bpc, bpc loas, bpcloas, loas quem tem direito, bpc quem tem direito"></meta>
+      <meta name="keywords" content="aposentadoria para quem nunca contribuiu; loas quem tem direito; benefício de prestação;"></meta>
       <meta name="description" content="Pessoas com 65 anos ou mais e pessoas com deficiência podem receber um salário mensal do INSS. Avalie seu caso s/ compromisso e conquiste seu BPC-LOAS."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -98,7 +99,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc/bpc_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc/bpc_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -128,7 +129,7 @@ return (
         "Dentre outras",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc/bpc_mobile_2.webp'} 
       imageClean={'/assets/images/loas_bpc/bpc_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -346,7 +347,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas-bpc'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     

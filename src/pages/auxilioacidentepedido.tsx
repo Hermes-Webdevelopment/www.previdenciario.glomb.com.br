@@ -7,13 +7,14 @@ import ImageGalerySlider from '../components/imageGalerySlider';
 import PeopleComents from '../components/peopleComents';
 import BlueButton from '../components/atons/blueButton';
 import PeopleSlider from '../components/PeopleSlider';
-import SimpleHead from '../components/headFormats/simpleHead';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
 import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
+
+  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+auxilio+acidente'
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
@@ -42,20 +43,20 @@ return (
       <meta property='og:type' content='website'/>
 
       <title>Sofreu acidente? Receba um valor mensal do INSS</title>
-      <meta name="keywords" content="auxilio acidente, auxilio acidente inss, auxilio doença acidentario, valor do auxílio doença acidentário, sequela permanente inss, valor do auxílio acidente"></meta>
+      <meta name="keywords" content="auxilio acidente; pedir auxílio acidente; advogado auxilio acidente; valor do auxílio "></meta>
       <meta name="description" content="Quem sofreu qualquer acidente pode receber um valor mensal do INSS. Avalie seu caso s/ compromisso e conquiste seu auxílio acidente."></meta>
     </Head>
                     
     {/* <SimpleHead 
         logo='glomb'
         btnTxt='Quero ser atendido'
-        btnLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'
+        btnLink=linkWhatsAp
     /> */}
 
     <div className='apearDesktop'>
       <BlueButton 
           isFloating={true} 
-          buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'}
+          buttonLink={linkWhatsAp}
           buttonText={'Quero ser atendido'}
         />
     </div>
@@ -98,7 +99,7 @@ return (
           </p>
         </>} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_1.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -121,7 +122,7 @@ return (
         "Ter dificuldade para trabalhar por conta do acidente",
       ]}
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_2.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
@@ -151,7 +152,7 @@ return (
           "Os valores de auxílio acidente aumentam o valor da aposentadoria",
         ]} 
       buttonText={'Quero ser atendido'} 
-      buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'} 
+      buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_3.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_3.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
@@ -368,7 +369,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     
