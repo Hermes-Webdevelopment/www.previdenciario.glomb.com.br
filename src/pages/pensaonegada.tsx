@@ -100,7 +100,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/pensao_negada/ppm_n_mobile_1.webp'} 
+      image={'/assets/images/pensao_negada/ppm_n_mobile_1_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_1.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}
@@ -124,7 +124,7 @@ return (
       ]}
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/pensao_negada/ppm_n_mobile_2.webp'} 
+      image={'/assets/images/pensao_negada/ppm_n_mobile_2_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_2.webp'} 
       imageDescription={'Aposentado recebeu um valor maior de aposentadoria'} 
       invertImagePosition={true}
@@ -148,7 +148,7 @@ return (
         </>} 
       buttonText={'Quero ser atendido'} 
       buttonLink={'https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+pensão+negada'} 
-      image={'/assets/images/pensao_negada/ppm_n_mobile_3.webp'} 
+      image={'/assets/images/pensao_negada/ppm_n_mobile_3_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_3.webp'} 
       imageDescription={'Aposentados sorrindo após aumentarem suas aposentadorias'} 
       cleanMode={true}

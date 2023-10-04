@@ -88,7 +88,7 @@ return (
       buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda"
       headerDesktop='/assets/images/vidatoda/vt_desk_c.webp'
       headerDesktopDescription="Revisão da vida toda"
-      headerMobile='/assets/images/vidatoda/vt_mobile_c.webp'
+      headerMobile='/assets/images/vidatoda/vt_mobile.webp'
       headerMobileDescription="Revisão da vida toda"
     />
 
