@@ -52,7 +52,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -93,7 +93,7 @@ return (
             Para evitar <strong>prejuízos</strong>, é possível cobrar uma <strong>resposta rápida</strong> na justiça, <strong>garantir</strong> seus direitos e ainda receber uma <strong>indenização</strong> do INSS pela demora.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_1_c.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_1_c.webp'} 
@@ -118,7 +118,7 @@ return (
           </p>
         </>
       } 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_demora/ap_analise_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_demora/ap_analise_desk_2.webp'} 
@@ -338,7 +338,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

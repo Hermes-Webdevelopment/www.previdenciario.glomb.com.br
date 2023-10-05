@@ -59,7 +59,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -97,7 +97,7 @@ return (
             Além disso, quem já trabalhou na <strong>roça</strong> ou em <strong>atividades prejudiciais</strong> à saúde pode usar esse tempo de trabalho para conquistar uma <strong>aposentadoria melhor</strong>.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_idade/ap_idade_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_idade/ap_idade_desk_1.webp'} 
@@ -316,7 +316,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

@@ -58,7 +58,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -99,7 +99,7 @@ return (
             Ainda, quem recebe auxílio acidente pode continuar trabalhando normalmente.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_1.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_1.webp'} 
@@ -122,7 +122,7 @@ return (
         "Sofrer acidente (mesmo sem relação com o trabalho)",
         "Ter dificuldade para trabalhar por conta do acidente",
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_2.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_2.webp'} 
@@ -152,7 +152,7 @@ return (
           "Você pode continuar trabalhando na mesma atividade",
           "Os valores de auxílio acidente aumentam o valor da aposentadoria",
         ]} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/auxilio_acidente/aux_ac_mobile_3.webp'} 
       imageClean={'/assets/images/auxilio_acidente/aux_ac_desk_3.webp'} 
@@ -371,7 +371,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

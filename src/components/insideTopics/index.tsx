@@ -9,7 +9,7 @@ import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 interface insideTopicsInterface {
     title: ReactNode | string, 
     text: ReactNode, 
-    buttonText: string, 
+    buttonText: string | ReactNode, 
     buttonLink: string, 
     image: string, 
     imageDescription: string,

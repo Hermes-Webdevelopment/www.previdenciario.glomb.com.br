@@ -77,7 +77,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
         />
     </div>
 
@@ -115,7 +115,7 @@ return (
             Isso acontece porque, para calcular o valor das aposentadorias, o INSS considerava apenas as contribuições feitas após julho de 1994 e <strong>excluía</strong> todas as anteriores.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}  
       buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_1.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_1.webp'} 
@@ -137,7 +137,7 @@ return (
           </p>
         </>
       } 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}  
       buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_2.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_2.webp'} 
@@ -154,7 +154,7 @@ return (
         <>Contribuíram ao INSS <strong>antes de 1994</strong> e;</>,
         <>Recebem o benefício <strong>há menos de 10 anos.</strong></>
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}  
       buttonLink={linkWhatsAp} 
       image={'/assets/images/vidatoda/vt_mobile_3.webp'} 
       imageClean={'/assets/images/vidatoda/vt_desk_3.webp'} 
@@ -358,7 +358,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
     />
     }
     {shown &&

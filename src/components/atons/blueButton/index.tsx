@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import styles from './styles.module.scss';
-import { useEffect, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 
 interface buttonProps {
     buttonLink: string; 
-    buttonText: string; 
+    buttonText: string | ReactNode; 
     isFloating?: boolean;
     cleanMode?: boolean;
     transparentMode?: boolean;
@@ -43,9 +43,9 @@ export default function BlueButton(props: buttonProps) {
     };
 
     return (
-        <div className={`${isFloating ? styles.floatingButton : ''} ${cleanMode ? styles.btnClean : ''} ${transparentMode ? styles.btnTransparent : ''}`}>
+        <div className={`${styles.mainMode} ${styles.forceChange} ${isFloating ? styles.floatingButton : ''} ${cleanMode ? styles.btnClean : ''} ${transparentMode ? styles.btnTransparent : ''}`}>
             <Link href={buttonLink} className={`${styles.buttonContainer} ${isVisible && isFloating ? styles.changeOpacity : ''}`} prefetch={false}>
-                {buttonText}
+                <p>{buttonText}</p>
             </Link>
         </div>
     )

@@ -58,7 +58,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -99,7 +99,7 @@ return (
             Mesmo quem <strong>nunca contribuiu</strong> ao INSS tem direito de receber esse benefício.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_idoso/bpc_idoso_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc_idoso/bpc_idoso_desk_1.webp'} 
@@ -318,7 +318,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

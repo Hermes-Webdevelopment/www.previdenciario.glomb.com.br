@@ -59,7 +59,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -94,7 +94,7 @@ return (
             Todas as pessoas que trabalharam em atividades <strong>perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais à saúde</strong> tem direito a uma <strong>aposentadoria antecipada</strong> e com <strong>valores maiores</strong>. 
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_1.webp'} 
@@ -129,7 +129,7 @@ return (
         "Produtos químicos",
         "Maquinário pesado"
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_2.webp'} 
@@ -154,7 +154,7 @@ return (
         "Mineração",
         "Plataforma ou Refinarias"
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_especial/ap_sp_mobile_3.webp'} 
       imageClean={'/assets/images/aposentadoria_especial/ap_sp_desk_3.webp'} 
@@ -373,7 +373,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

@@ -9,7 +9,7 @@ interface peopleSlider {
     subTitle: ReactNode | string ;
     carrouselImages: carrouselImages[];
     buttonLink: string;
-    buttonText: string;
+    buttonText: ReactNode | string;
 }
 
 interface carrouselImages {

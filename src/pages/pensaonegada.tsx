@@ -58,7 +58,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -101,7 +101,7 @@ return (
             Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> sua pensão.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_1_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_1.webp'} 
@@ -125,7 +125,7 @@ return (
         "Não reconhecimento de dependência econômica.",
         "Falta de comprovação da qualidade de segurado do falecido.",
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_2_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_2.webp'} 
@@ -149,7 +149,7 @@ return (
             Por isso, a <strong>melhor forma</strong> de reverter a decisão do INSS é por meio de uma <strong>ação</strong> na justiça para receber todos os <strong>valores atrasados</strong> desde a data do pedido, com juros e correção.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_negada/ppm_n_mobile_3_c.webp'} 
       imageClean={'/assets/images/pensao_negada/ppm_n_desk_3.webp'} 
@@ -368,7 +368,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

@@ -59,7 +59,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -97,7 +97,7 @@ return (
             A contagem do tempo rural permite antecipar sua aposentadoria e conquistar um benefício de valor maior.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_rural/ap_rural_mobile_1.webp'} 
       imageClean={'/assets/images/aposentadoria_rural/ap_rural_desk_1.webp'} 
@@ -125,7 +125,7 @@ return (
         "Seringal",
         "Garimpo",
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/aposentadoria_rural/ap_rural_mobile_2.webp'} 
       imageClean={'/assets/images/aposentadoria_rural/ap_rural_desk_2.webp'} 
@@ -345,7 +345,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

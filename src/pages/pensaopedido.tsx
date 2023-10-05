@@ -58,7 +58,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -95,7 +95,7 @@ return (
             A causa da morte <strong>não precisa</strong> ter relação com o trabalho para que você tenha direito de receber esse benefício.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_por_morte/ppm_mobile_1.webp'} 
       imageClean={'/assets/images/pensao_por_morte/ppm_desk_1.webp'} 
@@ -124,7 +124,7 @@ return (
         "Filhos com deficiência grave de qualquer idade",
         "Pais e irmãos",
       ]}
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/pensao_por_morte/ppm_mobile_2.webp'} 
       imageClean={'/assets/images/pensao_por_morte/ppm_desk_2.webp'} 
@@ -344,7 +344,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 

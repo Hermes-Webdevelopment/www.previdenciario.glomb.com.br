@@ -58,7 +58,7 @@ return (
       <BlueButton 
           isFloating={true} 
           buttonLink={linkWhatsAp}
-          buttonText={'Quero ser atendido'}
+          buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
         />
     </div>
 
@@ -101,7 +101,7 @@ return (
             Por isso, mesmo se seu pedido foi negado, você ainda pode <strong>conquistar</strong> seu LOAS-BPC.
           </p>
         </>} 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_negada/loas_n_mobile_1.webp'} 
       imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_1.webp'} 
@@ -126,7 +126,7 @@ return (
           </p>
         </>
       } 
-      buttonText={'Quero ser atendido'} 
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
       buttonLink={linkWhatsAp} 
       image={'/assets/images/loas_bpc_negada/loas_n_mobile_2.webp'} 
       imageClean={'/assets/images/loas_bpc_negada/loas_n_desk_2.webp'} 
@@ -346,7 +346,7 @@ return (
         }
       ]}
       buttonLink={linkWhatsAp}
-      buttonText='Quero ser atendido'
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
     />
     
     <SimpleFooter 
