@@ -44,7 +44,6 @@
             line-height: $typography-display-dsdisplay-lg-bold-line-height;
             color: $color-neutral-neutrallow;
             margin-bottom: 16px;
-            text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2509803922);
         }
 
         p {
@@ -211,11 +210,13 @@
 
             h1{
                 color: white;
+                text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2509803922);
             }
 
             p {
                 color: white;
                 padding: 7px 5px 7px 0;
+                text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2509803922);
             }
         }
     }

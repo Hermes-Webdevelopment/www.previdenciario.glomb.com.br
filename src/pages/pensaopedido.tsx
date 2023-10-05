@@ -14,7 +14,7 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
-  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+pedido+de+pensão'
+  const linkWhatsAp = 'https://glomb.legist.com.br/pensaopormorte'
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)

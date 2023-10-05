@@ -14,7 +14,7 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
-  const linkWhatsAp = 'https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+aposentadoria+parada'
+  const linkWhatsAp = 'https://glomb.legist.com.br/aposentadoria'
 
   useEffect(() => {
     window.addEventListener('load', gtmCaller)

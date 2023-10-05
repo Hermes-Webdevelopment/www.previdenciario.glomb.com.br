@@ -20,7 +20,7 @@ const SimpleFooter = dynamic(() =>  import('../components/footerFormats/simpleFo
 const VidaTodaClean: NextPage = () => {
   const [shown, setShown] = useState(false);
   
-  const linkWhatsAp = "https://wa.me/554132239132?text=Olá!+Gostaria+de+analisar+meu+caso+sem+compromisso+-+Revisão+da+vida+toda"
+  const linkWhatsAp = "https://glomb.legist.com.br/revisaodavidatoda"
   // 3. Attach a scroll event handler
   useEffect(() => {
     const onScroll = () => {
