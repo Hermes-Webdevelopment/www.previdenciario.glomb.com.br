@@ -11,6 +11,7 @@ import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
 import { clarityCaller } from '../components/scriptCaller/clarityScript';
+import LogoHead from '../components/headFormats/logoHead';
 
 const AposentadoriaTempoEspecial: NextPage = () => {
 
@@ -345,7 +346,7 @@ return (
       sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
       subTxt='Inscrição OAB nº 403'
     />
-      
+    <LogoHead />
   </>
   )
 }
