@@ -21,7 +21,7 @@ const VidaTodaClean: NextPage = () => {
   const [shown, setShown] = useState(false);
   
   const linkWhatsAp = "https://glomb.legist.com.br/revisaodavidatoda"
-  // 3. Attach a scroll event handler
+  
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY >= 250) {
