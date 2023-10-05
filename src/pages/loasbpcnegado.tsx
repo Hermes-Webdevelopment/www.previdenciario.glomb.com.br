@@ -68,7 +68,7 @@ return (
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+aposentadoria+loas+bpc+negado"
+      buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/loas_bpc_negada/loas_n_desk.webp'
       headerDesktopDescription="LOAS-BPC negado"
       headerMobile='/assets/images/loas_bpc_negada/loas_n_mobile.webp'

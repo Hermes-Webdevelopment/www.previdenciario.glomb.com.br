@@ -357,7 +357,7 @@ return (
           text: 'OAB/PR 47.112'
         }
       ]}
-      buttonLink='https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+revisão+da+vida+toda'
+      buttonLink={linkWhatsAp}
       buttonText='Quero ser atendido'
     />
     }

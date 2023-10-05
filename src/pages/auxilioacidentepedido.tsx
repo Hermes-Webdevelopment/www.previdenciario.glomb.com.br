@@ -66,7 +66,7 @@ return (
       title="Sofreu acidente? Receba auxílio acidente do INSS"
       subTitle={<>Quem sofreu <strong>qualquer acidente</strong> e por isso tem <strong>dificuldades</strong> para trabalhar pode receber um <strong>valor mensal</strong> do INSS.</>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+auxilio+acidente"
+      buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/auxilio_acidente/aux_ac_desk.webp'
       headerDesktopDescription="Receba auxílio acidente do INSS"
       headerMobile='/assets/images/auxilio_acidente/aux_ac_mobile.webp'

@@ -66,7 +66,7 @@ return (
       title="Idosos podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para pessoas com <strong>65 anos</strong> ou mais que não têm condições de se sustentar. </>}
       buttonText="Atendemos em todo o Brasil"
-      buttonLink="https://wa.me/554132239132?text=Gostaria+de+saber+mais+sobre+loas+bpc+para+idoso"
+      buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/loas_bpc_idoso/bpc_idoso_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
       headerMobile='/assets/images/loas_bpc_idoso/bpc_idoso_mobile.webp'
