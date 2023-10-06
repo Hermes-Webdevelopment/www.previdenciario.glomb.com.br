@@ -1,9 +1,5 @@
 @import '/src/styles/variables.scss';
 
-.footerSection {
-    background-color: $title-text-color;
-}
-
 .simpleFooterContainer {
     display: flex;
     justify-content: space-between;
@@ -11,6 +7,8 @@
     flex-direction: column;
     width: 100%;
     padding-bottom: 52px;
+    background-color: $title-text-color;
+    z-index: 1000;
 
     p {
         font-size: $typography-paragraph-dstext-xs-font-size;
