@@ -1,5 +1,9 @@
 @import '/src/styles/variables.scss';
 
+.footerSection {
+    background-color: $title-text-color;    
+}
+
 .simpleFooterContainer {
     display: flex;
     justify-content: space-between;

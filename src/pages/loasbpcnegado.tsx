@@ -94,11 +94,11 @@ return (
 
     <FormsTopics 
       firstTitle="Sem compromisso" 
-      firstSubTitle={<>Avaliamos seu caso <strong>sem compromisso</strong> para que você conquiste seu LOAS-BPC.</>}
-      secondTitle="Atendimento especializado"
-      secondSubTitle={<>Somos referência em serviços jurídicos há <strong>45 anos</strong>.</>}
+      firstSubTitle={<>Avaliamos seu caso totalmente <strong>sem compromisso</strong> e sem que você precise sair de casa.</>}
+      secondTitle="46 anos de experiência"
+      secondSubTitle={<>Ao longo de nossos <strong>46 anos</strong> de atuação, já atendemos mais de <strong>25 mil</strong> clientes.</>}
       thirdTitle="Conquiste seus direitos"
-      thirdSubTitle={<>Nossos advogados entrarão em contato para indicar a <strong>melhor solução</strong>.</>}
+      thirdSubTitle={<>Nossos <strong>advogados especialistas</strong> entrarão em contato para indicar como <strong>conquistar seus direitos</strong>.</>}
       cleanModel={true}
     />
 
@@ -262,7 +262,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nossa equipe altamente qualificada trabalha com excelência e rigor técnico para oferecer o melhor serviço.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

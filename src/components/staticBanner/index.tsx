@@ -10,7 +10,7 @@ import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 interface staticBannerInterface {
     title: ReactNode | string; 
     subTitle: ReactNode | string; 
-    buttonText: string; 
+    buttonText: ReactNode | string; 
     buttonLink: string; 
     advantages?: string[]; 
     headerDesktop: string;
@@ -41,6 +41,7 @@ export default function StaticBanner(props: staticBannerInterface) {
                         <BlueButton 
                             buttonLink={buttonLink}
                             buttonText={buttonText}
+                            cleanMode={true}
                         />
                     </div>
                     <div className={styles.checkedContainer}>
