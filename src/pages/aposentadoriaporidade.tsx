@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Conquiste sua Aposentadoria"
       subTitle={<>Quem completou <strong>60 anos</strong> de idade e contribuiu ao INSS por <strong>15 anos</strong> já pode ter direito à <strong>aposentadoria</strong>.</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/aposentadoria_idade/ap_idade.webp'
       headerDesktopDescription=" Aposentadoria por idade"
@@ -231,7 +231,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Aposentadoria negada tem solução"
       subTitle={<>O INSS nega 3 em cada 4 pedidos, mesmo para quem tem direito. Então, se o seu pedido foi negado, não se preocupe!</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/aposentadoria_negada/ap_n_desk.webp'
       headerDesktopDescription="Aposentadoria negada"
@@ -260,7 +260,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

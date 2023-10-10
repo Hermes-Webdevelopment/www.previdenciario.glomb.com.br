@@ -76,7 +76,7 @@ return (
     <StaticBanner 
       title="Aposentadoria parada no INSS tem solução"
       subTitle={<>Se seu pedido está em análise no <strong>INSS</strong> há mais de <strong>90 dias</strong>, você pode exigir uma <strong>resposta</strong> na justiça e receber <strong>indenização</strong> pela demora.</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/aposentadoria_demora/ap_analise_desk.webp'
       headerDesktopDescription="Aposentadoria demora"
@@ -254,7 +254,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

@@ -256,7 +256,7 @@ return (
     {shown &&
     <PeopleSlider 
       title='Nossos profissionais'
-      subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+      subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
       carrouselImages={[
         
         {

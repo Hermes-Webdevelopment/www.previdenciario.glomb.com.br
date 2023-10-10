@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Idosos podem receber um valor mensal do INSS"
       subTitle={<>O <strong>BPC-LOAS</strong> é um <strong>salário</strong> mínimo mensal para pessoas com <strong>65 anos</strong> ou mais que não têm condições de se sustentar. </>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/loas_bpc_idoso/bpc_idoso_desk.webp'
       headerDesktopDescription="Receba um salário mensal do INSS"
@@ -234,7 +234,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

@@ -84,7 +84,7 @@ return (
       subTitle={<>O INSS nega 3 em cada 4 pedidos de benefício, mesmo para quem tem direito.<br />
                   Então, se o seu pedido foi negado, não se preocupe!
                 </>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/pensao_negada/ppm_n_desk_c.webp'
       headerDesktopDescription="pensao por morte negada"
@@ -283,7 +283,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Fez trabalho rural? Você pode se aposentar antes"
       subTitle={<>Quem já fez <strong>trabalho rural</strong> por qualquer período, pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/aposentadoria_rural/ap_rural_desk.webp'
       headerDesktopDescription="Aposentadoria rural"
@@ -260,7 +260,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

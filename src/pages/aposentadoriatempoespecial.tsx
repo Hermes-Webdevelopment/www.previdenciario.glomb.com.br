@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Você pode se aposentar antes"
       subTitle={<>Quem trabalhou em <strong>atividades perigosas</strong>, <strong>insalubres</strong> ou <strong>prejudiciais</strong> pode se aposentar <strong>mais cedo</strong> e com um <strong>valor maior</strong>.</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/aposentadoria_especial/ap_sp_desk.webp'
       headerDesktopDescription="Aposentada recebeu aposentadoria maior"
@@ -288,7 +288,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {

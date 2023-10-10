@@ -82,7 +82,7 @@ return (
     <StaticBanner 
       title="Sofreu acidente? Receba auxílio acidente do INSS"
       subTitle={<>Quem sofreu <strong>qualquer acidente</strong> e por isso tem <strong>dificuldades</strong> para trabalhar pode receber um <strong>valor mensal</strong> do INSS.</>}
-      buttonText="Atendemos em todo o Brasil"
+      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
       buttonLink={linkWhatsAp}
       headerDesktop='/assets/images/auxilio_acidente/aux_ac_desk.webp'
       headerDesktopDescription="Receba auxílio acidente do INSS"
@@ -287,7 +287,7 @@ return (
         
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
+          subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
           carrouselImages={[
             
             {
