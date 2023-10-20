@@ -29,13 +29,13 @@ return (
         <meta property="og:image:width" content="1200"/>
         <meta property="og:image:height" content="801"/>
         <meta property='og:image:alt' content='Auxílio acidente'/>
-        <meta property='og:description' content='Quem sofreu acidente e ficou com dificuldade para trabalhar pode receber um valor mensal do INSS.'/>
+        <meta property='og:description' content='Glomb Advogados - Há 46 anos transformando vidas - Direito do Trabalho e Previdenciário.'/>
         <meta property='og:url' content='https://previdenciario.glomb.com.br/auxilioacidentepedido/'/>
         <meta property='og:type' content='website'/>
 
-        <title>Sofreu acidente? Receba um valor do INSS</title>
+        <title>Há 46 anos transformando vidas - Direito do Trabalho e Previdenciário.</title>
         <meta name="keywords" content="auxilio acidente, auxilio acidente inss, auxilio doença acidentario, valor do auxílio doença acidentário, sequela permanente inss, valor do auxílio acidente"></meta>
-        <meta name="description" content="Sofreu acidente e tem dificuldade para trabalhar? Receba um valor mensal do INSS."></meta>
+        <meta name="description" content="Glomb Advogados - Há 46 anos transformando vidas - Direito do Trabalho e Previdenciário."></meta>
       </Head>
 
       <LinksList 

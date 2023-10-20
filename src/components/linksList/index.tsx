@@ -83,7 +83,7 @@ export default function LinksList(props: linksListInterface) {
                         })
                     }
                     
-                    <Link href={'https://www.glomb.com.br'} prefetch={false}>
+                    <Link href={'https://www.glomb.com.br'} prefetch={false} style={{marginTop:'20px'}}>
                         <Image
                             height={352}
                             width={767}
