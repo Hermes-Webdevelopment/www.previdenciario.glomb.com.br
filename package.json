@@ -1,4 +1,11 @@
+
+
 {
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "name": "glomb-website",
   "version": "0.1.0",
   "private": true,
