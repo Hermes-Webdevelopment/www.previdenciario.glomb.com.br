@@ -39,9 +39,6 @@ const VidaTodaClean: NextPage = () => {
   useEffect(() => {
     window.addEventListener('load', gtmCaller)
     window.addEventListener('load', clarityCaller)
-    window.addEventListener('load', async () => {
-      trackPageView
-    })
   },[])
   
 return (
