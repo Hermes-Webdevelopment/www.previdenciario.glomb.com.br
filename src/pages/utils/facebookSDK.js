@@ -9,7 +9,9 @@ export default async function trackPageView() {
   try {
     const eventRequest = new EventRequest(pixelId);
 
-    const userData = new UserData().fbc('fbclid').fbp('fbp');
+    const userData = new UserData()
+      .fbc('fbclid')
+      .fbp('fbp');
 
     // Configura os dados do evento "PageView"
     const eventData = {

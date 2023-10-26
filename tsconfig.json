@@ -23,6 +23,6 @@
       "@/public/*": ["/public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/scriptCaller/gtmScript.js", "src/components/scriptCaller/facebookSDK.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/scriptCaller/gtmScript.js", "src/pages/utils/facebookSDK.js"],
   "exclude": ["node_modules"]
 }
