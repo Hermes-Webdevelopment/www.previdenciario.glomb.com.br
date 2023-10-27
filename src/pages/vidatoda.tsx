@@ -9,7 +9,6 @@ import { useEffect, useState } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
 import { clarityCaller } from '../components/scriptCaller/clarityScript';
 import LogoHead from '../components/headFormats/logoHead';
-import trackPageView from '../components/scriptCaller/facebookSDK'
 
 const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
 const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
@@ -375,4 +374,3 @@ return (
 }
 
 export default VidaTodaClean
-
