@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
 import WordsBanner from '../components/banners/wordsBanner'
+import OurServices from '../components/ourServices'
 
 const Home: NextPage = () => {
 return (
@@ -44,6 +45,18 @@ return (
         buttonLink={'/'}        
       />
       
+      <OurServices 
+        title1={'Nossos Serviços'} 
+        link1={'/'} 
+        text1={'Nossa missão é proporcionar a melhor experiência na prestação de serviços juridícos, com agilidade no atendimento e assertividade na solução.'} 
+        title2={'Direito do Trabalho'} 
+        link2={'/'} 
+        text2={'Atuamos de forma completa na defesa dos direitos trabalhistas, focados em promover justiça nas relações de trabalho.'} 
+        title3={'Direito Previdenciário'} 
+        link3={'/'} 
+        text3={'Atuamos com pedidos e revisões de benefícios do INSS, para promover seus direitos previdenciários. '}      
+      />
+
   </>
   )
 }
