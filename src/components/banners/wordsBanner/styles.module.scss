@@ -43,6 +43,10 @@
             display: inline;
         }
 
+        h1 {
+            max-width: 314px;
+        }
+
         span {
             color: $color-brand-brandingprimary;
         }
@@ -54,6 +58,25 @@
 
         > p:first-of-type {
             margin-top: 24px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    
+    .wordsContainer {
+        align-items: flex-start;
+        .textContainer {
+            max-width: 375px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    
+    .wordsContainer {
+        .textContainer {
+            max-width: 241px;
         }
     }
 }

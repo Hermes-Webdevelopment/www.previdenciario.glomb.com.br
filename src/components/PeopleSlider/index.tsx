@@ -10,6 +10,7 @@ interface peopleSlider {
     carrouselImages: carrouselImages[];
     buttonLink: string;
     buttonText: ReactNode | string;
+    whiteVersion?: boolean;
 }
 
 interface carrouselImages {
@@ -21,7 +22,7 @@ interface carrouselImages {
 
 export default function PeopleSlider(props: peopleSlider) {
 
-    const {title, subTitle, carrouselImages, buttonLink, buttonText} = props
+    const {title, subTitle, carrouselImages, buttonLink, buttonText, whiteVersion = false} = props
 
     const [isDragging, setIsDragging] = useState(false);
     const [startPosition, setStartPosition] = useState(0);
@@ -93,7 +94,7 @@ export default function PeopleSlider(props: peopleSlider) {
 
   return (
     
-    <section className={styles.peopleSliderSection}>
+    <section className={`${styles.peopleSliderSection} ${whiteVersion ? styles.whiteVersion : ''}`}>
         <div className={`container ${styles.peopleContainer}`}>
 
             <h2>
@@ -140,9 +141,12 @@ export default function PeopleSlider(props: peopleSlider) {
                 }
             </div>
         </div>
-        <div className='apearMobile' style={{width: "100%", display:"flex", justifyContent:"center"}}>
-            <BlueButton buttonLink={buttonLink} buttonText={buttonText} transparentMode={true}/>
-        </div>
+        {
+            !whiteVersion &&
+            <div className='apearMobile' style={{width: "100%", display:"flex", justifyContent:"center"}}>
+                <BlueButton buttonLink={buttonLink} buttonText={buttonText} transparentMode={true}/>
+            </div>
+        }
     </section>
   );
 }

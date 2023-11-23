@@ -8,6 +8,10 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
+
+    &.whiteVersion {
+        background-color: white;
+    }
 }
 
 .peopleContainer {
