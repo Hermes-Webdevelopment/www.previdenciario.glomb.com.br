@@ -28,6 +28,7 @@ return (
       <meta name="keywords" content=""></meta>
       <meta name="description" content=""></meta>
     </Head>
+
       <WordsBanner 
         title={'Transformar vidas por meio da justiça é nossa'} 
         text={
@@ -42,6 +43,7 @@ return (
         buttonText={'Quero ser atendido'} 
         buttonLink={'/'}        
       />
+      
   </>
   )
 }
