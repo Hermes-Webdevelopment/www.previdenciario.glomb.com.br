@@ -8,7 +8,7 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript';
 import LogoHead from '../components/headFormats/logoHead';
 import dynamic from 'next/dynamic';
 
-const StaticBanner = dynamic(() =>  import('../components/staticBanner'));
+const StaticBanner = dynamic(() =>  import('../components/banners/staticBanner'));
 const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
 const PeopleComents = dynamic(() =>  import('../components/peopleComents'));
 const ImageGalerySlider = dynamic(() =>  import('../components/imageGalerySlider'));
@@ -49,7 +49,7 @@ return (
       {/* Image shared in web social links */}
       <meta property="og:locale" content="pt_BR"/>
       <meta property="fb:app_id" content="824919729364803" />
-      <meta property="og:site_name" content="Blog | Glomb Advogados"/>
+      <meta property="og:site_name" content="Glomb Advogados"/>
       <meta property='og:title' content='Aposentadoria negada tem solução'/>
       <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogocache.png'/>
       <meta property="og:image:width" content="1200"/>

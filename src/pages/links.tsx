@@ -22,7 +22,7 @@ return (
 
         {/* Image shared in web social links */}
         <meta property="og:locale" content="pt_BR"/>
-        <meta property="og:site_name" content="Blog | Glomb Advogados"/>
+        <meta property="og:site_name" content="Glomb Advogados"/>
         <meta property='og:title' content='Sofreu acidente? Receba um valor do INSS'/>
         <meta property="fb:app_id" content="824919729364803" />
         <meta property='og:image' itemProp='image' content='https://previdenciario.glomb.com.br/assets/images/glombimagelogocache.png'/>

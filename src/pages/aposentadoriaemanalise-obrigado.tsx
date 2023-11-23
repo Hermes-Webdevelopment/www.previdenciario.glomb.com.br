@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import type { NextPage } from 'next';
-import LinksBanner from '../components/linksBanner';
+import LinksBanner from '../components/banners/linksBanner';
 import SimpleFooter from '../components/footerFormats/simpleFooter';
 import { useEffect } from 'react';
 import { gtmCaller } from '../components/scriptCaller/gtmScript';
