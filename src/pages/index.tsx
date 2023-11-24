@@ -93,7 +93,7 @@ return (
           text={'Temos a satisfação de contribuir com a sociedade e transformar vidas por meio da justiça há mais de 46 anos.'}
           years={'42'}
           yearsText={'+ anos de atuação'}
-          clients={'23.125'}
+          clients={'23125'}
           clientsText={'+ clientes atendidos'}
         />
 

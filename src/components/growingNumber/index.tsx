@@ -1,4 +1,6 @@
+import { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
+import AnimatedValue from './numberAnimation';
 
 interface GrowuingNumberInterface {
     title: string 
@@ -21,14 +23,14 @@ export default function GrowingNumber(props: GrowuingNumberInterface) {
                     <span>{text}</span>
                 </div>
                 <div className={styles.numberAnimation}>
-                    <div>
-                        <span id='years'>{years}</span>
-                        <span>{yearsText}</span>
-                    </div>
-                    <div>
-                        <span id='clients'>{clients}</span>
-                        <span>{clientsText}</span>
-                    </div>
+                <div>
+                    <AnimatedValue id="years" years={Number(years)}/>
+                    <span>{yearsText}</span>
+                </div>
+                <div>
+                    <AnimatedValue id="clients" clients={Number(clients)} />
+                    <span>{clientsText}</span>
+                </div>
                 </div>
             </div>
         </section>
