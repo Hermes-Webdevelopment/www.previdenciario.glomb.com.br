@@ -13,7 +13,7 @@ import LogoHead from '../components/headFormats/logoHead';
 const StaticBanner = dynamic(() =>  import('../components/banners/staticBanner'));
 const FormsTopics = dynamic(() =>  import('../components/formsTitles'));
 const PeopleComents = dynamic(() =>  import('../components/peopleComents'));
-const ImageGalerySlider = dynamic(() =>  import('../components/imageGalerySlider'));
+const ImageGalerySlider = dynamic(() =>  import('../components/galeries/imageGalerySlider'));
 const PeopleSlider = dynamic(() =>  import('../components/PeopleSlider'));
 const SimpleFooter = dynamic(() =>  import('../components/footerFormats/simpleFooter'));
 

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
 import WordsBanner from '../components/banners/wordsBanner'
+import ImageSlider from '../components/galeries/imageSlider'
 import OurServices from '../components/ourServices'
 import GrowingNumber from '../components/growingNumber'
 import { useEffect, useState } from 'react'
@@ -203,6 +204,20 @@ return (
           ]}
           buttonLink={linkWhatsAp}
           buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
+        />
+
+        <ImageSlider 
+          title={'O Escritório'} 
+          text={
+            <>
+              <p>Temos uma estrutura completa para atender em <strong>todo o Brasil</strong>, presencialmente em nossos escritórios ou 100% on-line, sempre com foco na satisfação do cliente.</p>
+              <p>Investimos nas mais modernas tecnologias para fornecer soluções eficientes.</p>
+              <p>Agregando inovação tecnológica ao conhecimento jurídico, garantimos agilidade no atendimento  e assertividade na solução de problemas.</p>
+              <p>Somos signatários do Pacto Global - ONU. Apoiamos o Complexo Pequeno Príncipe, maior hospital pediátrico do Brasil. Recebemos prêmio da Revista Análise - Escritório mais Admirado.</p>
+            </>} 
+          img={'/assets/images/home/office.jpg'} 
+          imgMobile={'/assets/images/home/office.jpg'} 
+          imgAlt={'Imagem do escritorio'}  
         />
       </>
     }
