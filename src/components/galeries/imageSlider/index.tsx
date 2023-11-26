@@ -20,22 +20,6 @@ export default function ImageSlider(props: ImageSliderInterface) {
 
     const screenSize = getScreenSiteAndWidth()
 
-    const swiperRef = React.useRef<any | null>(null);
-
-    // Função para ir para o próximo slide
-    const goToNextSlide = () => {
-        if (swiperRef.current) {
-        swiperRef.current.slideNext();
-        }
-    };
-
-    // Função para ir para o slide anterior
-    const goToPrevSlide = () => {
-        if (swiperRef.current) {
-        swiperRef.current.slidePrev();
-        }
-    };
-
     return (
         <section className={styles.imagesliderSection}>
             <div className={`${styles.wordsContainer}`}>

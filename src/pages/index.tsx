@@ -9,6 +9,7 @@ import { gtmCaller } from '../components/scriptCaller/gtmScript'
 import { clarityCaller } from '../components/scriptCaller/clarityScript'
 import PeopleSlider from '../components/PeopleSlider'
 import ClientsCommentsSlider from '../components/comentsSlider'
+import BlogSlider from '../components/galeries/blogSlider'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -272,6 +273,33 @@ return (
               text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
               starNumber:5,
               clientName:'Gabriela Fialho'
+            }
+          ]}
+        />
+
+        <BlogSlider 
+          title='Entenda seus direitos'
+          btnText='Acessar Blog'
+          btnLink='/'
+          blogPosts={[
+            {
+              img:'/assets/images/home/office.jpg',
+              imgaAlt:'teste',
+              postTitle:'Revisão da Vida Toda pode aumentar 5x sua Aposentadoria',
+              postText: 'A Revisão da Vida Toda pode aumentar em até 5x o valor de sua Aposentadoria ou Pensão. Descubra como.',
+              actionBtn:'Ver mais'
+            },{
+              img:'/assets/images/home/office.jpg',
+              imgaAlt:'teste',
+              postTitle:'Revisão da Vida Toda pode aumentar 5x sua Aposentadoria',
+              postText: 'A Revisão da Vida Toda pode aumentar em até 5x o valor de sua Aposentadoria ou Pensão. Descubra como.',
+              actionBtn:'Ver mais'
+            },{
+              img:'/assets/images/home/office.jpg',
+              imgaAlt:'teste',
+              postTitle:'Revisão da Vida Toda pode aumentar 5x sua Aposentadoria',
+              postText: 'A Revisão da Vida Toda pode aumentar em até 5x o valor de sua Aposentadoria ou Pensão. Descubra como.',
+              actionBtn:'Ver mais'
             }
           ]}
         />
