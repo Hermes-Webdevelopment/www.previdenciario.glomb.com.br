@@ -1,28 +1,24 @@
-import Image from 'next/image';
 import styles from './styles.module.scss';
 
-import { ReactNode, useEffect, useRef, useState} from 'react';
-import BlueButton from '../atons/blueButton';
+import { useEffect, useRef, useState} from 'react';
+import Star from '@/public/assets/svgs/star.svg';
 
-interface peopleSlider {
-    title: ReactNode | string;
-    subTitle: ReactNode | string ;
-    carrouselImages: carrouselImages[];
-    buttonLink: string;
-    buttonText: ReactNode | string;
-    whiteVersion?: boolean;
+interface ClientsCommentsSliderInterface {
+    clientsComentCard: CardInterface[],
+    title: string,
+    subTitle: string
 }
 
-interface carrouselImages {
-    imageUrl: string;
-    imageTitle: string;
-    imageSubTitle: string;
-    text: string;
-}[];
+interface CardInterface {
+    title: string,
+    text:string,
+    starNumber:number,
+    clientName:string
+}
 
-export default function CommentsSlider(props: peopleSlider) {
+export default function ClientsCommentsSlider(props: ClientsCommentsSliderInterface) {
 
-    const {title, subTitle, carrouselImages, buttonLink, buttonText, whiteVersion = false} = props
+    const { clientsComentCard, title, subTitle } = props
 
     const [isDragging, setIsDragging] = useState(false);
     const [startPosition, setStartPosition] = useState(0);
@@ -94,13 +90,19 @@ export default function CommentsSlider(props: peopleSlider) {
 
   return (
     
-    <section className={`${styles.peopleSliderSection} ${whiteVersion ? styles.whiteVersion : ''}`}>
+    <section className={`${styles.peopleSliderSection}`}>
         <div className={`container ${styles.peopleContainer}`}>
 
             <h2>
                 {title}
             </h2>
-
+            <div>
+                <Star />
+                <Star />
+                <Star />
+                <Star />
+                <Star />
+            </div>
             <h3>
                 {subTitle}
             </h3>
@@ -116,24 +118,15 @@ export default function CommentsSlider(props: peopleSlider) {
                 ref={slidesRef}
             >
                 {
-                    carrouselImages.map((image: carrouselImages) => {
+                    clientsComentCard.map((card: CardInterface) => {
                         return (
                             <div key={Math.random()} className={styles.slideContainer}>
-                                <div className={styles.imgDiv}>
-                                    <Image 
-                                        loading="lazy"
-                                        height={420}
-                                        width={320}
-                                        src={image.imageUrl}
-                                        alt={image.imageTitle}
-                                    />
+                                <div>
+                                    <p className={styles.text}>{card.text}</p>
                                 </div>
                                 <div className={styles.descriptionDiv}>
-                                    <div>
-                                        <h2>{image.imageTitle}</h2>
-                                        <p>{image.imageSubTitle}</p>
-                                        <p>{image.text}</p>
-                                    </div>
+                                    <p className={styles.letterBox}>{Array.from(card.clientName)[0]}</p>
+                                    <p>{card.clientName}</p>
                                 </div>
                             </div>
                         )
@@ -141,12 +134,6 @@ export default function CommentsSlider(props: peopleSlider) {
                 }
             </div>
         </div>
-        {
-            !whiteVersion &&
-            <div className='apearMobile' style={{width: "100%", display:"flex", justifyContent:"center"}}>
-                <BlueButton buttonLink={buttonLink} buttonText={buttonText} transparentMode={true}/>
-            </div>
-        }
     </section>
   );
 }

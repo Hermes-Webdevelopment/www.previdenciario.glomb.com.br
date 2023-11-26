@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react'
 import { gtmCaller } from '../components/scriptCaller/gtmScript'
 import { clarityCaller } from '../components/scriptCaller/clarityScript'
 import PeopleSlider from '../components/PeopleSlider'
+import ClientsCommentsSlider from '../components/comentsSlider'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -218,6 +219,61 @@ return (
           img={'/assets/images/home/office.jpg'} 
           imgMobile={'/assets/images/home/office.jpg'} 
           imgAlt={'Imagem do escritorio'}  
+        />
+        
+        <ClientsCommentsSlider 
+          title={'O que nossos clientes dizem'}
+          subTitle={'Nota 4.9 de 5.0 no Google'}
+          clientsComentCard={[
+            {
+              title: 'Excelentes profissionais',
+              text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
+              starNumber:5,
+              clientName:'Marines Gai'
+            },
+            {
+              title: 'Muito bom',
+              text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
+              starNumber:5,
+              clientName:'William Fabrício de Oliveira'
+            },
+            {
+              title: 'Muito atenciosos',
+              text:'Muito atenciosos. Fiquei satisfeita com o atendimento.',
+              starNumber:5,
+              clientName:'Shirley Ribeiro da Costa'
+            },
+            {
+              title: 'Muito bem atendido',
+              text:'Fui muito bem atendido nota 20!',
+              starNumber:5,
+              clientName:'Dicezar Gomes'
+            },
+            {
+              title: 'Estão de parabéns',
+              text:'Essa equipe da Glomb Advogados é ótima. Rapidinho me deu resposta do que eu precisava, estão de parabéns. Muito obrigada.',
+              starNumber:5,
+              clientName:'Selma Januaria da Silva'
+            },
+            {
+              title: 'Ótimo!',
+              text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
+              starNumber:5,
+              clientName:'Matilde Reami Rodrigues'
+            },
+            {
+              title: 'Extremamante qualificados',
+              text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
+              starNumber:5,
+              clientName:'Marcos Aurélio Padilha'
+            },
+            {
+              title: 'Atendimento excelente',
+              text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
+              starNumber:5,
+              clientName:'Gabriela Fialho'
+            }
+          ]}
         />
       </>
     }

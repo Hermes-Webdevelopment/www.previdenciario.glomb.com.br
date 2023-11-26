@@ -11,8 +11,7 @@
     flex-direction: column;
     width: 100vw;
     height: auto;
-    position: absolute;
-            z-index: 9;
+    z-index: 9;
 
     .imageContainer {
         width: 100%;
@@ -99,6 +98,7 @@
 
     .wordsContainer {
         height: 100vh;
+        position: absolute;
     
         .imageContainer {
             width: 100%;
