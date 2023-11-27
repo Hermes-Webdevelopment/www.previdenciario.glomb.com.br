@@ -34,8 +34,7 @@ export default function BlogSlider(props: BlogSliderInterface) {
                 <span>{title}</span>
                 <Swiper
                     spaceBetween={50}
-                    slidesPerView={screenSize.dynamicWidth >= 768 ? 3 : 1}
-                    autoplay={{ delay: 2000 }}
+                    slidesPerView={screenSize.dynamicWidth <= 768 ? 1 : 1200 > screenSize.dynamicWidth && screenSize.dynamicWidth > 768 ? 2 : 3}
                     loop
                     navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
                     className={styles.swiperContainer}
@@ -44,7 +43,7 @@ export default function BlogSlider(props: BlogSliderInterface) {
                     {
                         blogPosts.map(post => {
                             return (
-                                <SwiperSlide>
+                                <SwiperSlide style={{padding: '4px'}}>
                                     <div className={styles.postContainer}>
                                         <div>
                                             <Image
@@ -53,15 +52,19 @@ export default function BlogSlider(props: BlogSliderInterface) {
                                                 src={post.img}
                                                 alt={post.imgaAlt}
                                             />
-                                            <span>
-                                                {post.postTitle}
-                                            </span>
-                                            <span>
-                                                {post.postText}
-                                            </span>
+                                            <div className={styles.postTitle}>
+                                                <span>
+                                                    {post.postTitle}
+                                                </span>
+                                            </div>
+                                            <div className={styles.postText}>
+                                                <span>
+                                                    {post.postText}
+                                                </span>
+                                            </div>
                                         </div>
                                         <span>
-                                            {post.actionBtn}
+                                            <u>{post.actionBtn}</u>
                                         </span>
                                     </div>
                                 </SwiperSlide>

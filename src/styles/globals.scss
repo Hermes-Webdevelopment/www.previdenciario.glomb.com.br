@@ -94,7 +94,7 @@ section {
 }
 
 .apearDesktop {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 1200px) {
@@ -116,7 +116,7 @@ section {
   }
 
   .apearDesktop {
-      display: block;
+      display: block !important;
   }
 
   .container {

@@ -10,7 +10,7 @@ export default function SwiperButtons() {
     const swiper = useSwiper();
     
     return (
-            <div className={`${styles.sliderButtons} apearMobile`}>
+            <div className={`apearDesktop ${styles.sliderButtons}`}>
                 <button aria-label="see previoues image" onClick={() => swiper.slidePrev()}>
                     <SliderPrev />
                 </button>
