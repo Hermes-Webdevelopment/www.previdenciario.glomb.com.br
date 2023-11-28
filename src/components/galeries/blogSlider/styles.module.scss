@@ -6,7 +6,7 @@
 
 .sliderButtons {
     background-color: transparent;
-    display: flex !important;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-top: 16px;
@@ -132,5 +132,8 @@
 }
 
 @media (min-width: 1200px) {
+    .sliderButtons {
+        display: none;
+    }
     
 }

@@ -60,7 +60,6 @@
     
     .slidesDiv {
         display: flex;
-        width: max-content;
         overflow-x: scroll;
         flex-flow: row nowrap;
         
@@ -87,7 +86,7 @@
                 background-color: $text-color;
                 color: white;
                 font-weight: 700;
-                width: 42px;
+                min-width: 42px;
                 height: 42px;
                 border-radius: 4px;
                 margin-right: 8px;
