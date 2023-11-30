@@ -4,6 +4,7 @@ import WordsBanner from '../components/banners/wordsBanner'
 import ImageSlider from '../components/galeries/imageSlider'
 import OurServices from '../components/ourServices'
 import GrowingNumber from '../components/growingNumber'
+import Map from '../components/map'
 import { useEffect, useState } from 'react'
 import { gtmCaller } from '../components/scriptCaller/gtmScript'
 import { clarityCaller } from '../components/scriptCaller/clarityScript'
@@ -303,6 +304,8 @@ return (
             }
           ]}
         />
+
+        <Map />
       </>
     }
   </>
