@@ -8,20 +8,33 @@ import Instagram from '@/public/assets/images/svgs/instagram_white.svg';
 import Facebook from '@/public/assets/images/svgs/facebook_white.svg';
 import Youtube from '@/public/assets/images/svgs/youtube_white.svg';
 import Whats from '@/public/assets/images/svgs/whats_white.svg';
+import BlueButton from '../../atons/blueButton';
 
 interface simpleFooterInterface {
     logo: string, 
     sloganTxt: ReactNode | string;
-    subTxt: string
+    subTxt: string,
+    callToAction?: Boolean
 }
 
 export default function SimpleFooter(props: simpleFooterInterface) {
 
-    const { logo, sloganTxt, subTxt } = props
+    const { logo, sloganTxt, subTxt, callToAction = false } = props
 
     return (
 
         <section id='footerContainer' className={styles.footerSection}>
+            <div className={callToAction ? styles.extraAction : styles.removeExtra}>
+                <div className={`container ${styles.extraActiontxt}`}>
+                    <span>Avalie seu caso em 1 minuto</span>
+                    <span>Avalie seu caso sem compromisso e descubra seus direitos.</span>
+                    <BlueButton 
+                        buttonLink={'/'} 
+                        buttonText={'Avalie seu caso'}                    
+                    />
+                </div>
+
+            </div>
             <div className={`container ${styles.simpleFooterContainer}`}>
                 <div className={styles.firstLine}>
                     {

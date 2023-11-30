@@ -11,6 +11,7 @@ import { clarityCaller } from '../components/scriptCaller/clarityScript'
 import PeopleSlider from '../components/PeopleSlider'
 import ClientsCommentsSlider from '../components/comentsSlider'
 import BlogSlider from '../components/galeries/blogSlider'
+import SimpleFooter from '../components/footerFormats/simpleFooter'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -306,6 +307,14 @@ return (
         />
 
         <Map />
+        {shown &&
+          <SimpleFooter 
+            logo='glomb'
+            sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+            subTxt='Inscrição OAB nº 403'
+            callToAction={true}
+          />
+        }
       </>
     }
   </>
