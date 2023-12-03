@@ -4,6 +4,24 @@
     min-height: 100vh;
 }
 
+.logosContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    div {
+        height: 100%;
+        max-height: 44px;
+        width: auto;
+    }
+
+    img {
+        height: 44px;
+        object-fit: contain;
+    }
+}
+
 .wordsContainer {
     display: flex;
     justify-content: flex-start;
@@ -13,68 +31,11 @@
     height: auto;
     z-index: 9;
 
-    .imageContainer {
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-bottom: 24px;
-        
-        img {
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-        }
-    }
-
-    .textContainer {
-        z-index: 9;
-
-        h1, span {
-            font-size: $typography-title-dstitle-xxl-semi-bold-font-size;
-            text-decoration: $typography-title-dstitle-xxl-semi-bold-text-decoration;
-            font-family: $typography-title-dstitle-xxl-semi-bold-font-family;
-            font-weight: $typography-title-dstitle-xxl-semi-bold-font-weight;
-            font-style: $typography-title-dstitle-xxl-semi-bold-font-style;
-            font-stretch: $typography-title-dstitle-xxl-semi-bold-font-stretch;
-            letter-spacing: $typography-title-dstitle-xxl-semi-bold-letter-spacing;
-            line-height: $typography-title-dstitle-xxl-semi-bold-line-height;
-            text-align: center;
-            display: inline;
-        }
-
-        h1 {
-            max-width: 314px;
-        }
-
-        span {
-            color: $color-brand-brandingprimary;
-        }
-
-        > p {
-            font: $montserrat-18;
-            margin-bottom: 16px;
-        }
-
-        > p:first-of-type {
-            margin-top: 24px;
-        }
-    }
-}
-
-@media (min-width: 550px) {
-    
-    .wordsContainer {
-        align-items: flex-start;
-    }
-}
-
-@media (min-width: 768px) {
-
     .sliderButtons {
-        bottom: 10px;
+        bottom: 40px;
         height: auto;
         width: auto;
-        right: 35px;
+        right: 16px;
         z-index: 20;
         display: flex;
         justify-content: space-between;
@@ -93,9 +54,64 @@
         }
     }
 
+    .imageContainer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 32px;
+        
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .textContainer {
+        z-index: 9;
+
+        h1, span {
+            font: $montserrat-32;
+            text-align: center;
+            display: inline;
+        }
+
+        h1 {
+            max-width: 314px;
+        }
+
+        span {
+            color: $color-brand-brandingprimary;
+        }
+
+        > p {
+            font: $montserrat-18;
+            margin-bottom: 28px;
+        }
+
+        > p:first-of-type {
+            margin-top: 16px;
+        }
+    }
+}
+
+@media (min-width: 550px) {
+    
+    .wordsContainer {
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+
     .wordsContainer {
         height: 100vh;
         position: absolute;
+
+        .sliderButtons {
+            bottom: 24px;
+            right: 35px;
+        }
     
         .imageContainer {
             width: 100%;
@@ -140,22 +156,30 @@
 }
 
 @media (min-width: 1200px) {
+
+    .logosContainer {
+        
+        div {
+            max-height: 60px;
+        }
+    
+        img {
+            height: 60px;
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+
     .wordsContainer {
 
         .textContainer {
             right: 50px;
             width: 60%;
-            max-width: 720px;
+            max-width: 560px;
+            padding: 40px 32px 40px 45px;
             
             h1, span {
-                font-size: $typography-display-dsdisplay-lg-semi-bold-font-size;
-                text-decoration: $typography-display-dsdisplay-lg-semi-bold-text-decoration;
-                font-family: $typography-display-dsdisplay-lg-semi-bold-font-family;
-                font-weight: $typography-display-dsdisplay-lg-semi-bold-font-weight;
-                font-style: $typography-display-dsdisplay-lg-semi-bold-font-style;
-                font-stretch: $typography-display-dsdisplay-lg-semi-bold-font-stretch;
-                letter-spacing: $typography-display-dsdisplay-lg-semi-bold-letter-spacing;
-                line-height: $typography-display-dsdisplay-lg-semi-bold-line-height;
+                font:$montserrat-36; 
                 text-align: center;
             }
 
@@ -165,13 +189,13 @@
             }
 
             > p:first-of-type {
-                margin-top: 47px;
+                margin-top: 60px;
                 position: relative;
 
                 &:after {
                     content: "";
                     position: absolute;
-                    top: -24px;
+                    top: -37px;
                     left: 0;
                     right: 0;
                     height: 0.5em;

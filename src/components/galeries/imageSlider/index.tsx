@@ -86,6 +86,20 @@ export default function ImageSlider(props: ImageSliderInterface) {
                 <article className={`container ${styles.textContainer}`}>
                     <h1>{title}</h1>
                     {text}
+                    <div className={styles.logosContainer}>
+                        <div>
+                            <Image 
+                                src='/assets/images/home/pacto-global.webp' 
+                                alt="Pacto Global"
+                                height={44}
+                                width={120}
+                                quality={100}
+                                unoptimized={true}
+                            />
+                        </div>
+                        <div><img src='/assets/images/home/hospital-pequeno-principe.webp' alt="Hospital pequeno principe  " /></div>
+                        <div><img src='/assets/images/home/analise-advocacia-500.webp' alt="analise advocacia 500" /></div>
+                    </div>
                 </article>
             </div>
         </section>

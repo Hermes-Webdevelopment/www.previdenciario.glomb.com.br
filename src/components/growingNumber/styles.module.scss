@@ -2,7 +2,7 @@
 
 .sectionGrowingNumber {
     background-color: $light-gray-red;
-    padding: 40px 23px;
+    padding: 40px 0;
 
     .title {
         width: 100%;
@@ -17,14 +17,7 @@
         }
 
         span:first-of-type {
-            font-size: $typography-title-dstitle-xl-font-size;
-            text-decoration: $typography-title-dstitle-xl-text-decoration;
-            font-family: $typography-title-dstitle-xl-font-family;
-            font-weight: $typography-title-dstitle-xl-font-weight;
-            font-style: $typography-title-dstitle-xl-font-style;
-            font-stretch: $typography-title-dstitle-xl-font-stretch;
-            letter-spacing: $typography-title-dstitle-xl-letter-spacing;
-            line-height: $typography-title-dstitle-xl-line-height;
+            font: $montserrat-24-semi-bold;
             color: $title-text-color;
             margin-bottom: 16px;
         }

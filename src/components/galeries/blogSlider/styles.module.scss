@@ -18,7 +18,6 @@
     
     svg {
         max-height: 41px;
-        margin-right: 6px;
     }
 }
 
@@ -33,9 +32,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
 
-    > 
-
-    span {
+    > span {
         display: flex;
         font-size: $typography-title-dstitle-xxl-semi-bold-font-size;
         text-decoration: $typography-title-dstitle-xxl-semi-bold-text-decoration;
@@ -64,7 +61,8 @@
 
     > div {
         > a {
-            margin-top: 36px !important;
+            margin-top: 32px !important;
+            width: 100% !important;
         }
     } 
 

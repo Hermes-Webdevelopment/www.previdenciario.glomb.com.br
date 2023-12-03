@@ -214,7 +214,7 @@ return (
           title={'O Escritório'} 
           text={
             <>
-              <p>Temos uma estrutura completa para atender em <strong>todo o Brasil</strong>, presencialmente em nossos escritórios ou 100% on-line, sempre com foco na satisfação do cliente.</p>
+              <p>Temos uma estrutura completa para atender em todo o Brasil, presencialmente em nossos escritórios ou 100% on-line, sempre com foco na satisfação do cliente.</p>
               <p>Investimos nas mais modernas tecnologias para fornecer soluções eficientes.</p>
               <p>Agregando inovação tecnológica ao conhecimento jurídico, garantimos agilidade no atendimento  e assertividade na solução de problemas.</p>
               <p>Somos signatários do Pacto Global - ONU. Apoiamos o Complexo Pequeno Príncipe, maior hospital pediátrico do Brasil. Recebemos prêmio da Revista Análise - Escritório mais Admirado.</p>

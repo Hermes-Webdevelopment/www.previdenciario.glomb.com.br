@@ -12,7 +12,7 @@
 
 .extraAction {
     width: 100%;
-    background-color: #F8F8F8;
+    background-color: #1862B2;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -38,12 +38,18 @@
 
             a {
                 width: 68%;
+                background-color: white !important;
+
+                p {
+                    color: $branding-dark-blue !important;
+                }
             }
         }
 
         span {
             margin-bottom: 38px;
             font: $montserrat-20;
+            color: white;
         }
 
         span:first-of-type {
@@ -175,7 +181,7 @@
 
     .extraAction {
         width: 100%;
-        background-color: #F8F8F8;
+        background-color: #1862B2;
         display: flex;
         justify-content: center;
         align-items: flex-start;
