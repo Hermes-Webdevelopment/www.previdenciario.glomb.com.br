@@ -14,23 +14,27 @@ interface simpleFooterInterface {
     logo: string, 
     sloganTxt: ReactNode | string;
     subTxt: string,
-    callToAction?: Boolean
+    callToAction?: Boolean,
+    callTitle?: string,
+    callText?: string,
+    callBtnLink?: string,
+    callBtnText?: string
 }
 
 export default function SimpleFooter(props: simpleFooterInterface) {
 
-    const { logo, sloganTxt, subTxt, callToAction = false } = props
+    const { logo, sloganTxt, subTxt, callToAction = false, callTitle, callText, callBtnLink = '/', callBtnText } = props
 
     return (
 
         <section id='footerContainer' className={styles.footerSection}>
             <div className={callToAction ? styles.extraAction : styles.removeExtra}>
                 <div className={`container ${styles.extraActiontxt}`}>
-                    <span>Avalie seu caso em 1 minuto</span>
-                    <span>Avalie seu caso sem compromisso e descubra seus direitos.</span>
+                    <span>{callTitle}</span>
+                    <span>{callText}</span>
                     <BlueButton 
-                        buttonLink={'/'} 
-                        buttonText={'Avalie seu caso'}                    
+                        buttonLink={callBtnLink} 
+                        buttonText={callBtnText}                    
                     />
                 </div>
 
