@@ -12,6 +12,7 @@ import PeopleSlider from '../components/PeopleSlider'
 import ClientsCommentsSlider from '../components/comentsSlider'
 import BlogSlider from '../components/galeries/blogSlider'
 import SimpleFooter from '../components/footerFormats/simpleFooter'
+import BlueButton from '../components/atons/blueButton'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -62,8 +63,16 @@ return (
       <meta name="description" content=""></meta>
     </Head>
 
+      <div className='apearDesktop'>
+          <BlueButton 
+            isFloating={true} 
+            buttonLink={linkWhatsAp}
+            buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
+          />
+      </div>
+
       <WordsBanner 
-        title={'Transformar vidas por meio da justiça é nossa'} 
+        title={'Home beta'} 
         text={
           <>
             <p>Acreditamos que a advocacia tem uma importante tarefa: tornar a sociedade mais justa e igualitária.</p>
@@ -232,49 +241,49 @@ return (
               title: 'Excelentes profissionais',
               text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
               starNumber:5,
-              clientName:'Marines Gai'
+              clientName:'Marines Gai - PR - Curitiba'
             },
             {
               title: 'Muito bom',
               text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
               starNumber:5,
-              clientName:'William Fabrício de Oliveira'
+              clientName:'William Fabrício de Oliveira - PR - Curitiba'
             },
             {
               title: 'Muito atenciosos',
               text:'Muito atenciosos. Fiquei satisfeita com o atendimento.',
               starNumber:5,
-              clientName:'Shirley Ribeiro da Costa'
+              clientName:'Shirley Ribeiro da Costa - PR - Curitiba'
             },
             {
               title: 'Muito bem atendido',
               text:'Fui muito bem atendido nota 20!',
               starNumber:5,
-              clientName:'Dicezar Gomes'
+              clientName:'Dicezar Gomes - PR - Curitiba'
             },
             {
               title: 'Estão de parabéns',
               text:'Essa equipe da Glomb Advogados é ótima. Rapidinho me deu resposta do que eu precisava, estão de parabéns. Muito obrigada.',
               starNumber:5,
-              clientName:'Selma Januaria da Silva'
+              clientName:'Selma Januaria da Silva - PR - Curitiba'
             },
             {
               title: 'Ótimo!',
               text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
               starNumber:5,
-              clientName:'Matilde Reami Rodrigues'
+              clientName:'Matilde Reami Rodrigues - PR - Curitiba'
             },
             {
               title: 'Extremamante qualificados',
               text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
               starNumber:5,
-              clientName:'Marcos Aurélio Padilha'
+              clientName:'Marcos Aurélio Padilha - PR - Curitiba'
             },
             {
               title: 'Atendimento excelente',
               text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
               starNumber:5,
-              clientName:'Gabriela Fialho'
+              clientName:'Gabriela Fialho - PR - Curitiba'
             }
           ]}
         />
@@ -313,6 +322,10 @@ return (
             sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
             subTxt='Inscrição OAB nº 403'
             callToAction={true}
+            callTitle='Avalie seu caso em 1 minuto'
+            callText='Avalie seu caso sem compromisso e descubra seus direitos.'
+            callBtnLink='callBtnLink'
+            callBtnText='Avalie meu caso'
           />
         }
       </>

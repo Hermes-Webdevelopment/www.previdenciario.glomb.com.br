@@ -12,7 +12,7 @@
 
 .extraAction {
     width: 100%;
-    background-color: #1862B2;
+    background-color: $light-gray-red;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -38,10 +38,12 @@
 
             a {
                 width: 68%;
-                background-color: white !important;
+                background-color: transparent !important;
+                border: 1px solid $branding-primary;
 
                 p {
-                    color: $branding-dark-blue !important;
+                    color: $branding-primary !important;
+                    font: $montserrat-20-semi-bold !important;
                 }
             }
         }
@@ -49,7 +51,7 @@
         span {
             margin-bottom: 38px;
             font: $montserrat-20;
-            color: white;
+            color: $color-neutral-neutrallow;
         }
 
         span:first-of-type {
@@ -180,17 +182,9 @@
     }
 
     .extraAction {
-        width: 100%;
-        background-color: #1862B2;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        position: relative;
-        border-radius: 44px;
-        margin-top: -40px;
+        width: 100vw;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
     
         .extraActiontxt {
             margin-bottom: 63px;

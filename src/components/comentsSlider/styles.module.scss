@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     width: 100vw;
+    background-color: $light-gray-red;
 }
 
 .peopleContainer {  
@@ -45,9 +46,9 @@
     
     .slidesDiv {
         display: flex;
-        overflow-x: scroll;
         flex-flow: row nowrap;
         padding: 2px 0;
+        width: 100%;
         
         .slideContainer {
             min-width: 23%;
@@ -128,6 +129,7 @@
     .sliderContainer {
         
         .slidesDiv {
+            overflow-x: scroll;
             
             .slideContainer {
                 min-width: 30%;
