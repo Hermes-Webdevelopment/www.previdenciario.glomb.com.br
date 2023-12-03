@@ -63,7 +63,7 @@ return (
     </Head>
 
       <WordsBanner 
-        title={'Prod server / Transformar vidas por meio da justiça é nossa'} 
+        title={'Transformar vidas por meio da justiça é nossa'} 
         text={
           <>
             <p>Acreditamos que a advocacia tem uma importante tarefa: tornar a sociedade mais justa e igualitária.</p>
