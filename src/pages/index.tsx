@@ -313,6 +313,10 @@ return (
             sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
             subTxt='Inscrição OAB nº 403'
             callToAction={true}
+            callTitle='Avalie seu caso em 1 minuto'
+            callText='Avalie seu caso sem compromisso e descubra seus direitos.'
+            callBtnLink='callBtnLink'
+            callBtnText='Avalie meu caso'
           />
         }
       </>
