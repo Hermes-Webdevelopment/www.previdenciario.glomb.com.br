@@ -72,7 +72,7 @@ return (
       </div>
 
       <WordsBanner 
-        title={'Home beta'} 
+        title={'Transformar vidas por meio da Justiça é nossa'} 
         text={
           <>
             <p>Acreditamos que a advocacia tem uma importante tarefa: tornar a sociedade mais justa e igualitária.</p>
