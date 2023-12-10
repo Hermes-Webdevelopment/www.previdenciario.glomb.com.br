@@ -23,7 +23,7 @@
 
 .blogSliderContainer {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100vw;
@@ -32,19 +32,11 @@
     padding-top: 24px;
     padding-bottom: 24px;
 
-    > span {
+    > h2 {
         display: flex;
-        font-size: $typography-title-dstitle-xxl-semi-bold-font-size;
-        text-decoration: $typography-title-dstitle-xxl-semi-bold-text-decoration;
-        font-family: $typography-title-dstitle-xxl-semi-bold-font-family;
-        font-weight: $typography-title-dstitle-xxl-semi-bold-font-weight;
-        font-style: $typography-title-dstitle-xxl-semi-bold-font-style;
-        font-stretch: $typography-title-dstitle-xxl-semi-bold-font-stretch;
-        letter-spacing: $typography-title-dstitle-xxl-semi-bold-letter-spacing;
-        line-height: $typography-title-dstitle-xxl-semi-bold-line-height;
-        text-align: start;
+        font: $montserrat-36;
+        text-align: center;
         margin-bottom: 33px;
-        width: 100%;
     }
     
     .postContainer {
@@ -70,16 +62,9 @@
     .postTitle {
         padding: 16px;
 
-        span {
+        h3 {
             display: flex;
-            font-size: $typography-title-dstitle-lg-font-size;
-            text-decoration: $typography-title-dstitle-lg-text-decoration;
-            font-family: $typography-title-dstitle-lg-font-family;
-            font-weight: $typography-title-dstitle-lg-font-weight;
-            font-style: $typography-title-dstitle-lg-font-style;
-            font-stretch: $typography-title-dstitle-lg-font-stretch;
-            letter-spacing: $typography-title-dstitle-lg-letter-spacing;
-            line-height: $typography-title-dstitle-lg-line-height;
+            font: $montserrat-24-bold;
             text-align: start;
             width: 100%;
         }
@@ -103,6 +88,7 @@
         align-items: flex-start;
         flex-direction: column;
         height: 100%;
+        min-height: 470px;
         -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 2, 3, 0.25);
         -moz-box-shadow: 0px 0px 3px 1px rgba(0, 2, 3, 0.25);
         box-shadow: 0px 0px 3px 1px rgba(0, 2, 3, 0.25);
@@ -122,6 +108,9 @@
 }
 
 @media (min-width: 768px) {
+    .blogSliderContainer {
+        padding-top: 74px;
+    }
     
 }
 

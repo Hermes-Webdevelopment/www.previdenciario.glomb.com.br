@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { ReactNode } from 'react';
 import styles from './styles.module.scss';
 import AnimatedValue from './numberAnimation';
 
 interface GrowuingNumberInterface {
     title: string 
-    text: string 
+    text: string | ReactNode
     years: string 
     yearsText: string 
     clients: string 
@@ -19,8 +19,8 @@ export default function GrowingNumber(props: GrowuingNumberInterface) {
         <section className={styles.sectionGrowingNumber}>
             <div className='container'>
                 <div className={styles.title}>
-                    <span>{title}</span>
-                    <span>{text}</span>
+                    <h2>{title}</h2>
+                    <p>{text}</p>
                 </div>
                 <div className={styles.numberAnimation}>
                 <div>

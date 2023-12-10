@@ -11,9 +11,9 @@ export default function Map(props: MapInterface) {
         <section>
             <div className="container" style={{width:"100%"}}>
                 <div className={styles.titleContainer}>
-                    <span>Onde estamos</span>
-                    <span>Rua Visconde do Rio Branco, 1488 - 19º andar</span>
-                    <span>Curitiba - Paraná</span>
+                    <h2>Onde estamos</h2>
+                    <h3>Rua Visconde do Rio Branco, 1488 - 19º andar</h3>
+                    <h3>Curitiba - Paraná</h3>
                 </div>
                 <div className={styles.mapIframe}>
                     <iframe 

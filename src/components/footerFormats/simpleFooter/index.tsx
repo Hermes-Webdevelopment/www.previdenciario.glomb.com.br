@@ -30,8 +30,8 @@ export default function SimpleFooter(props: simpleFooterInterface) {
         <section id='footerContainer' className={styles.footerSection}>
             <div className={callToAction ? styles.extraAction : styles.removeExtra}>
                 <div className={`container ${styles.extraActiontxt}`}>
-                    <span>{callTitle}</span>
-                    <span>{callText}</span>
+                    <h2>{callTitle}</h2>
+                    <h3>{callText}</h3>
                     <BlueButton 
                         buttonLink={callBtnLink} 
                         buttonText={callBtnText}                    

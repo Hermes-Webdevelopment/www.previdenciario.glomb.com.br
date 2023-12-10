@@ -29,7 +29,7 @@
         margin-bottom: 24px;
     }
 
-    >h3 {
+    >.subtitleParagraph {
         font-size: $typography-paragraph-dstext-xl-font-size;
         text-decoration: $typography-paragraph-dstext-xl-text-decoration;
         font-family: $typography-paragraph-dstext-xl-font-family;
@@ -92,7 +92,7 @@
                 padding-bottom: 20px;
             }
 
-            h2 {
+            h3 {
                 font-size: $typography-title-dstitle-lg-bold-font-size;
                 text-decoration: $typography-title-dstitle-lg-bold-text-decoration;
                 font-family: $typography-title-dstitle-lg-bold-font-family;
@@ -182,7 +182,7 @@
             margin-bottom: 8px;
         }
 
-        h3 {
+        .subtitleParagraph {
             margin-bottom: 22px;
         }
 

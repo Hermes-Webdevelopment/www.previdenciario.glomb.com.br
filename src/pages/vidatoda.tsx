@@ -255,111 +255,149 @@ return (
     }
     {shown &&
     <PeopleSlider 
-      title='Nossos profissionais'
-      subTitle={<p>Nosso propósito é <strong>transformar vidas</strong> por meio da justiça. Por isso, não poupamos esforços para promover transformações positivas nas vidas dos nossos clientes.</p>}
-      carrouselImages={[
-        
-        {
-          imageUrl: '/assets/images/advogados/2jose_lucio_glomb.webp',
-          imageTitle: 'José Lúcio Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 6.838'
-        },
+    title='Nossos profissionais'
+    subTitle={<p>Para nós, trabalhar com <strong>justiça</strong> não é apenas um ofício mas uma forma de <strong>transformar o mundo, melhorando</strong> a vida de milhares de pessoas.Por isso, contamos com uma equipe altamente <strong>qualificada</strong>, movida por um forte senso de <strong>propósito, excelência e rigor técnico</strong> para defender seus direitos.</p>}
+    carrouselImages={[
+      
+      {
+        imageUrl: '/assets/images/advogados/jose-lucio-glomb-advogado-direito-do-trabalho.webp',
+        imageTitle: 'José Lúcio Glomb',
+        imageAlt: 'José Lúcio Glomb, advogado, OAB/PR 6.838. Conselheiro Federal da OAB, Ex-presidente do Instituto dos Advogados do Paraná - IAP e Presidente da OAB/PR de 2010 a 2012. Advogado de cabelos brancos, óculos de grau, terno azul e gravata vermelha.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 6.838'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/angela-glomb-advogada-direito-do-trabalho.webp',
+        imageTitle: 'Angela Glomb',
+        imageAlt: 'Angela Glomb, advogada, OAB/PR 37.004, OAB/SP 294.679, com vasta experiência em direito do trabalho, pós-graduada pela Pontifícia Universidade Católica de São Paulo - PUC/SP',
+        imageSubTitle: 'Advogada',
+        text: 'OAB/PR 37.004'
+      },
 
-        {
-          imageUrl: '/assets/images/advogados/2daniel_glomb.webp',
-          imageTitle: 'Daniel Glomb',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 45.288'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2angela_glomb.webp',
-          imageTitle: 'Angela Glomb',
-          imageSubTitle: 'Advogada',
-          text: 'OAB/PR 37.004'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2marcia_leticia_glomb.webp',
-          imageTitle: 'Márcia Letícia Glomb',
-          imageSubTitle: 'Advogada',
-          text: 'OAB/PR 86.573'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2cleide_glomb.webp',
-          imageTitle: 'Cleide Glomb',
-          imageSubTitle: 'Advogada',
-          text: 'OAB/PR 26.012'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2lucas_emmendorfer.webp',
-          imageTitle: 'Lucas Emmendorfer',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 111.802'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2rogerio_loch.webp',
-          imageTitle: 'Rogério Loch',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 113.316'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2francisco_torres.webp',
-          imageTitle: 'Francisco Torres',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 45.155'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2marcelo_mano_alves.webp',
-          imageTitle: 'Marcelo Mano Alves',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 44.200'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2andre_durdyn.webp',
-          imageTitle: 'André Durdyn',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 41.300'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2paulo_eduardo_muller.webp',
-          imageTitle: 'Paulo Eduardo Müller',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 59.060'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2guilherme_seiti.webp',
-          imageTitle: 'Guilherme Seiti',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 42.351'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2mauricio_simoes.webp',
-          imageTitle: 'Maurício Simões',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 37.008'
-        },
-        
-        {
-          imageUrl: '/assets/images/advogados/2jose_paulo_barcellos.webp',
-          imageTitle: 'José Paulo Barcellos',
-          imageSubTitle: 'Advogado',
-          text: 'OAB/PR 47.112'
-        }
-      ]}
-      buttonLink={linkWhatsAp}
-      buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>} 
-    />
+      {
+        imageUrl: '/assets/images/advogados/daniel-glomb-advogado-direito-do-trabalho-direito-previdenciario.webp',
+        imageTitle: 'Daniel Glomb',
+        imageAlt: 'Daniel Glomb, advogado, OAB/PR 45.288, OAB/SP 294.685, especialista em deireito do trabalho e da Seguridade Social pela Universidade de São Paulo - USP.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 45.288'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/marcia-glomb-advogada.webp',
+        imageTitle: 'Márcia Letícia Glomb',
+        imageAlt: 'Márcia Glomb, advogada, OAB/PR 86.573, especialista em direito trabalhista e formada em Administração de Empresas pela FAE Business School.',
+        imageSubTitle: 'Advogada',
+        text: 'OAB/PR 86.573'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/andre-durdyn-advogado-trabalhista.webp',
+        imageTitle: 'André Durdyn',
+        imageAlt: 'André Durdyn, advogado, OAB/PR 41.300, formado em direito pela Pontifícia Universidade Católica - PUC/PR, especialista em direito do trabalho.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 41.300'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/francisco-torres-advogado-trabalhista.webp',
+        imageTitle: 'Francisco Torres',
+        imageAlt: 'Francisco Torres, advogado, OAB/PR 45.155 especialista em direito do trabalho e da seguridade social pela EMATRA/PR.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 45.155'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/lucas-emmendorfer-advogado-previdenciarista.webp',
+        imageTitle: 'Lucas Emmendorfer',
+        imageAlt: 'Lucas Henrique Emmendorfer, OAB/PR 111.802, advogado formado pela Universidade Federal do Paraná, especializado em direito previdenciário e previdência social.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 111.802'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/rogerio-loch-advogado-previdenciario.webp',
+        imageTitle: 'Rogério Loch',
+        imageAlt: ' Rogério Loch, OAB/PR 113.316, advogado especialista em direito previdenciário, pós-graduado pela ESMAFE/PR.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 113.316'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/regiani-aparecida-correia-advogada-previdencia-social.webp',
+        imageTitle: 'Regiane Aparecida Correia',
+        imageAlt: 'Regiani Aparecida Correia, OAB/PR 89.032, advogada especialista em direito previdenciário.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 89.032'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/marcelo-mano-alves-advogado-trabalhista.webp',
+        imageTitle: 'Marcelo Mano Alves',
+        imageAlt: 'Marcelo Mano Alves, OAB/PR 44.200, advogado especialista em direito do trabalho e da Seguridade Social.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 44.200'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/mauricio-simoes-advogado.webp',
+        imageTitle: 'Maurício Simões',
+        imageAlt: 'Maurício Simões, OAB/PR 37.008, OAB/SP 230.915-A, especialista em direito e processo do trabalho.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 37.008'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/cleide-glomb.webp',
+        imageTitle: 'Cleide Glomb',
+        imageAlt:'Cleide Glomb, advogada, OAB/PR 26.012, OAB/SP 294.683, especializada em direito previdenciário e processo do trabalho.',
+        imageSubTitle: 'Advogada',
+        text: 'OAB/PR 26.012'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/raphaela-mattana.webp',
+        imageTitle: 'Raphaela Mattana',
+        imageAlt:'Raphaela Mattana, advogada, OAB/PR 120.190, direito do trabalho.',
+        imageSubTitle: 'Advogada',
+        text: 'OAB/PR 120.190'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/guilherme-seiti.webp',
+        imageTitle: 'Guilherme Seiti',
+        imageAlt: 'Guilherme Seiti, advogado, OAB/PR 42.351, especialista em direito do trabalho.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 42.351'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/paulo-eduardo-muller.webp',
+        imageTitle: 'Paulo Eduardo Müller',
+        imageAlt: 'Paulo Eduardo Muller, advogado, OAB/PR 59.060, especialista em direito do trabalho e direito previdenciário.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 59.060'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/jose-paulo-barcellos.webp',
+        imageTitle: 'José Paulo Barcellos',
+        imageAlt: 'José Paulo Barcellos, advogado, OAB/RJ 47.112.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 47.112'
+      },
+      
+      {
+        imageUrl: '/assets/images/advogados/fabiano-araujo.webp',
+        imageTitle: 'Fabiano Araújo',
+        imageAlt: 'Fabiano Araújo, advogado, OAB/PR 44.240.',
+        imageSubTitle: 'Advogado',
+        text: 'OAB/PR 44.240'
+      }
+    ]}
+    buttonLink={linkWhatsAp}
+    buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
+  />
     }
     {shown &&
       <SimpleFooter 
