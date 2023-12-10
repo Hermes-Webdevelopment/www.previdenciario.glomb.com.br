@@ -13,6 +13,7 @@ import SimpleFooter from '../components/footerFormats/simpleFooter'
 import BlueButton from '../components/atons/blueButton'
 import ImageSlider from '../components/galeries/imageSlider'
 import ClientsCommentsSlider from '../components/comentsSlider'
+import News from '../components/News'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -120,6 +121,7 @@ return (
         <PeopleSlider 
           title='Nossos profissionais'
           subTitle={<p>Para nós, trabalhar com <strong>justiça</strong> não é apenas um ofício mas uma forma de <strong>transformar o mundo, melhorando</strong> a vida de milhares de pessoas.Por isso, contamos com uma equipe altamente <strong>qualificada</strong>, movida por um forte senso de <strong>propósito, excelência e rigor técnico</strong> para defender seus direitos.</p>}
+          whiteVersion={true}
           carrouselImages={[
             
             {
@@ -405,19 +407,35 @@ return (
           ]}
         />
 
+        <News 
+          title='Notícias'
+          subText='Manternha-se atualizado'
+          news={[
+            {
+              postTitle:'Mercado de trabalho no Brasil hoje vive à margem da CLT',
+              postText: 'O mercado de trabalho, hoje, vive à margem da CLT. Segundo o IBGE, das 100 milhões de pessoas ocupadas hoje, 39 milhões estão na informalidade.',
+              actionBtn:'Ver mais'
+            },
+            {
+              postTitle:'Nova lista de doenças do trabalho inclui covid-19, burnout e vários tipos de câncer.',
+              postText: 'O Ministério da Saúde divulgou na quarta-feira (29) atualização da lista de doenças relacionadas ao trabalho. A lista inclui COVID, burnout e outras.',
+              actionBtn:'Ver mais'
+            }
+          ]}
+        />
+
         <Map />
-        {shown &&
-          <SimpleFooter 
-            logo='glomb'
-            sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
-            subTxt='Inscrição OAB nº 403'
-            callToAction={true}
-            callTitle='Avalie seu caso em 1 minuto'
-            callText='Avalie seu caso sem compromisso e descubra seus direitos.'
-            callBtnLink='callBtnLink'
-            callBtnText='Avalie meu caso'
-          />
-        }
+
+        <SimpleFooter 
+          logo='glomb'
+          sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
+          subTxt='Inscrição OAB nº 403'
+          callToAction={true}
+          callTitle='Avalie seu caso em 1 minuto'
+          callText='Avalie seu caso sem compromisso e descubra seus direitos.'
+          callBtnLink='callBtnLink'
+          callBtnText='Avalie meu caso'
+        />
       </>
     }
   </>
