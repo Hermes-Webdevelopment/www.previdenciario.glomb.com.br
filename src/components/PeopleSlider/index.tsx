@@ -16,6 +16,7 @@ interface peopleSlider {
 interface carrouselImages {
     imageUrl: string;
     imageTitle: string;
+    imageAlt: string;
     imageSubTitle: string;
     text: string;
 }[];
@@ -101,9 +102,9 @@ export default function CommentsSlider(props: peopleSlider) {
                 {title}
             </h2>
 
-            <h3>
+            <p className={styles.subtitleParagraph}>
                 {subTitle}
-            </h3>
+            </p>
         </div>
         <div
             className={`${styles.sliderContainer} ${supportsTouch ? styles.changeToTouchMode : ''}`}
@@ -130,7 +131,7 @@ export default function CommentsSlider(props: peopleSlider) {
                                 </div>
                                 <div className={styles.descriptionDiv}>
                                     <div>
-                                        <h2>{image.imageTitle}</h2>
+                                        <h3>{image.imageTitle}</h3>
                                         <p>{image.imageSubTitle}</p>
                                         <p>{image.text}</p>
                                     </div>

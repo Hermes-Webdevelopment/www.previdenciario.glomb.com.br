@@ -31,7 +31,7 @@ export default function BlogSlider(props: BlogSliderInterface) {
     return (
         <section className={styles.blogSliderSection}>
             <div className={`container ${styles.blogSliderContainer}`}>
-                <span>{title}</span>
+                <h2>{title}</h2>
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={screenSize.dynamicWidth <= 768 ? 1 : 1200 > screenSize.dynamicWidth && screenSize.dynamicWidth > 768 ? 2 : 3}
@@ -53,9 +53,9 @@ export default function BlogSlider(props: BlogSliderInterface) {
                                                 alt={post.imgaAlt}
                                             />
                                             <div className={styles.postTitle}>
-                                                <span>
+                                                <h3>
                                                     {post.postTitle}
-                                                </span>
+                                                </h3>
                                             </div>
                                             <div className={styles.postText}>
                                                 <span>
