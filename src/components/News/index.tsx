@@ -4,27 +4,24 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React from 'react';
 import SwiperButtons from './swiperButtons';
-import BlueButton from '../../atons/blueButton';
-import { getScreenSiteAndWidth } from '../../../helpers/screenSize';
+import BlueButton from '../atons/blueButton';
+import { getScreenSiteAndWidth } from '../../helpers/screenSize';
 
 interface BlogSliderInterface {
     title: string | ReactNode,
-    btnText: string,
-    btnLink: string,
-    blogPosts: BlogPosts[]
+    subText: string | ReactNode,
+    news: NewsPosts[]
 }
 
-interface BlogPosts{
-    img: string,
-    imgaAlt: string,
+interface NewsPosts{
     postTitle: string,
     postText: string,
     actionBtn:string
 }
 
-export default function News(props: BlogSliderInterface) {
+export default function BlogSlider(props: BlogSliderInterface) {
 
-    const {title, btnText, btnLink, blogPosts} = props
+    const {title, news} = props
 
     const screenSize = getScreenSiteAndWidth()
 
@@ -33,25 +30,19 @@ export default function News(props: BlogSliderInterface) {
             <div className={`container ${styles.blogSliderContainer}`}>
                 <h2>{title}</h2>
                 <Swiper
-                    spaceBetween={50}
-                    slidesPerView={screenSize.dynamicWidth <= 768 ? 1 : 1200 > screenSize.dynamicWidth && screenSize.dynamicWidth > 768 ? 2 : 3}
+                    spaceBetween={10}
+                    slidesPerView={screenSize.dynamicWidth <= 768 ? 1 : 2}
                     loop
                     navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
                     className={styles.swiperContainer}
                 >
                     <SwiperButtons />
                     {
-                        blogPosts.map(post => {
+                        news.map(post => {
                             return (
                                 <SwiperSlide style={{padding: '4px'}}>
                                     <div className={styles.postContainer}>
                                         <div>
-                                            <Image
-                                                height={250}
-                                                width={392}
-                                                src={post.img}
-                                                alt={post.imgaAlt}
-                                            />
                                             <div className={styles.postTitle}>
                                                 <h3>
                                                     {post.postTitle}
@@ -72,11 +63,6 @@ export default function News(props: BlogSliderInterface) {
                         })
                     }
                 </Swiper>
-                <BlueButton 
-                    buttonLink={btnLink}
-                    buttonText={btnText}
-                    transparentMode={true}
-                />
             </div>
         </section>
     )

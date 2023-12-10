@@ -1,9 +1,5 @@
 @import '/src/styles/variables.scss';
 
-.imagesliderSection {
-    min-height: 866px;
-}
-
 .logosContainer {
     display: flex;
     justify-content: space-between;
@@ -32,7 +28,7 @@
     z-index: 9;
 
     .sliderButtons {
-        bottom: 40px;
+        bottom: 0px;
         height: auto;
         width: auto;
         right: 16px;
@@ -58,7 +54,6 @@
         width: 100%;
         height: 375px;
         position: relative;
-        margin-bottom: 32px;
         
         img {
             width: 100%;
@@ -69,6 +64,7 @@
 
     .textContainer {
         z-index: 9;
+        margin-top: 32px;
 
         h1, span {
             font: $montserrat-32;
@@ -105,18 +101,24 @@
 @media (min-width: 768px) {
 
     .wordsContainer {
-        height: 100vh;
-        min-height: 866px;
-        position: absolute;
+        height: 100%;
+        max-height: 100%;
+        position: relative;
+        min-height: 860px;
 
         .sliderButtons {
-            bottom: 24px;
+            bottom: 0px;
             right: 35px;
         }
     
         .imageContainer {
             width: 100%;
-            height: 100%;
+            height: calc(100% + 32px);
+            min-height: 860px;
+
+            img {
+                min-height: 860px;
+            }
         }
 
         .textContainer {
@@ -198,6 +200,10 @@
                     width: 64px;
                     border-top: 1px solid $color-brand-brandingprimary;;
                   }
+            }
+
+            p:last-of-type {
+                margin-bottom: 0;
             }
         }
     }
