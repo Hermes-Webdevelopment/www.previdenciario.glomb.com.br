@@ -15,13 +15,13 @@
     margin-top: 32px;
     margin-bottom: 24px;
 
-    span {
+    h3 {
         font: $montserrat-16;
-        color: $branding-primary-hover;
+        color: $branding-dark-blue;
         text-align: center;
     }
 
-    span:first-of-type{
+    h2{
         font: $montserrat-32;
         color: #4C4C4C;
         margin-bottom: 16px;
@@ -39,12 +39,12 @@
         margin-top: 38px;
         margin-bottom: 38px;
     
-        span {
+        h3 {
             font: $montserrat-18;
             text-align: center;
         }
     
-        span:first-of-type{
+        h2{
             font: $montserrat-36;
         }
     }

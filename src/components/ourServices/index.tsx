@@ -1,16 +1,17 @@
+import { ReactNode } from 'react';
 import styles from './styles.module.scss';
 import Link from 'next/link';
 
 interface OurServicesInterface {
     title1: string 
     link1: string 
-    text1: string 
+    text1: string | ReactNode
     title2: string 
     link2: string 
-    text2: string 
+    text2: string | ReactNode 
     title3: string 
     link3: string 
-    text3: string
+    text3: string | ReactNode
     bgimg1: string
     bgimg2: string
     bgimg3: string
@@ -27,7 +28,7 @@ export default function OurServices(props: OurServicesInterface) {
                         backgroundImage: `url(${bgimg1})`,
                     }}>
                     <div className={styles.whiteBox}>
-                        <span>{title1}</span>
+                        <h2>{title1}</h2>
                         <div>
                             <p>{text1}</p>
                             <Link href={link1}>
@@ -42,7 +43,7 @@ export default function OurServices(props: OurServicesInterface) {
                     }}>
                         <div style={{height:'24px'}}></div>
                         <div className={styles.whiteBox}>
-                            <span>{title2}</span>
+                            <h3>{title2}</h3>
                             <div>
                                 <p>{text2}</p>
                                 <Link href={link2}>
@@ -59,7 +60,7 @@ export default function OurServices(props: OurServicesInterface) {
                     }}>
                         <div style={{height:'24px'}}></div>
                         <div className={styles.whiteBox}>
-                            <span>{title3}</span>
+                            <h3>{title3}</h3>
                             <div>
                                 <p>{text3}</p>
                                 <Link href={link3}>

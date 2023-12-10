@@ -12,11 +12,11 @@
         align-items: flex-start;
         flex-direction: column;
 
-        span {
+        span, p {
             font: $montserrat-18;
         }
 
-        span:first-of-type {
+        span:first-of-type, h2 {
             font: $montserrat-24-semi-bold;
             color: $title-text-color;
             margin-bottom: 16px;
@@ -42,12 +42,12 @@
                 margin-bottom: 8px;
             }
 
-            span {
+            span, p {
                 color: $color-brand-brandingprimary;
                 font: $montserrat-18;
             }
 
-            span:first-of-type {
+            span:first-of-type, h2 {
                 font: $montserrat-30;
                 margin-right: 10px;
             }
@@ -74,12 +74,12 @@
                     margin-right: 72px;
                 }
 
-                span {
+                span, p {
                     color: $color-brand-brandingprimary;
                     font: $montserrat-24;
                 }
     
-                span:first-of-type {
+                span:first-of-type, h2 {
                     font: $montserrat-40;
                     margin-right: 10px;
                 }
@@ -87,11 +87,11 @@
         }
         .title {
     
-            span {
+            span, p {
                 font: $montserrat-28;
             }
     
-            span:first-of-type {
+            span:first-of-type, h2 {
                 font: $montserrat-36; 
                 margin-bottom: 0px;
             }

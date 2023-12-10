@@ -84,7 +84,8 @@
 @media (min-width: 768px) {
     .wordsContainer {
         height: 100vh;
-    
+        min-height: 920px;
+
         .imageContainer {
             width: 100%;
             height: 100%;
