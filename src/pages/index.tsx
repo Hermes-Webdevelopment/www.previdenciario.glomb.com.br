@@ -58,9 +58,9 @@ return (
       <meta property='og:url' content='https://previdenciario.glomb.com.br/'/>
       <meta property='og:type' content='website'/>
 
-      <title>Glomb</title>
-      <meta name="keywords" content=""></meta>
-      <meta name="description" content=""></meta>
+      <title>Glomb Advocacia - especialista em aposentadorias</title>
+      <meta name="keywords" content="advocacia, previdenciario"></meta>
+      <meta name="description" content="Advocacia Glomb"></meta>
     </Head>
 
       <div className='apearDesktop'>
