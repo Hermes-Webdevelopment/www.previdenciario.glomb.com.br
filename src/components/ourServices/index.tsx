@@ -31,9 +31,6 @@ export default function OurServices(props: OurServicesInterface) {
                         <h2>{title1}</h2>
                         <div>
                             <p>{text1}</p>
-                            <Link href={link1}>
-                                    <u>Saiba mais</u>
-                            </Link>
                         </div>
                     </div>
                 </div>
@@ -46,14 +43,8 @@ export default function OurServices(props: OurServicesInterface) {
                             <h3>{title2}</h3>
                             <div>
                                 <p>{text2}</p>
-                                <Link href={link2}>
-                                    <u>Saiba mais</u>
-                                </Link>
                             </div>
                         </div>
-                        <Link href={link1} className={styles.desapear}>
-                                <u>Saiba mais</u>
-                        </Link>
                     </div>
                     <div style={{
                         backgroundImage: `url(${bgimg3})`,
@@ -63,14 +54,8 @@ export default function OurServices(props: OurServicesInterface) {
                             <h3>{title3}</h3>
                             <div>
                                 <p>{text3}</p>
-                                <Link href={link3}>
-                                    <u>Saiba mais</u>
-                                </Link>
                             </div>
                         </div>
-                        <Link href={link1} className={styles.desapear}>
-                            <u>Saiba mais</u>
-                        </Link>
                     </div>
                 </div>
             </div>
