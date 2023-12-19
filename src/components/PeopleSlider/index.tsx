@@ -125,6 +125,8 @@ export default function CommentsSlider(props: peopleSlider) {
                                         loading="lazy"
                                         height={420}
                                         width={320}
+                                        quality={100}
+                                        unoptimized={true}
                                         src={image.imageUrl}
                                         alt={image.imageTitle}
                                     />

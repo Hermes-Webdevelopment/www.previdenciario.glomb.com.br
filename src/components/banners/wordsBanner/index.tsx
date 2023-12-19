@@ -33,6 +33,7 @@ export default function WordsBanner(props: WordsBannerInterface) {
                         src={img}
                         alt={imgAlt}
                         quality={100}
+                        unoptimized={true}
                         loading={screenSize.dynamicWidth >= 992 ? 'eager' : 'lazy'}
                     />
 

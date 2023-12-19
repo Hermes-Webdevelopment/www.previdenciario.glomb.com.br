@@ -68,7 +68,7 @@ return (
           <BlueButton 
             isFloating={true} 
             buttonLink={linkWhatsAp}
-            buttonText={<><strong>Quero ser atendido</strong> sem compromisso</>}
+            buttonText={<><strong>Quero ser atendido</strong></>}
           />
       </div>
 
@@ -83,8 +83,8 @@ return (
             <p> Atendemos em todo o <strong>Brasil.</strong><br />
             Fale já com nossos <strong>advogados especialistas.</strong></p>
           </>} 
-        img={'/assets/images/home/recepcao-do-escritorio-glomb-advogados.webp'} 
-        imgMobile={'/assets/images/home/recepcao-do-escritorio-glomb-advogados-mobil.webp'} 
+        img={'/assets/images/home/1-melhor-escritorio-advocacia-brasil-direito-previdenciario-trabalhista.webp'} 
+        imgMobile={'/assets/images/home/1-melhor-escritorio-advocacia-brasil-direito-previdenciario-trabalhista.webp'} 
         imgAlt={'Escritório de advocacia de direito previdenciário e direito do trabalho localizado no centro de Curitiba. Balcão da recepção branco com a logo do escritório ao fundo em uma parede de mármore.'} 
         buttonText={'Quero ser atendido'} 
         buttonLink={'/'}        
@@ -331,51 +331,59 @@ return (
           clientsComentCard={[
             {
               title: 'Excelentes profissionais',
-              text:'Excelentes profissionais, muito atenciosos e competentes. Sanaram todas as minhas dúvidas, suprindo as expectativas.',
+              text:<>Excelentes profissionais, muito atenciosos e competentes. <br />Sanaram todas as minhas dúvidas, suprindo as expectativas.</>,
               starNumber:5,
-              clientName:'Marines Gai - PR - Curitiba'
+              clientName:<>Marines Gai<br />PR - Curitiba</>,
+              firstLetter:'M'
             },
             {
               title: 'Muito bom',
-              text:'Muito bom! Plataforma bem fácil, clara e objetiva. O atendimento celular foi cordial e muito profissional. Muito obrigado a todos envolvidos no trabalho.',
+              text:<>Muito bom! Plataforma bem fácil, clara e objetiva.<br /> O atendimento celular foi cordial e muito profissional. <br />Muito obrigado a todos envolvidos no trabalho.</>,
               starNumber:5,
-              clientName:'William Fabrício de Oliveira - PR - Curitiba'
+              clientName:<>William Fabrício de Oliveira <br /> PR - Curitiba</>,
+              firstLetter:'W'
             },
             {
               title: 'Muito atenciosos',
-              text:'Muito atenciosos. Fiquei satisfeita com o atendimento.',
+              text:<>Muito atenciosos. <br />Fiquei satisfeita com o atendimento.</>,
               starNumber:5,
-              clientName:'Shirley Ribeiro da Costa - PR - Curitiba'
+              clientName:<>Shirley Ribeiro da Costa <br /> PR - Curitiba</>,
+              firstLetter:'S'
             },
             {
               title: 'Muito bem atendido',
               text:'Fui muito bem atendido nota 20!',
               starNumber:5,
-              clientName:'Dicezar Gomes - PR - Curitiba'
+              clientName:<>Dicezar Gomes<br />PR - Curitiba</>,
+              firstLetter:'D'
             },
             {
               title: 'Estão de parabéns',
-              text:'Essa equipe da Glomb Advogados é ótima. Rapidinho me deu resposta do que eu precisava, estão de parabéns. Muito obrigada.',
+              text:<>Essa equipe da Glomb Advogados é ótima. <br />Rapidinho me deu resposta do que eu precisava, estão de parabéns. <br />Muito obrigada.</>,
               starNumber:5,
-              clientName:'Selma Januaria da Silva - PR - Curitiba'
+              clientName:<>Selma Januaria da Silva<br />PR - Curitiba</>,
+              firstLetter:'S'
             },
             {
               title: 'Ótimo!',
               text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
               starNumber:5,
-              clientName:'Matilde Reami Rodrigues - PR - Curitiba'
+              clientName:<>Matilde Reami Rodrigues<br />PR - Curitiba</>,
+              firstLetter:'M'
             },
             {
               title: 'Extremamante qualificados',
               text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
               starNumber:5,
-              clientName:'Marcos Aurélio Padilha - PR - Curitiba'
+              clientName:<>Marcos Aurélio Padilha<br />PR - Curitiba</>,
+              firstLetter:'M'
             },
             {
               title: 'Atendimento excelente',
-              text:'Ótimo escritório com atendimento excelente. Super indico para quem está procurando um serviço de qualidade.',
+              text:<>Ótimo escritório com atendimento excelente. <br />Super indico para quem está procurando um serviço de qualidade.</>,
               starNumber:5,
-              clientName:'Gabriela Fialho - PR - Curitiba'
+              clientName:<>Gabriela Fialho<br />PR - Curitiba</>,
+              firstLetter:'G'
             }
           ]}
         />
