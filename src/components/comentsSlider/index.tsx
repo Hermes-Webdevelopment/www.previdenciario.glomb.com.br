@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 
-import { useEffect, useRef, useState} from 'react';
+import { ReactNode, useEffect, useRef, useState} from 'react';
 import Star from '@/public/assets/svgs/star.svg';
 
 interface ClientsCommentsSliderInterface {
@@ -11,9 +11,10 @@ interface ClientsCommentsSliderInterface {
 
 interface CardInterface {
     title: string,
-    text:string,
+    text:string | ReactNode,
     starNumber:number,
-    clientName:string
+    clientName:string | ReactNode,
+    firstLetter: string
 }
 
 export default function ClientsCommentsSlider(props: ClientsCommentsSliderInterface) {
@@ -125,7 +126,7 @@ export default function ClientsCommentsSlider(props: ClientsCommentsSliderInterf
                                     <p className={styles.text}>{card.text}</p>
                                 </div>
                                 <div className={styles.descriptionDiv}>
-                                    <p className={styles.letterBox}>{Array.from(card.clientName)[0]}</p>
+                                    <p className={styles.letterBox}>{card.firstLetter}</p>
                                     <p>{card.clientName}</p>
                                 </div>
                             </div>
