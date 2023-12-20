@@ -105,7 +105,7 @@
             position: absolute;
             right: 10%;
             top: 10%;
-            padding: 52px 52px 56px 41px;
+            padding: 52px 41px 56px 41px;
             border-radius: 24px;
             max-width: 450px;
         }
@@ -122,10 +122,10 @@
         .textContainer {
             right: 55px;
             width: 60%;
-            max-width: 700px;
+            max-width: 600px;
             
             h1, span {
-                font: $montserrat-56-bold;
+                font: $montserrat-44-bold;
                 text-align: center;
             }
 

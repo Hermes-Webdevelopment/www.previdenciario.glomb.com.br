@@ -53,7 +53,7 @@ export default function ImageSlider(props: ImageSliderInterface) {
                     }
                 </Swiper>
                 <article className={`container ${styles.textContainer}`}>
-                    <h1>{title}</h1>
+                    <h2>{title}</h2>
                     {text}
                 </article>
             </div>

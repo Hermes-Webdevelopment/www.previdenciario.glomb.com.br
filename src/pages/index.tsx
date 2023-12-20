@@ -13,7 +13,6 @@ import SimpleFooter from '../components/footerFormats/simpleFooter'
 import BlueButton from '../components/atons/blueButton'
 import ImageSlider from '../components/galeries/imageSlider'
 import ClientsCommentsSlider from '../components/comentsSlider'
-import News from '../components/News'
 
 const Home: NextPage = () => {
   const [shown, setShown] = useState(false);
@@ -73,15 +72,13 @@ return (
       </div>
 
       <WordsBanner 
-        title={'Transformar vidas por meio da justiça é nossa'} 
+        title={<>Transformar vidas por meio da justiça é <br /> nossa</>} 
         text={
           <>
-            <p>Trabalhamos de maneira incansável para <strong>promover</strong> e <strong>defender</strong> seus direitos. <br />
-            Vemos a <strong>justiça</strong> como um <strong>instrumento de transformação</strong> social e, por isso, reafirmamos diariamente o propósito de <strong>transformar vidas</strong> por meio do nosso trabalho.<br />
-            Não somos meros advogados, somos agentes de transformação vocacionados a defender pessoas e <strong>efetivar a justiça.</strong><br />
+            <p>A <strong>justiça</strong> é um <strong>instrumento de transformação</strong> social e, por isso, reafirmamos diariamente o propósito de <strong>transformar vidas</strong> por meio do nosso trabalho.<br />
+            Não somos meros advogados, somos agentes de transformação vocacionados a defender pessoas e <strong>efetivar direitos.</strong><br />
             Por isso, somos <strong>referência em serviços jurídicos.</strong></p>
-            <p> Atendemos em todo o <strong>Brasil.</strong><br />
-            Fale já com nossos <strong>advogados especialistas.</strong></p>
+            <p> Atendemos em todo o <strong>Brasil.</strong></p>
           </>} 
         img={'/assets/images/home/1-melhor-escritorio-advocacia-brasil-direito-previdenciario-trabalhista.webp'} 
         imgMobile={'/assets/images/home/1-melhor-escritorio-advocacia-brasil-direito-previdenciario-trabalhista.webp'} 
@@ -103,7 +100,7 @@ return (
         title3={'Direito Previdenciário'}
         link3={'/'}
         text3={<>Defendemos seu <strong>direito</strong> aos benefícios da <strong>Previdência Social</strong>. Conte com nossa experiência para <strong>conquistar</strong> uma vida mais estável e segura.</>} 
-        bgimg1={'/assets/images/home/recepcao-do-escritorio-advocacia-direto-previdenciario-e-direito-do-trabalho.webp'} 
+        bgimg1={'/assets/images/home/glomb_recepcao_entrada.webp'} 
         bgimg2={'/assets/images/home/melhor-advogado-direto-trabalhista-do-brasil.webp'} 
         bgimg3={'/assets/images/home/melhor-advogado-direto-previdenciario-do-brasil.webp'}     
       />
@@ -120,7 +117,7 @@ return (
 
         <PeopleSlider 
           title='Nossos profissionais'
-          subTitle={<p>Para nós, trabalhar com <strong>justiça</strong> não é apenas um ofício mas uma forma de <strong>transformar o mundo, melhorando</strong> a vida de milhares de pessoas.Por isso, contamos com uma equipe altamente <strong>qualificada</strong>, movida por um forte senso de <strong>propósito, excelência e rigor técnico</strong> para defender seus direitos.</p>}
+          subTitle={<p>Contamos com uma equipe altamente <strong>qualificada</strong>, movida por um forte senso de <strong>propósito, excelência e rigor técnico</strong> para defender seus direitos.</p>}
           whiteVersion={true}
           carrouselImages={[
             
@@ -269,15 +266,16 @@ return (
           text={
             <>
               <p>
-                Temos uma <strong>estrutura completa</strong> para atender em <strong>todo o Brasil</strong>, sempre com foco na satisfação do cliente.<br />
-                Independentemente do Estado em que você mora, estamos preparados para atendê-lo à distância com a mesma <strong>qualidade, dedicação, eficiência e resultados</strong> práticos.
+                Temos uma <strong>estrutura completa</strong> para atender em <strong>todo o Brasil</strong>, sempre com foco na satisfação do cliente.
               </p>
               <p>
-                Revolucionamos a forma de fazer advocacia, focando em um <strong>atendimento sem burocracias</strong>, que coloca o <strong>cliente em primeiro lugar</strong> e lhe permite <strong>entender</strong> com clareza seus direitos e como efetivá-los.<br />
+                Independentemente do Estado em que você mora, estamos preparados para atendê-lo com a mesma <strong>qualidade, dedicação, eficiência e resultados</strong>.
+              </p>
+              <p>
                 Nossos clientes de norte a sul do país atestam a <strong>qualidade</strong> dos nossos serviços.
               </p>
               <p>
-                Conte conosco para <strong>defender seus direitos sem burocracias</strong>, com <strong>transparência</strong>, <strong>eficiência</strong>, <strong>humanismo</strong> e obstinada <strong>dedicação</strong>.
+                <strong>Defendemos seus direitos</strong> com <strong>transparência</strong>, <strong>eficiência</strong>, <strong>humanismo</strong> e obstinada <strong>dedicação</strong>.
               </p>
             </>
           } 
@@ -331,65 +329,72 @@ return (
           clientsComentCard={[
             {
               title: 'Excelentes profissionais',
-              text:<>Excelentes profissionais, muito atenciosos e competentes. <br />Sanaram todas as minhas dúvidas, suprindo as expectativas.</>,
+              text:<>Profissionais altamente qualificados, conduziram meu processo com maestria e conseguimos reaver todo o meu direito pleiteado.<br /> Muito obrigado à Glomb pelo sucesso obtido.</>,
               starNumber:5,
-              clientName:<>Marines Gai<br />PR - Curitiba</>,
-              firstLetter:'M'
+              clientName:<>Luciano Mazzafiori<br />São Paulo - SP</>,
+              firstLetter:'L'
             },
             {
               title: 'Muito bom',
-              text:<>Muito bom! Plataforma bem fácil, clara e objetiva.<br /> O atendimento celular foi cordial e muito profissional. <br />Muito obrigado a todos envolvidos no trabalho.</>,
+              text:<>Ótimos profissionais, rápidos no atendimento, mostrando ao cliente as leis de forma clara e precisa.</>,
               starNumber:5,
-              clientName:<>William Fabrício de Oliveira <br /> PR - Curitiba</>,
-              firstLetter:'W'
+              clientName:<>Flavio Bertolino <br /> Pirassununga - SP</>,
+              firstLetter:'F'
             },
             {
               title: 'Muito atenciosos',
-              text:<>Muito atenciosos. <br />Fiquei satisfeita com o atendimento.</>,
+              text:<>Fui atendida via Whatsapp pela equipe.<br /> Muito atenciosa, me retornaram com as informações necessárias para dar entrada no INSS.</>,
               starNumber:5,
-              clientName:<>Shirley Ribeiro da Costa <br /> PR - Curitiba</>,
-              firstLetter:'S'
+              clientName:<>Beatriz Ferreira <br /> Brasília - DF</>,
+              firstLetter:'B'
             },
             {
               title: 'Muito bem atendido',
-              text:'Fui muito bem atendido nota 20!',
+              text:<>Ótimo atendimento.<br /> Muito rápido e fácil.<br /> Recomendo!</>,
               starNumber:5,
-              clientName:<>Dicezar Gomes<br />PR - Curitiba</>,
-              firstLetter:'D'
+              clientName:<>Marçal Batista<br />Rio de Janeiro - RJ</>,
+              firstLetter:'M'
             },
             {
               title: 'Estão de parabéns',
-              text:<>Essa equipe da Glomb Advogados é ótima. <br />Rapidinho me deu resposta do que eu precisava, estão de parabéns. <br />Muito obrigada.</>,
+              text:<>Essa equipe da Glomb Advogados é ótima. <br />Rapidinho me deram a resposta e conseguiram o que eu precisava. <br />Estão de parabéns!</>,
               starNumber:5,
-              clientName:<>Selma Januaria da Silva<br />PR - Curitiba</>,
+              clientName:<>Selma da Silva<br />Juiz de Fora - MG</>,
               firstLetter:'S'
             },
             {
               title: 'Ótimo!',
-              text:'Ótimos profissionais, super respeitosos, focados em atender o cliente com excelência.',
+              text:<>Atendimento excelente por profissionais competentes.<br /> Recomendo!</>,
               starNumber:5,
-              clientName:<>Matilde Reami Rodrigues<br />PR - Curitiba</>,
-              firstLetter:'M'
+              clientName:<>Vagner Mendes<br />Salvador - BA</>,
+              firstLetter:'V'
             },
             {
               title: 'Extremamante qualificados',
-              text:'Renomado escritório de advocacia com profissionais extremamente qualificados e sérios.',
+              text:<>Gostaria de agradecer o excelente trabalho realizado pela equipe.<br /> Foram muito solícitos, preocupados e interessados.<br /> O processo foi concluído com sucesso em um tempo muito bom.</>,
               starNumber:5,
-              clientName:<>Marcos Aurélio Padilha<br />PR - Curitiba</>,
-              firstLetter:'M'
+              clientName:<>Daiane Lima<br />Curitiba - PR</>,
+              firstLetter:'D'
             },
             {
               title: 'Atendimento excelente',
-              text:<>Ótimo escritório com atendimento excelente. <br />Super indico para quem está procurando um serviço de qualidade.</>,
+              text:<>Sou cliente do escritório há 25 anos.<br /> Tive 2 processos trabalhistas e acompanhei processos de vários colegas.<br /> Atendimento impecável, equipe de primeira. Recomendo muito!!!</>,
               starNumber:5,
-              clientName:<>Gabriela Fialho<br />PR - Curitiba</>,
-              firstLetter:'G'
+              clientName:<>Nilva Carvalho<br />Curitiba - PR</>,
+              firstLetter:'N'
+            },
+            {
+              title: 'Atendimento excelente',
+              text:<>Sou cliente deste conceituado escritório de advocacia há mais de 20 anos e sempre fui atendido com muito profissionalismo e todos os casos foram resolvidos prontamente a meu favor.</>,
+              starNumber:5,
+              clientName:<>Tadeu Tymowicz<br />Curitiba - PR</>,
+              firstLetter:'T'
             }
           ]}
         />
 
         <BlogSlider 
-          title='Entenda seus direitos'
+          title='Blog e notícias'
           btnText='Acessar Blog'
           btnLink='/'
           blogPosts={[
@@ -411,20 +416,15 @@ return (
               postTitle:'Tudo sobre Benefício Assistencial (LOAS)',
               postText: 'Nesse artigo explicamos o que é, quem tem direito e como funciona o Benefício Assistencial ou BPC (Benefício de Prestação Continuada) - LOAS.',
               actionBtn:'Ver mais'
-            }
-          ]}
-        />
-
-        <News 
-          title='Notícias'
-          subText='Manternha-se atualizado'
-          news={[
-            {
+            },{
+              img:'/assets/images/home/office.jpg',
+              imgaAlt:'teste',
               postTitle:'Mercado de trabalho no Brasil hoje vive à margem da CLT',
               postText: 'O mercado de trabalho, hoje, vive à margem da CLT. Segundo o IBGE, das 100 milhões de pessoas ocupadas hoje, 39 milhões estão na informalidade.',
               actionBtn:'Ver mais'
-            },
-            {
+            },{
+              img:'/assets/images/home/office.jpg',
+              imgaAlt:'teste',
               postTitle:'Nova lista de doenças do trabalho inclui covid-19, burnout e vários tipos de câncer.',
               postText: 'O Ministério da Saúde divulgou na quarta-feira (29) atualização da lista de doenças relacionadas ao trabalho. A lista inclui COVID, burnout e outras.',
               actionBtn:'Ver mais'
@@ -438,11 +438,6 @@ return (
           logo='glomb'
           sloganTxt={<>Atendemos em todo o <strong>território nacional</strong></>}
           subTxt='Inscrição OAB nº 403'
-          callToAction={true}
-          callTitle='Avalie seu caso em 1 minuto'
-          callText='Avalie seu caso sem compromisso e descubra seus direitos.'
-          callBtnLink='callBtnLink'
-          callBtnText='Avalie meu caso'
         />
       </>
     }
