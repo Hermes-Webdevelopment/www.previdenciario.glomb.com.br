@@ -66,13 +66,13 @@
         z-index: 9;
         margin-top: 32px;
 
-        h1, span {
+        h2, span {
             font: $montserrat-32;
             text-align: center;
             display: inline;
         }
 
-        h1 {
+        h2 {
             max-width: 314px;
         }
 
@@ -104,20 +104,20 @@
         height: 100%;
         max-height: 100%;
         position: relative;
-        min-height: 860px;
+        min-height: 800px;
 
         .sliderButtons {
-            bottom: 0px;
+            bottom: 40px;
             right: 35px;
         }
     
         .imageContainer {
             width: 100%;
             height: calc(100% + 32px);
-            min-height: 860px;
+            min-height: 800px;
 
             img {
-                min-height: 860px;
+                min-height: 800px;
             }
         }
 
@@ -173,10 +173,10 @@
         .textContainer {
             right: 50px;
             width: 60%;
-            max-width: 615px;
+            max-width: 550px;
             padding: 40px 32px 40px 45px;
             
-            h1, span {
+            h2, span {
                 font:$montserrat-36; 
                 text-align: center;
             }

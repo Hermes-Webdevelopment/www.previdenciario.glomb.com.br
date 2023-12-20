@@ -36,6 +36,7 @@ export default function News(props: BlogSliderInterface) {
                     spaceBetween={50}
                     slidesPerView={screenSize.dynamicWidth <= 768 ? 1 : 1200 > screenSize.dynamicWidth && screenSize.dynamicWidth > 768 ? 2 : 3}
                     loop
+                    autoplay={true}
                     navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
                     className={styles.swiperContainer}
                 >
